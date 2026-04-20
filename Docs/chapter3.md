@@ -1,10 +1,6 @@
-Solución digital que permita a las personas generar planes de alimentación personalizados según sus preferencias, objetivos de salud y necesidades nutricionales específicas.
+## Capítulo III: Requirements Specification 
 
-La herramienta busca facilitar decisiones alimenticias informadas mediante una experiencia simple, accesible y eficiente, adaptándose a distintos perfiles, incluyendo restricciones dietarias y metas individuales.
-
-El objetivo es mejorar el bienestar de los usuarios a través de una planificación nutricional precisa y fácil de implementar en su día a día.
-
-## User Stories
+## 3.1 User Stories
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | --- | --- | --- | --- | --- |
@@ -35,6 +31,38 @@ El objetivo es mejorar el bienestar de los usuarios a través de una planificaci
 | EP007 / TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | Escenario 1: Autenticado<br>Dado que se envía una solicitud GET a /api/profile/{id},<br>Cuando se autentica,<br>Entonces se devuelven los datos de perfil de usuario. | EP007 |
 | EP007 / TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | Escenario 1: Actualización exitosa<br>Dado que se envía una solicitud PUT a /api/plans/{id} con cambios,<br>Cuando se autentica,<br>Entonces se actualiza el plan y se confirma. | EP007 |
 
+## 3.2 Impact Mapping
+
+## 3.3 Product Backlog
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| --- | --- | --- | --- | --- |
+| 1 | US001 | Registro de Usuario Nuevo | Como usuario nuevo, quiero registrarme con mi correo electrónico para crear una cuenta y acceder a la plataforma. | 3 |
+| 2 | US002 | Configuración de Perfil Básico | Como usuario registrado, quiero configurar mi perfil con datos básicos como edad, género y altura para que el sistema calcule mis necesidades nutricionales. | 2 |
+| 3 | US003 | Agregar Restricciones Dietéticas | Como usuario, quiero agregar restricciones dietéticas para que los planes de alimentación eviten alimentos incompatibles. | 3 |
+| 4 | US004 | Establecer Metas de Salud | Como usuario, quiero establecer metas de salud para que los planes se adapten a mis objetivos. | 2 |
+| 5 | US005 | Generar Plan Semanal | Como usuario, quiero generar un plan de alimentación semanal basado en mis preferencias y metas para tener una guía clara de comidas. | 5 |
+| 6 | US006 | Personalizar Comidas Diarias | Como usuario, quiero personalizar comidas específicas de cada día dentro del plan semanal para adaptarlo a mis gustos diarios. | 3 |
+| 7 | US007 | Ver Desglose Nutricional | Como usuario, quiero ver el desglose nutricional de cada comida para tomar decisiones informadas. | 2 |
+| 8 | US008 | Sugerencias de Alternativas | Como usuario, quiero recibir sugerencias de alternativas saludables cuando un ingrediente no esté disponible para mantener el equilibrio nutricional. | 3 |
+| 9 | US009 | Ajustar por Actividad Física | Como usuario, quiero ajustar el plan según mi nivel de actividad física para optimizar mis necesidades calóricas. | 2 |
+| 10 | US010 | Guardar Planes Favoritos | Como usuario, quiero guardar planes favoritos para reutilizarlos en el futuro sin generar uno nuevo cada vez. | 2 |
+| 11 | US011 | Registrar Consumo Diario | Como usuario, quiero registrar lo que como diariamente para que la app compare con el plan y me dé retroalimentación. | 3 |
+| 12 | US012 | Ver Gráficos de Progreso | Como usuario, quiero ver gráficos de mi progreso nutricional para motivarme a seguir mis metas. | 3 |
+| 13 | US013 | Calificar Comidas | Como usuario, quiero calificar las comidas del plan para que la app aprenda mis preferencias y mejore futuras sugerencias. | 2 |
+| 14 | US014 | Compartir Progreso | Como usuario, quiero compartir mi progreso con amigos o un entrenador para obtener apoyo social. | 3 |
+| 15 | US015 | Acceder a Artículos | Como usuario, quiero acceder a artículos sobre nutrición y salud para aprender más sobre alimentación saludable. | 2 |
+| 16 | US016 | Ver Recetas Detalladas | Como usuario, quiero ver recetas detalladas con instrucciones paso a paso para preparar las comidas sugeridas. | 2 |
+| 17 | US017 | Generar Lista de Compras | Como usuario, quiero generar una lista de compras basada en el plan semanal para facilitar las compras en el supermercado. | 2 |
+| 18 | US018 | Buscar Artículos por Tema | Como usuario, quiero buscar artículos por temas específicos para acceder a contenido relevante rápidamente. | 2 |
+| 19 | US019 | Seleccionar Idioma Español | Como usuario hispanohablante, quiero seleccionar el idioma español en la configuración para que toda la interfaz y planes estén en español. | 1 |
+| 20 | US020 | Seleccionar Idioma Inglés | Como usuario angloparlante, quiero seleccionar el idioma inglés en la configuración para que toda la interfaz y planes estén en inglés. | 1 |
+| 21 | US021 | Ver Beneficios en Landing Page | Como visitante, quiero ver los beneficios principales de la plataforma para entender su valor. | 1 |
+| 22 | US022 | Explorar Características | Como visitante interesado en nutrición, quiero explorar las características disponibles para decidir si registrarme. | 1 |
+| 23 | US023 | Contactar Soporte | Como visitante potencial, quiero contactar al soporte para resolver dudas antes de registrarme. | 2 |
+| 24 | TS001 | Endpoint para Generar Plan | Como desarrollador, quiero un endpoint RESTful para generar planes de alimentación. | 5 |
+| 25 | TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | 3 |
+| 26 | TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | 3 |
 
 
 
