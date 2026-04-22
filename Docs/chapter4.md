@@ -1,3 +1,44 @@
+4.1.2. Web Style Guidelines
+
+Las directrices de estilo web de nuestro proyecto priorizan la claridad, la accesibilidad y la coherencia visual. Buscamos que cada usuario disfrute de una experiencia intuitiva y agradable, alineada con los valores de la plataforma.
+
+1) Layout
+
+Grid adaptable: El contenido se organiza en una cuadrícula flexible que se ajusta a diferentes tamaños de pantalla, manteniendo siempre el orden y la legibilidad.
+
+Encabezado y pie de página: El header permanece visible para facilitar la navegación, mientras que el footer incluye enlaces útiles y datos de contacto.
+
+Tarjetas: Utilizamos tarjetas con esquinas suaves y sombras ligeras para destacar información clave y mejorar la jerarquía visual.
+
+2) Responsive Design
+
+Desktop: La navegación principal y las acciones importantes están siempre accesibles. El contenido se distribuye en varias columnas para aprovechar el espacio.
+
+Tablet: El menú se simplifica y los elementos se reorganizan en dos columnas. Los botones y campos se agrandan para facilitar la interacción táctil.
+
+Mobile: Todo el contenido se adapta a una sola columna, con menús desplegables y botones grandes para una experiencia óptima en dispositivos móviles.
+
+3) Interaction Design
+
+Botones: Los botones son visibles y responden con animaciones suaves al interactuar, facilitando la comprensión de su función.
+
+Formularios: Los formularios son breves y claros, con campos bien separados para evitar errores y mejorar la usabilidad.
+
+4) Images and Icons
+
+Imágenes: Se emplean imágenes optimizadas que transmiten confianza y cercanía, reforzando el mensaje de la plataforma.
+
+Íconos: Los íconos son simples y consistentes, ayudando a identificar rápidamente funciones y secciones.
+
+5) Organización de Recursos
+
+Estructura: Los archivos de estilos se encuentran en assets/styles, los scripts en assets/js y los recursos gráficos en assets/img. Esta organización facilita el mantenimiento y la colaboración.
+
+Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que todos los miembros trabajen sobre la última versión del proyecto.
+
+
+
+
 Solución digital que permita a las personas generar planes de alimentación personalizados según sus preferencias, objetivos de salud y necesidades nutricionales específicas.
 
 La herramienta busca facilitar decisiones alimenticias informadas mediante una experiencia simple, accesible y eficiente, adaptándose a distintos perfiles, incluyendo restricciones dietarias y metas individuales.
@@ -8,6 +49,8 @@ El objetivo es mejorar el bienestar de los usuarios a través de una planificaci
 # Capítulo IV: Product Design 
 
 ## 4.1. Style Guidelines. 
+
+### 4.1.1. General Style Guidelines. 
 
 **Logo**
 
@@ -73,30 +116,74 @@ Voz: Experta y motivadora. Buscamos que nuestra solución se vea experta para ge
 
 
 
-## 4.1.1. General Style Guidelines. 
-## 4.1.2. Web Style Guidelines. 
+
+### 4.1.2. Web Style Guidelines.
+
+4.1.2. Web Style Guidelines
+
+Las directrices de estilo web de nuestro proyecto priorizan la claridad, la accesibilidad y la coherencia visual. Buscamos que cada usuario disfrute de una experiencia intuitiva y agradable, alineada con los valores de la plataforma.
+
+1) Layout
+
+Grid adaptable: El contenido se organiza en una cuadrícula flexible que se ajusta a diferentes tamaños de pantalla, manteniendo siempre el orden y la legibilidad.
+
+Encabezado y pie de página: El header permanece visible para facilitar la navegación, mientras que el footer incluye enlaces útiles y datos de contacto.
+
+Tarjetas: Utilizamos tarjetas con esquinas suaves y sombras ligeras para destacar información clave y mejorar la jerarquía visual.
+
+2) Responsive Design
+
+Desktop: La navegación principal y las acciones importantes están siempre accesibles. El contenido se distribuye en varias columnas para aprovechar el espacio.
+
+Tablet: El menú se simplifica y los elementos se reorganizan en dos columnas. Los botones y campos se agrandan para facilitar la interacción táctil.
+
+Mobile: Todo el contenido se adapta a una sola columna, con menús desplegables y botones grandes para una experiencia óptima en dispositivos móviles.
+
+3) Interaction Design
+
+Botones: Los botones son visibles y responden con animaciones suaves al interactuar, facilitando la comprensión de su función.
+
+Formularios: Los formularios son breves y claros, con campos bien separados para evitar errores y mejorar la usabilidad.
+
+4) Images and Icons
+
+Imágenes: Se emplean imágenes optimizadas que transmiten confianza y cercanía, reforzando el mensaje de la plataforma.
+
+Íconos: Los íconos son simples y consistentes, ayudando a identificar rápidamente funciones y secciones.
+
+5) Organización de Recursos
+
+Estructura: Los archivos de estilos se encuentran en assets/styles, los scripts en assets/js y los recursos gráficos en assets/img. Esta organización facilita el mantenimiento y la colaboración.
+
+Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que todos los miembros trabajen sobre la última versión del proyecto.
+
 ## 4.2. Information Architecture. 
 
-## 4.2.1. Organization Systems. 
-## 4.2.2. Labeling Systems. 
-## 4.2.3. SEO Tags and Meta Tags 
-## 4.2.4. Searching Systems. 
-## 4.2.5. Navigation Systems. 
+La arquitectura de nuestro proyecto fue construida para facilitar la busqueda de informacion que necesiten nuestros usuarios.
+
+### 4.2.1. Organization Systems. 
+
+
+
+### 4.2.2. Labeling Systems. 
+### 4.2.3. SEO Tags and Meta Tags 
+### 4.2.4. Searching Systems. 
+### 4.2.5. Navigation Systems. 
 ## 4.3. Landing Page UI Design. 
-## 4.3.1. Landing Page Wireframe. 
-## 4.3.2. Landing Page Mock-up. 
+### 4.3.1. Landing Page Wireframe. 
+### 4.3.2. Landing Page Mock-up. 
 ## 4.4. Web Applications UX/UI Design. 
-## 4.4.1. Web Applications Wireframes. 
-## 4.4.2. Web Applications Wireflow Diagrams. 
-## 4.4.2. Web Applications Mock-ups. 
-## 4.4.3. Web Applications User Flow Diagrams. 
+### 4.4.1. Web Applications Wireframes. 
+### 4.4.2. Web Applications Wireflow Diagrams. 
+### 4.4.2. Web Applications Mock-ups. 
+### 4.4.3. Web Applications User Flow Diagrams. 
 ## 4.5. Web Applications Prototyping. 
 ## 4.6. Domain-Driven Software Architecture. 
-## 4.6.1. Design-Level Event Storming. 
-## 4.6.2. Software Architecture Context Diagram. 
-## 4.6.3. Software Architecture Container Diagrams. 
-## 4.6.4. Software Architecture Components Diagrams. 
+### 4.6.1. Design-Level Event Storming. 
+### 4.6.2. Software Architecture Context Diagram. 
+### 4.6.3. Software Architecture Container Diagrams. 
+### 4.6.4. Software Architecture Components Diagrams. 
 ## 4.7. Software Object-Oriented Design. 
-## 4.7.1. Class Diagrams. 
+### 4.7.1. Class Diagrams. 
 ## 4.8. Database Design. 
-## 4.8.1. Database Diagrams.
+### 4.8.1. Database Diagrams.

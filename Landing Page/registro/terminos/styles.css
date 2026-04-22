@@ -1,0 +1,55 @@
+/*Header*/
+.topheader {
+  position: static;
+  background-color: #482983;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 5px;
+}
+
+.topheader a {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-decoration: none;
+
+}
+
+.terminos-titulo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.terminos-texto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+    padding-left: 2rem;
+}
+
+.terminos-texto-bullets {
+    padding-left: 2rem;
+    position: relative;
+}
+
+.terminos-texto-bullets p::before{
+    content: "•";
+    position: absolute;
+    left: 0.5rem;
+}

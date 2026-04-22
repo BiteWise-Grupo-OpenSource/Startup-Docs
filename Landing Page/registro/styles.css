@@ -1,0 +1,245 @@
+
+/*PANTALLA REGISTRO*/
+.registro {
+  background-image: url("../img/fondo2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  padding: 80px 40px;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.nombre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(224, 223, 222);
+  margin-bottom: 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #264d28;
+}
+
+
+.card {
+  display: flex;
+  background-color: rgb(221, 212, 212);
+  border-radius: 10px;
+  width: 500px;
+  height: 180px;
+  padding: 20px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-icono {
+  border-radius: 12px;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.card-icono img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-icono1 {
+  border-radius: 12px;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.card-icono1 img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-text h3 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 12px;
+  color: #555555;
+}
+
+
+/*Registro usuario normal*/
+
+.nombre-registro-usuario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+
+}
+
+.form-imagen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  gap: 8rem;
+}
+
+.form{
+  width: 300px;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  border-radius: 10px;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+
+.titulo input{
+  border-radius: 10px;
+  border: 1px solid #482983;
+  padding: 8px;
+
+}
+
+.checkbox {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+
+  color: #000000;
+}
+
+.terminos{
+  padding: 20px 0px;
+  font-size: 10px;
+}
+
+.btn-crearCuenta{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: #482983;
+  color: white;
+  margin-top: 25px;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.reg-img img {
+  width: 25rem;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .cards{
+    flex-direction: column;
+  }
+
+  .card{
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 3rem;
+  }
+
+  .form-imagen{
+    flex-direction: column;
+    padding-left: 0rem;
+  }
+
+  .form-imagen img{
+    display: none;
+  }
+
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #482983;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-redes a {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer-redes img {
+  width: 18px;
+  height: 18px;
+}
