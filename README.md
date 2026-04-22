@@ -194,7 +194,9 @@ Me considero una persona proactiva y comprometida con mi formación profesional 
     <img src="imagenes/fotos/maria.png" alt="foto-maria" width="170px"/>
 </p>
 
-[Añadir descripción personal aquí]
+Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Tengo 19 años. Cuento con conocimientos en lenguajes de programación como Python, JavaScript, Unity y C++. 
+Me considero una persona perseverante, organizada y curiosa, ya que siempre busco aprender cosas nuevas y mejorar mis habilidades en el área tecnológica.
+
 
 - Giancarlo Jose Verastigue Martinez - u202419483 (Ingeniería de Software)
 
