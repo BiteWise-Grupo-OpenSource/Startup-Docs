@@ -196,7 +196,7 @@ Me considero una persona proactiva y comprometida con mi formación profesional 
 
 [Añadir descripción personal aquí]
 
-- Giancarlo Jose Verastigue Martines - u202419483 (Ingeniería de Software)
+- Giancarlo Jose Verastigue Martinez - u202419483 (Ingeniería de Software)
 
 <p align="center">
     <img src="imagenes/fotos/giancarlo.png" alt="foto-giancarlo" width="170px"/>
