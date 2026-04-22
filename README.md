@@ -31,7 +31,7 @@
 |  Hermoza Quispe, Jude Alessandro           |              u202318220               |
 |       Flores Siguas, Marlon Alessandro           |              u202415412               |
 | Munayco Apolaya, Maria Luisa   |              u20231c995               |
-|       Verastigue Martines, Giancarlo Jose           |              U202419483               |
+|       Verastigue Martinez, Giancarlo Jose           |              U202419483               |
 |           Mantilla, Enrique   |              u----               |
 
 </div>
@@ -150,8 +150,8 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:** Por definir.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:** Por definir.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:**  5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:** 5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
 
 
 
@@ -202,7 +202,7 @@ Me considero una persona proactiva y comprometida con mi formación profesional 
     <img src="imagenes/fotos/giancarlo.png" alt="foto-giancarlo" width="170px"/>
 </p>
 
-[Añadir descripción personal aquí]
+Mi nombre es Giancarlo Jose Verastigue Martinez, estudiante de Ingeniería de Software. Soy una persona responsable y enfocada en sus proyectos y metas, a nivel académico cuento con conocimientos en programación en el lenguaje de C++, con experiencia trabajando en equipo y bajo presión. Considero que soy organizado y detallista en mis proyectos. La experiencia laboral y la universidad me han hecho desarrollar habilidades para afrontar problemas o dificultades de manera exitosa, habilidades que aportaré a este grupo de trabajo y de esta manera sacar adelante nuestro proyecto.
 
 - Enrique Mantilla - u---- (Ingeniería de Software)
 
@@ -742,3 +742,119 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 #### Reward
 - Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
 
+
+
+
+---
+## Capítulo V: Product Implementation, Validation & Deployment
+
+### 5.1. Software Configuration Management.
+Este apartado detalla la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el proceso de despliegue del sistema web de planificación de comidas inteligentes y personalizadas.
+#### 5.1.1. Software Development Environment Configuration.
+**Diseño UX/UI**
+En esta sección nos centramos en la creación de interfaces atractivas e intuitivas, considerando las necesidades y preferencias de los usuarios. Las herramientas empleadas son:
+- **Figma**: Permite diseñar y compartir interfaces de usuario de manera colaborativa y eficiente.
+
+<p align="center">
+  <img src="./imagenes/Figma.png" alt="Figma Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+Para el proceso de creación y programación del software, utilizamos las siguientes herramientas y tecnologías:
+
+- **IDE para Backend**: Se utilizó IntelliJ IDEA como entorno de desarrollo principal para el backend desarrollado en Java con el framework Spring Boot. Esta herramienta ofrece integración avanzada con Maven/Gradle, control de versiones Git, ejecución de pruebas, autocompletado inteligente y soporte para múltiples frameworks y servicios web.
+
+<p align="center">
+  <img src="./imagenes/IntelliJ_IDEA.png" alt="IntelliJ IDEA" width="250">
+</p>
+
+- **IDE para Frontend**: Para el desarrollo frontend en Angular, se utilizó WebStorm, un IDE especializado de JetBrains que facilita el trabajo con TypeScript, HTML y Tailwind CSS. WebStorm proporciona inspecciones de código, refactorizaciones, vista previa en vivo, y soporte completo para proyectos en Angular.
+
+<p align="center">
+  <img src="./imagenes/webstorm.png" alt="WebStorm IDEA" width="250">
+</p>
+
+- **Github**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/github.png" alt="Github Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+- **Markdown**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/markdown.png" alt="Markdown Logo" width="250">
+</p>
+
+- **LucidChart**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
+
+<p align="center">
+  <img src="./imagenes/lucidchart-logo.png" alt="ludidchart Logo" width="250">
+</p>
+
+- **Visual Paradigm** Programa para crear diagramas de contexto, de contenedores y la identificación de los Bounded Contexts del proyecto.
+
+<p align="center">
+  <img src="./imagenes/visual-paradigm.png" alt="Visual Paradigm Logo" width="250">
+</p>
+
+#### 5.1.2. Source Code Management
+El proyecto utiliza Git como sistema de control de versiones distribuido. Para asegurar una gestión eficiente del código fuente, se aplicó la estrategia de ramas conocida como Git Flow, que facilita la colaboración entre desarrolladores, la integración de nuevas funcionalidades y el mantenimiento del código en producción.
+
+| Producto              | Repositorio            | URL                                                                 |
+|-----------------------|------------------------|----------------------------------------------------------------------|
+| Landing Page          | landing-page    |[https:](https:)                                           
+
+
+**Implementación de Git Flow**
+
+Se definieron las siguientes ramas principales:
+- **main**: rama principal que contiene las versiones estables.
+- **develop**: rama donde se integran todas las funcionalidades antes de pasar a producción.
+- **feature/***: ramas individuales para el desarrollo de nuevas funcionalidades.
+- **release/***: ramas para la preparación de nuevas versiones.
+- **hotfix/***: ramas para corregir errores críticos directamente en producción.
+
+**Flujo de Trabajo en Git Flow**
+
+1.	Crear una rama feature/nueva-funcionalidad desde develop.
+2.	Realizar el desarrollo y pruebas en la rama feature.
+3.	Fusionar la rama feature con develop una vez completada.
+4.	Preparar la versión final en una rama release.
+5.	Fusionar release con main y develop.
+6.	Crear una etiqueta (tag) con la versión liberada.
+7.	En caso de errores críticos, crear una hotfix desde main y seguir el flujo correspondiente.
+
+**Convenciones de Commits**
+
+Para mantener un historial de cambios limpio y comprensible, se adoptó una convención de mensajes de commit inspirada en Conventional Commits. Esta convención facilita la automatización en el versionado, el análisis de cambios y el seguimiento del desarrollo.
+
+**Estructura del mensaje**
+
+< tipo >(componente): descripción corta en minúsculas y en infinitivo
+
+**Tipos de Commits permitidos**
+
+| Tipo       | Uso recomendado| 
+|------------|----------------|
+| *feat*     | Nueva funcionalidad para el sistema  |
+| *fix*      | Corrección de errores o bugs  |
+| *docs*     | Cambios en la documentación (README, comentarios, etc.)   |
+| *style*    | Cambios de formato (espacios, comas, punto y coma, etc.) sin afectar la lógica del código  |
+| *refactor* | Refactorización del código sin cambios funcionales ni correcciones  |
+| *test*     | Agregado o modificación de pruebas (unitarias, integradas, etc.)   |
+| *chore*    | Tareas menores que no afectan la lógica (actualización de dependencias, archivos de configuración, etc.)   |
+| *build*    | Cambios relacionados al sistema de construcción, CI/CD o entorno de despliegue   |
+| *perf*     |Cambios orientados a mejorar el rendimiento del sistema   |
+
+**Ejemplos de commits**
+
+- **feat(auth)**: agregar funcionalidad de inicio de sesión con JWT
+- **fix(api)**: corregir error 500 al enviar datos nulos desde el formulario
+- **docs(readme)**: actualizar sección de instalación
+- **style(navbar)**: aplicar espaciado correcto entre íconos
+- **refactor(recipe)**: simplificar lógica de filtrado de ingredientes
+- **test(user)**: agregar pruebas unitarias al componente de registro
+- **chore(deps)**: actualizar dependencias npm
+- **build(deploy)**: configurar script para despliegue automático en GitHub Pages
