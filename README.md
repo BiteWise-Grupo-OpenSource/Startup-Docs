@@ -860,3 +860,66 @@ Para mantener un historial de cambios limpio y comprensible, se adoptó una conv
 - **test(user)**: agregar pruebas unitarias al componente de registro
 - **chore(deps)**: actualizar dependencias npm
 - **build(deploy)**: configurar script para despliegue automático en GitHub Pages
+
+
+#### 5.2.1. Sprint 1
+##### 5.2.1.1. Sprint Planning 1
+
+En esta sección se describen los aspectos principales del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto BiteWise. Durante esta reunión, el equipo definió los objetivos del sprint, revisó el contexto inicial del proyecto y estableció las historias de usuario que serán abordadas. Asimismo, se acordaron lineamientos de trabajo colaborativo y la distribución inicial de responsabilidades para asegurar el cumplimiento de los objetivos planteados.
+
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 1</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2026-04-14</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>07:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual vía Google Meet</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Munayco Apolaya, Maria Luisa</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Hermoza Quispe, Jude Alessandro / Flores Siguas, Marlon Alessandro / Munayco Apolaya, Maria Luisa / Verastigue Martinez, Giancarlo Jose / Mantilla, Enrique</td>
+  </tr>
+
+  <tr>
+    <td><b>Sprint n – 1 Review Summary</b></td>
+    <td>Al ser el primer sprint del proyecto, no se cuenta con un sprint previo. Sin embargo, el equipo definió la propuesta de valor de BiteWise, enfocada en la generación de planes de alimentación personalizados según preferencias, objetivos de salud y restricciones nutricionales.</td>
+  </tr>
+
+  <tr>
+    <td><b>Sprint n – 1 Retrospective Summary</b></td>
+    <td>No aplica para el primer sprint. El equipo acordó establecer una comunicación constante, definir roles claros y organizar el trabajo de manera colaborativa para asegurar el cumplimiento de los objetivos del proyecto.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>Nuestro enfoque es desarrollar la estructura inicial de la plataforma BiteWise e implementar las funcionalidades básicas de registro de usuario y recopilación de preferencias alimenticias. Creemos que esto proporciona un punto de partida personalizado para que los usuarios puedan recibir planes de alimentación adaptados a sus necesidades. Esto se confirmará cuando los usuarios puedan registrarse, ingresar sus preferencias y visualizar un plan de comidas personalizado inicial.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>20 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>18 Story Points</td>
+  </tr>
+</table>
