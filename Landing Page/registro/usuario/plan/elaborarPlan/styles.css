@@ -1,0 +1,292 @@
+.topheader {
+  position: static;
+  background-color: #fcf8fc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+  margin-right: -50px;
+  margin-bottom: -15px;
+  margin-top: -20px;
+}
+
+.logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #482983;
+  margin: 0;
+  margin-left: -20px;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-horizontal li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.menu-horizontal li a.btn-sos {
+  background-color: #f0536b;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.menu-horizontal li a.btn-cuenta {
+  background-color: #482983;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-right: 50px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+}
+
+.btn-cuenta img{
+  width: 27px;
+  height: auto;
+  position: relative;
+  right: 6px;
+  top: 6px;
+}
+
+.menu-horizontal li a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+
+/*Seccion Autoevaluacion*/
+.seccion-autoevaluacion {
+  background-image: url(../../img/fondo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  justify-items: center;
+  padding-top: 1rem;
+}
+
+.autoevaluacion-contenido {
+  background-color: #ffffff;
+  margin-top: 1rem;
+  width: 60rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.formulario p{
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.formulario input {
+  width: 90%;
+  height: 3rem;
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 1rem;
+}
+
+.seccion-autoevaluacion h2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+
+
+.sos-botones{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-right: 5rem;
+  padding-bottom: 2rem;
+}
+
+.sos-boton2 {
+  background-color: #f0536b;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+   .menu-horizontal {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    z-index: 9999;
+  }
+
+  .menu-horizontal.active {
+    display: flex;
+    padding-bottom: 1rem;
+    background-color: #fcf8fc;
+  }
+
+  .menu-horizontal li a,
+  .menu-horizontal li a.btn-sos,
+  .menu-horizontal li a.btn-cuenta {
+    background: none;
+    color: #000000;
+    padding: 0;
+    border-radius: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 2rem;
+  }
+
+  .menu-horizontal li a.btn-cuenta:hover {
+    color: white;   
+    background-color: black;
+  }
+
+  .menu-horizontal li a.btn-sos:hover {
+    color: white;   
+    background-color: black;
+  }
+
+  .menu-horizontal li a.btn-cuenta img {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+
+  .autoevaluacion-contenido {
+    width: 90%;
+    padding: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+/*Footer*/
+.footer {
+  background-color: #482983;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-redes a {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer-redes img {
+  width: 18px;
+  height: 18px;
+}
