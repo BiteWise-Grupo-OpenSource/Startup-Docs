@@ -74,21 +74,15 @@ La paleta de colores de BiteWise ha sido elegida para transmitir frescura, salud
 Paleta principal: Colores que definen la esencia de BiteWise y se aplican en componentes centrales.
 
 Primario (Verde Fresco): var(--primary-color) (tono principal para botones y acentos).
-Secundario (Azul Sereno): var(--secondary-color) (para texto principal y elementos interactivos).
-Terciario (Gris Neutro): var(--tertiary-color) (para texto secundario y detalles sutiles).
-Fondo Claro: var(--bg-light) (fondos de secciones para un aspecto aireado).
+Secundario (Negro): var(--secondary-color) (para texto principal y elementos interactivos).
+Terciario (Blanco): var(--tertiary-color) (para texto secundario y detalles sutiles).
+Fondo Verde Claro: var(--bg-light) (fondos de secciones para un aspecto aireado).
 Fondo Blanco: var(--white) (fondos de tarjetas y áreas principales).
 
 Paleta de Soporte: Colores auxiliares que aportan equilibrio y variedad.
 
-Verde Suave: Para bordes delicados, divisores y fondos alternos.
+Morado intenso: Para resaltar algun boton.
 Azul Claro: Para enlaces y elementos de navegación.
-
-Colores Funcionales: Diseñados para indicar estados específicos al usuario.
-
-Éxito: Verde Vibrante (#4CAF50) para confirmaciones y logros en planes alimenticios.
-Error: Rojo Saludable (#F44336) para alertas sobre restricciones o errores.
-Advertencia: Naranja Energizante (#FF9800) para recordatorios y sugerencias nutricionales.
 
 **Spacing**
 
@@ -159,18 +153,61 @@ Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que t
 
 ## 4.2. Information Architecture. 
 
-La arquitectura de nuestro proyecto fue construida para facilitar la busqueda de informacion que necesiten nuestros usuarios.
-
 ### 4.2.1. Organization Systems. 
 
+La arquitectura de nuestro proyecto fue construida para facilitar la busqueda de informacion que necesiten nuestros usuarios.
 
+**Jerarquia**
+
+Brindamos la información de forma escalonada. Primero mostramos lo general y luego se dirigen a lo más específico. Iniciamos mostrando un boton de Plan, luego se elige si quieres crear alguno o revisar el que ya tenia, y finalmente crea un plan alimenticio donde podrá visualizarlo e interactuar con él.
+
+**Secciones principales**
+
+- Plan: Elaborar un plan o revisarlo
+- Cuenta: Modifica la cuenta
+- Añadir Nutricionista: Vincula un nutricionista con el cliente
+- Recetas: Para revisar y aprender recetas
+- Preferencias: Añade las preferencias del usuario
+- Nutricionista: El usuario chatea con un nutricionista
+- Noticias: Para buscar noticias actuales o guardadas
+- Estudios: Para hallar estudios de nutrición previos
 
 ### 4.2.2. Labeling Systems. 
+
+**Nomenclatura**
+Las etiquetas tienen nombre que facilitan al usuario lo que esperaria que hagan, como un boton que dice planes, recetas o log in
+
+**Consistencia**
+Cuando el usuario es redirigido a traves de una etiqueta tambien se pondra ese nombre de la etiqueta en el título para facilitar la comprensión al usuario.
+
 ### 4.2.3. SEO Tags and Meta Tags 
-### 4.2.4. Searching Systems. 
+
+El head usará las etiquetas title y meta, los cuales facilitará entender que hace esa sección. Además, en los Meta Tags se hará uso de descripción, keywords y autor.
+
+<img src="img/meta-tag.png" alt="impactMapping">
+
+### 4.2.4. Searching Systems.
+
+- Barra de Búsqueda: En algunas secciones es importante la barra de busqueda, como ejemplo sería buscar recetas o noticias
+
+- Filtros: Existen filtros para mostrar lo que le interesa al usuario ya sea información actual, favoritos o populares
+
 ### 4.2.5. Navigation Systems. 
+
+- Header: El header usa enlaces que le facilitarán la navegación al usuario
+
+- Botones: Varios botones tienen etiquetas que redigiran al usuario a donde desee
+
+- Footer: Tiene algunos enlaces hacia las politicas de privacidad y el termino de condiciones
+
 ## 4.3. Landing Page UI Design. 
+
+La interfaz de usuario es vital para que nuestros usuarios pueden navegar libremente por nuestra landing page. Buscamos tratar de guiar a nuestros usuarios de manera fluida ayudandoles a encontrar lo que buscan.
+
 ### 4.3.1. Landing Page Wireframe. 
+
+
+
 ### 4.3.2. Landing Page Mock-up. 
 ## 4.4. Web Applications UX/UI Design. 
 ### 4.4.1. Web Applications Wireframes. 
