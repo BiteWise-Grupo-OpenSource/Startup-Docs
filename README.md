@@ -860,3 +860,59 @@ Para mantener un historial de cambios limpio y comprensible, se adoptó una conv
 - **test(user)**: agregar pruebas unitarias al componente de registro
 - **chore(deps)**: actualizar dependencias npm
 - **build(deploy)**: configurar script para despliegue automático en GitHub Pages
+  
+#### 5.1.3. Source Code Style Guide & Conventions
+
+En continuidad con el uso de herramientas como WebStorm, IntelliJ IDEA y la gestión del código mediante GitHub, se establecieron convenciones de codificación con el objetivo de garantizar un código limpio, consistente y mantenible durante el desarrollo del sistema BiteWise.
+
+Dado que el proyecto fue desarrollado utilizando Angular y TypeScript para el frontend, y Java con Spring Boot para el backend, se definieron lineamientos específicos para cada entorno, manteniendo coherencia en toda la arquitectura del sistema.
+
+Se priorizó la legibilidad del código, evitando complejidad innecesaria y aplicando el principio de separación de responsabilidades. Asimismo, se mantuvo una estructura modular del sistema, facilitando su escalabilidad y mantenimiento.
+
+En el frontend, se adoptaron convenciones como el uso de camelCase para variables y funciones, PascalCase para clases y componentes, y nombres de archivos en minúsculas separados por guiones. Se implementó una arquitectura basada en componentes reutilizables, con servicios encargados de la lógica de negocio y el consumo de APIs. Además, se utilizó tipado explícito e interfaces para definir estructuras de datos, aprovechando las capacidades de TypeScript y las herramientas de inspección de código de WebStorm.
+
+En el backend, se aplicaron convenciones similares en la nomenclatura, utilizando PascalCase para clases y camelCase para métodos. Se trabajó con una arquitectura en capas (Controller, Service y Repository), incorporando el uso de DTOs para la transferencia de datos. También se aplicaron principios SOLID y un manejo centralizado de excepciones, apoyándose en las funcionalidades de IntelliJ IDEA para mantener un código organizado y robusto.
+
+Finalmente, en concordancia con la estrategia Git Flow definida previamente, el desarrollo se realizó en ramas feature/*, integrando progresivamente los cambios en la rama develop y asegurando que el código cumpla con los estándares establecidos antes de su integración.
+
+---
+
+#### 5.1.4. Software Deployment Configuration
+
+El proceso de despliegue se diseñó considerando la arquitectura del sistema, el uso de Angular para el frontend y Spring Boot para el backend, así como la integración con el control de versiones mediante GitHub.
+
+Se configuró un entorno de producción optimizado, utilizando variables de entorno para la gestión de parámetros sensibles como endpoints de APIs y configuraciones del sistema. Asimismo, se generaron builds optimizados para mejorar el rendimiento de la aplicación.
+
+Para el frontend, se realizó la compilación del proyecto Angular en modo producción, generando archivos estáticos optimizados (HTML, CSS y JavaScript), los cuales fueron desplegados en un servicio de hosting web que permite el acceso público a la aplicación.
+
+En el caso del backend, la aplicación desarrollada con Spring Boot fue empaquetada como un archivo ejecutable (.jar) y desplegada en un servidor, permitiendo la exposición de servicios mediante APIs REST. Se configuraron aspectos como puertos de ejecución y conexión a la base de datos.
+
+El despliegue se encuentra vinculado al repositorio en GitHub, donde cada versión estable del sistema se asocia a la rama main y se identifican mediante etiquetas (tags). Adicionalmente, se consideró la integración de herramientas de automatización como GitHub Actions para facilitar procesos de integración y despliegue continuo.
+
+Finalmente, se garantizaron aspectos de seguridad y accesibilidad mediante el uso de HTTPS y la correcta configuración de la comunicación entre frontend y backend.
+
+---
+
+### 5.2. Landing Page, Services & Applications Implementation
+
+En esta sección se describe la implementación de la landing page y los componentes iniciales del sistema BiteWise, desarrollados durante el primer sprint del proyecto.
+
+La landing page fue concebida como el primer punto de contacto con el usuario, teniendo como objetivo comunicar de manera clara la propuesta de valor del sistema y captar el interés de potenciales usuarios. Para ello, se diseñó una interfaz limpia, moderna y centrada en el usuario, basada en los prototipos desarrollados en Figma.
+
+La implementación se realizó utilizando Angular y TypeScript, siguiendo una arquitectura basada en componentes que facilita la reutilización, escalabilidad y mantenimiento del sistema. Asimismo, se aplicaron principios de diseño responsive para asegurar su correcta visualización en distintos dispositivos.
+
+La estructura de la landing page incluye secciones clave como la presentación del producto, la exposición del problema, la solución propuesta por BiteWise, los beneficios del sistema y la explicación de su funcionamiento, permitiendo una comunicación clara y efectiva.
+
+Enlace de figma: 
+
+---
+
+#### 5.2.1. Sprint 1
+
+El Sprint 1 se enfocó en la implementación inicial de la landing page y en la configuración del entorno de desarrollo frontend. Durante este sprint se estableció la base estructural del proyecto, permitiendo visualizar la propuesta de valor de BiteWise y sentar las bases para futuras funcionalidades.
+
+Se desarrollaron los componentes principales de la interfaz, incluyendo la navegación, la sección de presentación, las secciones informativas (problema, solución, beneficios y funcionamiento) y el footer, asegurando una experiencia de usuario clara y coherente con el diseño previamente definido.
+
+Asimismo, se configuró el proyecto en Angular y se aplicaron estilos iniciales que responden a un enfoque visual neutral, moderno y profesional, alineado con el objetivo del sistema como una herramienta de apoyo en la salud y nutrición.
+
+Como resultado, se obtuvo una landing page funcional y una estructura base del sistema lista para la incorporación de nuevas funcionalidades como la autenticación de usuarios y la generación de planes personalizados.
