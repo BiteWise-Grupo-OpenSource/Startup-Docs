@@ -183,10 +183,10 @@ Me considero una persona proactiva y comprometida con mi formación profesional 
 - Marlon Alessandro Flores Siguas - u202415412 (Ingeniería de Software)
 
 <p align="center">
-    <img src="imagenes/fotos/marlon.png" alt="foto-marlon" width="170px"/>
+    <img width="170px" alt="Marlon" src="https://github.com/user-attachments/assets/8f0a3a2e-7968-4869-b4f8-74cb6bc386eb" />
 </p>
 
-[Añadir descripción personal aquí]
+Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Tengo 20 años. Me considero una persona responsable y organizada, comprometida con mis objetivos y con una gran disposición para seguir aprendiendo y mejorar mis habilidades en el ámbito tecnológico. Busco desarrollarme profesionalmente y adquirir experiencia que me permita aportar soluciones eficientes.
 
 - Maria Luisa Munayco Apolaya - u20231c995 (Ingeniería de Software)
 
