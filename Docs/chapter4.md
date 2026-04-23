@@ -206,13 +206,38 @@ La interfaz de usuario es vital para que nuestros usuarios pueden navegar librem
 
 ### 4.3.1. Landing Page Wireframe. 
 
+<img src="img/wireframe-landing.png" alt="landing wireframe">
+
 
 
 ### 4.3.2. Landing Page Mock-up. 
+
+<img src="img/mockup-landing.png" alt="mockup">
+
 ## 4.4. Web Applications UX/UI Design. 
-### 4.4.1. Web Applications Wireframes. 
+### 4.4.1. Web Applications Wireframes.
+
+<img src="img/wireframe-userRegister.png" alt="landing wireframe">
+
+<img src="img/wireframe-login.png" alt="landing wireframe">
+
+<img src="img/wireframe-principalUser.png" alt="landing wireframe">
+
+<img src="img/wireframe-elaborarPlan.png" alt="landing wireframe">
+
+<img src="img/wireframe-revisarPlan.png" alt="landing wireframe">
+
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 ### 4.4.2. Web Applications Mock-ups. 
+
+<img src="img/mockup-userRegister.png" alt="mockup">
+
+<img src="img/mockup-principalUser.png" alt="mockup">
+
+<img src="img/mockup-elaborarPlan.png" alt="mockup">
+
+<img src="img/mockup-revisarPlan.png" alt="mockup">
+
 ### 4.4.3. Web Applications User Flow Diagrams. 
 ## 4.5. Web Applications Prototyping. 
 ## 4.6. Domain-Driven Software Architecture. 
