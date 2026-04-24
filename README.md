@@ -904,7 +904,7 @@ La implementación se realizó utilizando Angular y TypeScript, siguiendo una ar
 La estructura de la landing page incluye secciones clave como la presentación del producto, la exposición del problema, la solución propuesta por BiteWise, los beneficios del sistema y la explicación de su funcionamiento, permitiendo una comunicación clara y efectiva.
 
 Enlace de figma: 
-
+https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise?node-id=19-2&t=rFreWqpYCcgbEzMi-1 
 ---
 
 #### 5.2.1. Sprint 1
