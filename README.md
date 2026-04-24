@@ -1146,9 +1146,18 @@ En este apartado se identificarán los dominios de nuestro negocio haciendo uso 
 
 ## 4.7. Software Object-Oriented Design. 
 ### 4.7.1. Class Diagrams. 
+<p align="center">
+  <img src="./imagenes/diagrama-clases.png" alt="Visual Paradigm Logo" width="250">
+</p>
+
 ## 4.8. Database Design. 
+
+
 ### 4.8.1. Database Diagrams.
 
+<p align="center">
+  <img src="./imagenes/diagrama-datos.png" alt="Visual Paradigm Logo" width="250">
+</p>
 
 ---
 ## Capítulo V: Product Implementation, Validation & Deployment
@@ -1209,7 +1218,8 @@ El proyecto utiliza Git como sistema de control de versiones distribuido. Para a
 
 | Producto              | Repositorio            | URL                                                                 |
 |-----------------------|------------------------|----------------------------------------------------------------------|
-| Landing Page          | landing-page    |[https:](https:)                                           
+| Landing Page          | landing-page    |[https:](https:) 
+| Repositorio de Github          | github    |[https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs](https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs)                                           
 
 
 **Implementación de Git Flow**
