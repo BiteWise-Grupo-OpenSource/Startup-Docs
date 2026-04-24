@@ -32,7 +32,7 @@
 |       Flores Siguas, Marlon Alessandro           |              u202415412               |
 | Munayco Apolaya, Maria Luisa   |              u20231c995               |
 |       Verastigue Martinez, Giancarlo Jose           |              U202419483               |
-|           Mantilla, Enrique   |              u----               |
+|           Mantilla Maldonado, Enrique Manuel  |              u20231b842               |
 
 </div>
 
@@ -150,8 +150,8 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:**  5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:** 5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Por definir. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:**  5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Capítulo III: Requirements Specification; Capítulo IV: Product Design. | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Jude Hermoza TB1:** Capítulo 1: Introducción; Capítulo II: Requirements Elicitation & Analysis.<br><br>**Marlon Flores TB1:** Por definir.<br><br>**Maria Munayco TB1:** Por definir.<br><br>**Giancarlo Verastigue TB1:** 5.1. Software Configuration Management, 5.1.2. Source Code Management.<br><br>**Enrique Mantilla TB1:** Capítulo III: Requirements Specification; Capítulo IV: Product Design.  | **TB1:** Por redactar conclusión grupal del hito.<br><br>**TP:** Por redactar.<br><br>**TB2:** Por redactar.<br><br>**TF:** Por redactar. |
 
 
 
@@ -206,13 +206,14 @@ Me considero una persona perseverante, organizada y curiosa, ya que siempre busc
 
 Mi nombre es Giancarlo Jose Verastigue Martinez, estudiante de Ingeniería de Software. Soy una persona responsable y enfocada en sus proyectos y metas, a nivel académico cuento con conocimientos en programación en el lenguaje de C++, con experiencia trabajando en equipo y bajo presión. Considero que soy organizado y detallista en mis proyectos. La experiencia laboral y la universidad me han hecho desarrollar habilidades para afrontar problemas o dificultades de manera exitosa, habilidades que aportaré a este grupo de trabajo y de esta manera sacar adelante nuestro proyecto.
 
-- Enrique Mantilla - u---- (Ingeniería de Software)
+- Enrique Manuel Mantilla Maldonado - u20231b842 (Ingeniería de Software)
 
 <p align="center">
-    <img src="imagenes/fotos/enrique.png" alt="foto-enrique" width="170px"/>
+    <img src="imagenes/fotos/enrique.jpg" alt="foto-enrique" width="170px"/>
 </p>
 
-[Añadir descripción personal aquí]
+Soy un estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC). Actualmente estoy llevando la carrera de Ingeniería de Software. Manejo el lenguaje python y C++.
+Busco retarme a mi mismo y tambien busco aprender todo lo que vea a mi alrededor para poder aplicarlo en el futuro.
 
 ### 1.2. Solution Profile
 BiteWise es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. BiteWise se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
@@ -745,6 +746,408 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 - Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
 
 
+# Capítulo III: Requirements Specification 
+
+## 3.1 User Stories
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| --- | --- | --- | --- | --- |
+| EP001 / US001 | Registro de usuario normal | Como usuario, quiero registrarme como usuario normal proporcionando datos básicos y correo para acceder a la plataforma. | Escenario 1: Registro exitoso<br>Dado que el usuario ingresa datos válidos,<br>Cuando se registra,<br>Entonces se crea la cuenta y accede a la plataforma.<br><br>Escenario 2: Error de registro<br>Dado que los datos son inválidos,<br>Cuando se intenta registrar,<br>Entonces se muestra un mensaje de error. | EP001 |
+| EP001 / US002 | Registro de nutricionista | Como nutricionista, quiero registrarme como nutricionista para acceder a funcionalidades especializadas. | Escenario 1: Registro exitoso<br>Dado que el visitante selecciona "nutricionista" e ingresa datos válidos,<br>Cuando se registra,<br>Entonces accede a su panel de nutricionista. | EP001 |
+| EP001 / US003 | Login de usuario | Como usuario, quiero iniciar sesión con las credenciales que registré previamente. | Escenario 1: Login exitoso<br>Dado que el usuario selecciona su tipo e ingresa credenciales válidas,<br>Cuando inicia sesión,<br>Entonces accede a su panel principal.<br><br>Escenario 2: Error de login<br>Dado que los datos son incorrectos,<br>Cuando intenta acceder,<br>Entonces se muestra un mensaje de error. | EP001 |
+| EP001 / US004 | Cerrar sesión | Como usuario, quiero cerrar sesión de forma segura en cualquier momento. | Escenario 1: Logout exitoso<br>Dado que el usuario está autenticado,<br>Cuando selecciona cerrar sesión,<br>Entonces sale de la plataforma. | EP001 |
+| EP002 / US005 | Landing page testimonios | Como usuario, quiero ver una landing page que muestre los testimonios de sus usuarios para saber si es una plataforma util y confiable. | Escenario 1: Acceso a landing<br>Dado que se accede a la página principal,<br>Cuando se visualizan testimonios,<br>Entonces se muestran correctamente los contenidos. | EP002 |
+| EP002 / US006 | Landing page preguntas frequentes | Como usuario, quiero ver una landing page que pueda resolverme algunas preguntas que son frecuentes entre los usuarios. | Escenario 1: Acceso a landing<br>Dado que se accede a la página principal,<br>Cuando se visualiza el apartado de preguntas frecuentes,<br>Entonces se muestran correctamente los contenidos. | EP002 |
+| EP003 / US007 | Crear plan alimenticio semanal | Como usuario, quiero crear un plan alimenticio semanal respondiendo preguntas sobre preferencias y restricciones. | Escenario 1: Plan generado<br>Dado que el usuario responde las preguntas,<br>Cuando finaliza el proceso,<br>Entonces se genera y muestra el plan semanal. | EP003 |
+| EP003 / US008 | Revisar plan alimenticio | Como usuario, quiero poder revisar mi plan alimenticio semanal en cualquier momento. | Escenario 1: Consulta de plan<br>Dado que el usuario tiene un plan generado,<br>Cuando accede a la sección de plan,<br>Entonces puede visualizar los detalles del plan. | EP003 |
+| EP003 / US009 | Editar plan alimenticio | Como usuario, quiero editar mi plan alimenticio semanal si mis preferencias cambian. | Escenario 1: Edición exitosa<br>Dado que el usuario tiene un plan,<br>Cuando edita el plan a su gusto,<br>Entonces el plan se actualiza. | EP003 |
+| EP004 / US010 | Gestionar preferencias alimenticias | Como usuario, quiero agregar y editar mis preferencias y problemas con alimentos. | Escenario 1: Preferencias guardadas<br>Dado que el usuario agrega o edita preferencias,<br>Cuando guarda,<br>Entonces el sistema actualiza la información. | EP004 |
+| EP004 / US011 | Visualizar preferencias | Como usuario, quiero ver mis preferencias y restricciones alimenticias guardadas. | Escenario 1: Visualización exitosa<br>Dado que el usuario accede a la sección de preferencias,<br>Cuando revisa,<br>Entonces ve la información correctamente. | EP004 |
+| EP004 / US012 | Eliminar preferencias | Como usuario, quiero eliminar preferencias o restricciones que ya no aplican. | Escenario 1: Eliminación exitosa<br>Dado que el usuario tiene preferencias,<br>Cuando elimina alguna,<br>Entonces desaparece de su perfil. | EP004 |
+| EP005 / US013 | Explorar recetas | Como usuario, quiero explorar recetas para aprender nuevas comidas. | Escenario 1: Recetas listadas<br>Dado que el usuario accede a la sección de recetas,<br>Cuando navega,<br>Entonces puede ver distintas recetas. | EP005 |
+| EP005 / US014 | Ver detalles de receta | Como usuario, quiero ver los pasos e ingredientes de una receta seleccionada. | Escenario 1: Detalles mostrados<br>Dado que el usuario selecciona una receta,<br>Cuando accede a detalles,<br>Entonces ve los pasos e ingredientes. | EP005 |
+| EP005 / US015 | Marcar receta como favorita | Como usuario, quiero marcar recetas como favoritas para acceder fácilmente y recibir recomendaciones. | Escenario 1: Favorito guardado<br>Dado que el usuario marca una receta,<br>Cuando la guarda,<br>Entonces aparece en su lista de favoritos. | EP005 |
+| EP005 / US016 | Ver recetas favoritas | Como usuario, quiero ver y gestionar mis recetas favoritas. | Escenario 1: Visualización exitosa<br>Dado que el usuario tiene recetas favoritas,<br>Cuando accede a la sección,<br>Entonces puede verlas y quitarlas si desea. | EP005 |
+| EP006 / US017 | Modificar datos de cuenta | Como usuario, quiero modificar mis datos personales desde la sección de cuenta. | Escenario 1: Modificación exitosa<br>Dado que el usuario accede a su cuenta,<br>Cuando edita sus datos,<br>Entonces los cambios se guardan. | EP006 |
+| EP006 / US018 | Vincularme con nutricionista (QR) | Como usuario, quiero vincular mi cuenta con un nutricionista escaneando un QR. | Escenario 1: Vinculación exitosa<br>Dado que el usuario indica que ya tiene nutricionista,<br>Cuando el nutricionista escanea el QR,<br>Entonces se vinculan las cuentas. | EP006 |
+| EP006 / US019 | Buscar nutricionista | Como usuario, quiero buscar nutricionistas en un directorio y ver sus datos de contacto. | Escenario 1: Directorio visible<br>Dado que el usuario no tiene nutricionista,<br>Cuando accede al directorio,<br>Entonces puede ver información de varios nutricionistas. | EP006 |
+| EP006 / US020 | Ver estado de vinculación | Como usuario, quiero ver si ya estoy vinculado a un nutricionista o no. | Escenario 1: Estado visible<br>Dado que el usuario accede a la sección de cuenta,<br>Cuando revisa,<br>Entonces ve si está vinculado o no. | EP006 |
+| EP006 / US021 | Desvincular nutricionista | Como usuario, quiero desvincularme de un nutricionista si ya no deseo su asesoría. | Escenario 1: Desvinculación exitosa<br>Dado que el usuario está vinculado,<br>Cuando solicita desvincularse,<br>Entonces la relación se elimina. | EP006 |
+| EP007 / US022 | Chatear con nutricionista | Como usuario, quiero chatear con mi nutricionista. | Escenario 1: Chatear con nutricionista<br>Dado que el usuario accede a la sección nutricionista,<br>Cuando accede al chat,<br>Entonces podra hablar con su nutricionista. Escenario 2: No tiene nutricionista<br>Dado que el usuario no se ha vinculado con un nutricionista<br>Cuando clickea en nutricionista<br>Entonces se lo redigira a la sección de buscar nutricionista | EP007 |
+| EP008 / US023 | Registro de clientes | Como nutricionista, quiero poder acceder a un registro ordenado para poder chatear facilmente con ellos. | Escenario 1: Acceder a sección registro<br>Dado que el nutricionista esta en la pagina principal,<br>Cuando accede a Registro,<br>Entonces podra visualizar ordenadamente a sus clientes. | EP008 |
+| EP008 / US024 | Visualizar plan de cliente | Como nutricionista, quiero poder acceder al plan nutricional de mi cliente para corroborar que se este alimentando correctamente. | Escenario 1: Revisar plan<br>Dado que el nutricionista esta en el registro,<br>Cuando accede al chat con su cliente y presionar el boton Plan,<br>Entonces podra visualizar el plan de su cliente. | EP008 |
+| EP008 / US025 | Agendar citas | Como nutricionista, quiero poder agendar citas con mis clientes para que vengan de manera presencial y discutir correctamente sobre su nutrición. | Escenario 1: Registrar cita<br>Dado que quiere registrar una cita con su cliente,<br>Cuando selecciona agendar cita,<br>Entonces podra llenar un formulario para agendar la cita. | EP008 |
+| EP009 / US026 | Revisar noticias | Como nutricionista, quiero poder leer noticias actuales sobre investigaciones nutricionales para estar al día con la información. | Escenario 1: Acceder a noticias<br>Dado que quiere acceder a noticias<br>Cuando selecciona la sección noticias,<br>Entonces accederá a noticias actuales sobre nutrición. | EP009 |
+| EP009 / US027 | Revisar estudios | Como nutricionista, quiero poder revisar estudios pasados sobre alimentación para estar informado y darle recomendaciones a mis cliente. | Escenario 1: Acceder a estudios<br>Dado que quiere acceder a la sección estudios<br>Cuando selecciona la sección estudios,<br>Entonces accederá a la sección de estudios. | EP009 |
+| EP010 / US028 | Revisar Terminos y Condiciones | Como usuario, quiero poder revisar los terminos y condiciones para evitar problemas. | Escenario 1: Acceder a Terminos y Condiciones<br>Dado que quiero leer los terminos y condiciones<br>Cuando selecciona terminos y condiciones ubicado en el footer,<br>Entonces será redireccionado a los terminos y condiciones. | EP010 |
+| EP010 / US029 | Revisar Política de privacidad | Como usuario, quiero poder revisar la política de privacidad para evitar problemas. | Escenario 1: Acceder a Política de privacidad<br>Dado que quiero leer la política de privacidad<br>Cuando selecciona Política de privacidad ubicado en el footer,<br>Entonces será redireccionado a la Política de privacidad. | EP010 |
+| EP011 / TS001 | Endpoint para Generar Plan | Como desarrollador, quiero un endpoint RESTful para generar planes de alimentación. | Escenario 1: Solicitud exitosa<br>Dado que se envía una solicitud POST a /api/plans con preferencias,<br>Cuando se procesa la solicitud,<br>Entonces se devuelve un plan de comidas en formato JSON.<br><br>Escenario 2: Error en solicitud<br>Dado que se envía una solicitud POST inválida,<br>Cuando se procesa,<br>Entonces se devuelve un error 400. | EP011 |
+| EP011 / TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | Escenario 1: Autenticado<br>Dado que se envía una solicitud GET a /api/profile/{id},<br>Cuando se autentica,<br>Entonces se devuelven los datos de perfil de usuario. | EP011 |
+| EP011 / TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | Escenario 1: Actualización exitosa<br>Dado que se envía una solicitud PUT a /api/plans/{id} con cambios,<br>Cuando se autentica,<br>Entonces se actualiza el plan y se confirma. | EP011 |
+
+
+
+## 3.2 Impact Mapping
+
+<img src="imagenes/impactMapping.png" alt="impactMapping">
+
+## 3.3 Product Backlog
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| --- | --- | --- | --- | --- |
+| 1 | US001 | Registro de usuario normal | Como usuario, quiero registrarme como usuario normal proporcionando datos básicos y correo para acceder a la plataforma. | 3 |
+| 2 | US003 | Login de usuario | Como usuario, quiero iniciar sesión con las credenciales que registré previamente. | 3 |
+| 3 | US004 | Cerrar sesión | Como usuario, quiero cerrar sesión de forma segura en cualquier momento. | 2 |
+| 4 | US002 | Registro de nutricionista | Como nutricionista, quiero registrarme como nutricionista para acceder a funcionalidades especializadas. | 5 |
+| 5 | US005 | Landing page testimonios | Como usuario, quiero ver una landing page que muestre los testimonios de sus usuarios para saber si es una plataforma util y confiable. | 2 |
+| 6 | US006 | Landing page preguntas frequentes | Como usuario, quiero ver una landing page que pueda resolverme algunas preguntas que son frecuentes entre los usuarios. | 2 |
+| 7 | US007 | Crear plan alimenticio semanal | Como usuario, quiero crear un plan alimenticio semanal respondiendo preguntas sobre preferencias y restricciones. | 8 |
+| 8 | US008 | Revisar plan alimenticio | Como usuario, quiero poder revisar mi plan alimenticio semanal en cualquier momento. | 3 |
+| 9 | US009 | Editar plan alimenticio | Como usuario, quiero editar mi plan alimenticio semanal si mis preferencias cambian. | 5 |
+| 10 | US010 | Gestionar preferencias alimenticias | Como usuario, quiero agregar y editar mis preferencias y problemas con alimentos. | 5 |
+| 11 | US011 | Visualizar preferencias | Como usuario, quiero ver mis preferencias y restricciones alimenticias guardadas. | 2 |
+| 12 | US012 | Eliminar preferencias | Como usuario, quiero eliminar preferencias o restricciones que ya no aplican. | 2 |
+| 13 | US013 | Explorar recetas | Como usuario, quiero explorar recetas para aprender nuevas comidas. | 3 |
+| 14 | US014 | Ver detalles de receta | Como usuario, quiero ver los pasos e ingredientes de una receta seleccionada. | 2 |
+| 15 | US015 | Marcar receta como favorita | Como usuario, quiero marcar recetas como favoritas para acceder fácilmente y recibir recomendaciones. | 3 |
+| 16 | US016 | Ver recetas favoritas | Como usuario, quiero ver y gestionar mis recetas favoritas. | 3 |
+| 17 | US017 | Modificar datos de cuenta | Como usuario, quiero modificar mis datos personales desde la sección de cuenta. | 3 |
+| 18 | US018 | Vincularme con nutricionista (QR) | Como usuario, quiero vincular mi cuenta con un nutricionista escaneando un QR. | 5 |
+| 19 | US019 | Buscar nutricionista | Como usuario, quiero buscar nutricionistas en un directorio y ver sus datos de contacto. | 3 |
+| 20 | US020 | Ver estado de vinculación | Como usuario, quiero ver si ya estoy vinculado a un nutricionista o no. | 2 |
+| 21 | US021 | Desvincular nutricionista | Como usuario, quiero desvincularme de un nutricionista si ya no deseo su asesoría. | 2 |
+| 22 | US022 | Chatear con nutricionista | Como usuario, quiero chatear con mi nutricionista. | 5 |
+| 23 | US023 | Registro de clientes | Como nutricionista, quiero poder acceder a un registro ordenado para poder chatear facilmente con ellos. | 5 |
+| 24 | US024 | Visualizar plan de cliente | Como nutricionista, quiero poder acceder al plan nutricional de mi cliente para corroborar que se este alimentando correctamente. | 3 |
+| 25 | US025 | Agendar citas | Como nutricionista, quiero poder agendar citas con mis clientes para que vengan de manera presencial y discutir correctamente sobre su nutrición. | 5 |
+| 26 | US026 | Revisar noticias | Como nutricionista, quiero poder leer noticias actuales sobre investigaciones nutricionales para estar al día con la información. | 2 |
+| 27 | US027 | Revisar estudios | Como nutricionista, quiero poder revisar estudios pasados sobre alimentación para estar informado y darle recomendaciones a mis cliente. | 2 |
+| 28 | US028 | Revisar Terminos y Condiciones | Como usuario, quiero poder revisar los terminos y condiciones para evitar problemas. | 1 |
+| 29 | US029 | Revisar Política de privacidad | Como usuario, quiero poder revisar la política de privacidad para evitar problemas. | 1 |
+| 30 | TS001 | Endpoint para Generar Plan | Como desarrollador, quiero un endpoint RESTful para generar planes de alimentación. | 8 |
+| 31 | TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | 3 |
+| 32 | TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | 5 |
+
+# Capítulo IV: Product Design 
+
+## 4.1. Style Guidelines. 
+
+### 4.1.1. General Style Guidelines. 
+
+**Branding**
+
+El logo de nuestra plataforma, el cual representa comida saludable y una buena dieta a traves del color verde. Se busca que el usuario capte que queremos ayudarlo brindandole apoyo con planes alimenticios semanales
+
+<img src="imagenes/logo.png" alt="logo" width = 200>
+
+**Typography**
+
+Para el diseño de BiteWise, hemos seleccionado dos fuentes sans serif complementarias: Roboto (utilizando únicamente Bold y Semibold) y Poppins (en Regular, Medium, Semibold y Bold).
+Esta combinación garantiza claridad y accesibilidad: Roboto proporciona solidez y prominencia para los elementos principales; Poppins, con sus formas suaves, facilita la lectura fluida de textos extensos y componentes de la interfaz.
+Decisiones de diseño <br>
+Roboto (Bold / Semibold)
+ Reservado para el logotipo de "BiteWise" y los encabezados principales (como el hero y H1). Su estilo robusto asegura una fuerte presencia visual y legibilidad óptima en tamaños amplios.
+
+Poppins (Regular / Medium / Semibold / Bold)
+ Empleado en subtítulos, párrafos, botones, etiquetas, campos de entrada y notificaciones del sistema. Su diseño geométrico y amigable refuerza el carácter acogedor de la marca.
+
+<img src="imagenes/typography.PNG" alt="typhography">
+
+**Colors**
+
+La paleta de colores de BiteWise ha sido elegida para transmitir frescura, salud y confianza, inspirada en elementos naturales como frutas y verduras frescas. Se organiza en tres categorías principales:
+
+Paleta principal: Colores que definen la esencia de BiteWise y se aplican en componentes centrales.
+
+Primario (Verde Fresco): var(--primary-color) (tono principal para botones y acentos).
+Secundario (Negro): var(--secondary-color) (para texto principal y elementos interactivos).
+Terciario (Blanco): var(--tertiary-color) (para texto secundario y detalles sutiles).
+Fondo Verde Claro: var(--bg-light) (fondos de secciones para un aspecto aireado).
+Fondo Blanco: var(--white) (fondos de tarjetas y áreas principales).
+
+Paleta de Soporte: Colores auxiliares que aportan equilibrio y variedad.
+
+Morado intenso: Para resaltar algun boton.
+Azul Claro: Para enlaces y elementos de navegación.
+
+**Spacing**
+
+El espaciado en BiteWise web sigue un sistema modular y predecible que organiza visualmente la información sobre nuestro servicio. Permite una mejor visualización brindando a nuestros usuarios legibilidad y armonía en cada sección.
+
+Espaciado Básico: Utilizamos 8px como unidad base. Todos los espaciados derivan de múltiplos de esta unidad (8px, 16px, 24px, 32px, 48px, 64px).
+
+Margen Interno (Padding): Las secciones principales utilizan padding vertical de 64px y padding horizontal de 32px, creando márgenes de contención que priorizan el contenido sin que se vea estrecho.
+
+Espacio entre Elementos: Las tarjetas de beneficios, planes o recursos se separan por un espacio de 24px. Los elementos dentro de cada tarjeta usan 16px de separación, creando una jerarquía visual clara y facilitando la exploración del contenido.
+
+Line Height del Texto: Los párrafos descriptivos en landing page usan un interlineado de 1.7, para mejorar la legibilidad de los textos largos. Los títulos y subtítulos usan un interlineado de 1.3, concentrando visualmente el mensaje.
+
+**Tono de comunicación**
+
+Bitewise tiene un tono y voz que reflejan ser agradable y cercano ya que se busca que nuestros usuarios confien en la plataforma para seguir el plan saludable. Además de usar un tono profesional para comunicar que la salud es muy importante
+
+Tono: Cercano y confiable, con un toque de optimismo. Queremos que nuestro usuario tenga confianza en nosotros para que sepa que queremos lo mejor para él.
+
+Actitud: Informada y empática. El 80% de nuestro mensaje es tranquilizador y fundamentado, mientras que el 20% es inspirador para que se motive a seguir el plan alimenticio.
+
+Lenguaje: Accesible y directo. Evitamos usar lenguaje coloquial para evitar confundir a nuestros usuarios. Intentamos ser directos para dejar en claro lo que buscamos.
+
+Voz: Experta y motivadora. Buscamos que nuestra solución se vea experta para generar confianza y motivadora para animar a nuestros usuarios a seguir el plan alimenticio
+
+
+### 4.1.2. Web Style Guidelines.
+
+4.1.2. Web Style Guidelines
+
+Las directrices de estilo web de nuestro proyecto priorizan la claridad, la accesibilidad y la coherencia visual. Buscamos que cada usuario disfrute de una experiencia intuitiva y agradable, alineada con los valores de la plataforma.
+
+1) Layout
+
+Grid adaptable: El contenido se organiza en una cuadrícula flexible que se ajusta a diferentes tamaños de pantalla, manteniendo siempre el orden y la legibilidad.
+
+Encabezado y pie de página: El header permanece visible para facilitar la navegación, mientras que el footer incluye enlaces útiles y datos de contacto.
+
+Tarjetas: Utilizamos tarjetas con esquinas suaves y sombras ligeras para destacar información clave y mejorar la jerarquía visual.
+
+2) Responsive Design
+
+Desktop: La navegación principal y las acciones importantes están siempre accesibles. El contenido se distribuye en varias columnas para aprovechar el espacio.
+
+Tablet: El menú se simplifica y los elementos se reorganizan en dos columnas. Los botones y campos se agrandan para facilitar la interacción táctil.
+
+Mobile: Todo el contenido se adapta a una sola columna, con menús desplegables y botones grandes para una experiencia óptima en dispositivos móviles.
+
+3) Interaction Design
+
+Botones: Los botones son visibles y responden con animaciones suaves al interactuar, facilitando la comprensión de su función.
+
+Formularios: Los formularios son breves y claros, con campos bien separados para evitar errores y mejorar la usabilidad.
+
+4) Images and Icons
+
+Imágenes: Se emplean imágenes optimizadas que transmiten confianza y cercanía, reforzando el mensaje de la plataforma.
+
+Íconos: Los íconos son simples y consistentes, ayudando a identificar rápidamente funciones y secciones.
+
+5) Organización de Recursos
+
+Estructura: Los archivos de estilos se encuentran en assets/styles, los scripts en assets/js y los recursos gráficos en assets/img. Esta organización facilita el mantenimiento y la colaboración.
+
+Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que todos los miembros trabajen sobre la última versión del proyecto.
+
+## 4.2. Information Architecture. 
+
+La arquitectura de BiteWise fue diseñada para facilitar la búsqueda de informacion que necesiten nuestros usuarios de forma intuitiva y sin ser invasiva.
+
+### 4.2.1. Organization Systems. 
+
+**Jerarquia**
+
+Brindamos la información de forma escalonada. Primero mostramos lo general y luego se dirigen a lo más específico. Iniciamos mostrando un boton de Plan, luego se elige si quieres crear alguno o revisar el que ya tenia, y finalmente crea un plan alimenticio donde podrá visualizarlo e interactuar con él.
+
+**Secciones principales**
+
+- Plan: Elaborar un plan o revisarlo
+- Cuenta: Modifica la cuenta
+- Añadir Nutricionista: Vincula un nutricionista con el cliente
+- Recetas: Para revisar y aprender recetas
+- Preferencias: Añade las preferencias del usuario
+- Nutricionista: El usuario chatea con un nutricionista
+- Noticias: Para buscar noticias actuales o guardadas
+- Estudios: Para hallar estudios de nutrición previos
+
+### 4.2.2. Labeling Systems. 
+
+**Nomenclatura**
+Las etiquetas tienen nombre que facilitan al usuario lo que esperaria que hagan, como un boton que dice planes, recetas o log in
+
+**Consistencia**
+Cuando el usuario es redirigido a traves de una etiqueta tambien se pondra ese nombre de la etiqueta en el título para facilitar la comprensión al usuario.
+
+### 4.2.3. SEO Tags and Meta Tags 
+
+El head usará las etiquetas title y meta, los cuales facilitará entender que hace esa sección. Además, en los Meta Tags se hará uso de descripción, keywords y autor.
+
+<img src="imagenes/meta-tag.png" alt="impactMapping">
+
+### 4.2.4. Searching Systems.
+
+- Barra de Búsqueda: En algunas secciones es importante la barra de busqueda, como ejemplo sería buscar recetas o noticias
+
+- Filtros: Existen filtros para mostrar lo que le interesa al usuario ya sea información actual, favoritos o populares
+
+### 4.2.5. Navigation Systems. 
+
+- Header: El header usa enlaces que le facilitarán la navegación al usuario
+
+- Botones: Varios botones tienen etiquetas que redigiran al usuario a donde desee
+
+- Footer: Tiene algunos enlaces hacia las politicas de privacidad y el termino de condiciones
+
+## 4.3. Landing Page UI Design. 
+
+La interfaz de usuario es vital para que nuestros usuarios pueden navegar libremente por nuestra landing page. Buscamos tratar de guiar a nuestros usuarios de manera fluida ayudandoles a encontrar lo que buscan.
+
+### 4.3.1. Landing Page Wireframe. 
+
+<img src="imagenes/wireframe-landing.png" alt="landing wireframe">
+
+### 4.3.2. Landing Page Mock-up. 
+
+<img src="imagenes/mockup-landing.png" alt="mockup">
+
+## 4.4. Web Applications UX/UI Design. 
+### 4.4.1. Web Applications Wireframes.
+
+Estos wireframes muestra la sección del registro donde primero se pide que los usuarios escogan a que grupo pertenecen para posteriormente registrar sus datos y poder validar su cuenta por correo
+
+<img src="imagenes/wireframe-userRegister.png" alt="landing wireframe">
+
+<img src="imagenes/wireframe-normalUserRegister.png" alt="landing wireframe">
+
+<img src="imagenes/wireframe-nutricionistaRegister.png" alt="landing wireframe">
+
+<img src="imagenes/wireframe-login.png" alt="landing wireframe">
+
+Aqui se muestra la pantalla principal de los usuarios
+
+<img src="imagenes/wireframe-principalUser.png" alt="landing wireframe">
+
+En las siguientes secciones se puede agregar un plan o revisar el que ya generaste
+
+<img src="imagenes/wireframe-nuevoPlan.png" alt="landing wireframe">
+
+<img src="imagenes/wireframe-elaborarPlan.png" alt="landing wireframe">
+
+<img src="imagenes/wireframe-revisarPlan.png" alt="landing wireframe">
+
+En esta sección se puede ajustar tu perfil y agregar a un nutricionista
+
+<img src="imagenes/wireframe-miCuentaUsuario.png" alt="landing wireframe">
+
+### 4.4.2. Web Applications Wireflow Diagrams. 
+
+Los WireFlows son importantes ya que permiten visualizar el camino que podrian tomar nuestros usuarios para conseguir lo que necesitan
+
+<img src="imagenes/wireflow.png" alt="landing wireframe">
+
+Link de los wireframes: https://www.figma.com/design/rLbsWVnKmH4n2t5SeEmAi1/BiteWise?node-id=1-301&t=zegqYE4dnSC9NWNK-1
+
+### 4.4.2. Web Applications Mock-ups.
+
+En esta sección se muestran los mock-ups de BiteWise
+
+Primero esta el apartado del registro de los usuarios
+
+<img src="imagenes/mockup-userRegister.png" alt="mockup">
+
+<img src="imagenes/mockup-normalUserRegister.png" alt="mockup">
+
+<img src="imagenes/mockup-nutricionistaRegister.png" alt="mockup">
+
+<img src="imagenes/mockup-login.png" alt="mockup">
+
+
+En esta sección esta la pantalla principal donde se puede acceder a distintas secciones
+
+<img src="imagenes/mockup-principalUser.png" alt="mockup">
+
+Aqui se puede elaborar los planes alimenticios
+
+<img src="imagenes/mockup-elaborarPlan.png" alt="mockup">
+
+<img src="imagenes/mockup-revisarPlan.png" alt="mockup">
+
+En esta seccion se puede revisar los datos de la cuenta y registrar un nutricionista
+
+<img src="imagenes/mockup-miCuentaUsuario.png" alt="mockup">
+
+Link de los mock-ups: https://www.figma.com/design/rLbsWVnKmH4n2t5SeEmAi1/BiteWise?node-id=1-301&t=zegqYE4dnSC9NWNK-1
+
+### 4.4.3. Web Applications User Flow Diagrams. 
+
+La aplicación web pedirá que nos registremos en caso de no tener una cuenta. En caso de que tengamos podemos pasar al login.
+
+<img src="imagenes/wireflow-registro.PNG" alt="wireflow">
+
+En la pantalla principal podemos dirigirnos a distintas secciones como crear un plan, buscar recetas, configurar las preferencias entre otros.
+
+<img src="imagenes/wireflow-principal.PNG" alt="wireflow">
+
+## 4.5. Web Applications Prototyping. 
+
+<img src="imagenes/prototype.PNG" alt="prototype">
+
+Video del prototype: https://youtu.be/25lDz-SpG9I
+
+## 4.6. Domain-Driven Software Architecture. 
+
+La arquitectura de software de BiteWise iniciara desde a un análisis realizado mediante Big Picture Event Storming, la cual nos permitirá identificar los procesos más importantes del dominio, así como las interacciones entre los distintos actores involucrados, principalmente usuarios y nutricionistas.
+
+Sobre esta base, se procedió a estructurar el dominio aplicando los principios de Domain-Driven Design (DDD), con el objetivo de establecer una organización clara y una adecuada separación de contextos dentro del sistema.
+
+### 4.6.1. Design-Level Event Storming. 
+
+En este apartado se identificarán los dominios de nuestro negocio haciendo uso de la técnica Event Storming
+
+1. Bounded Context Authentication
+
+<img src="imagenes/bounded-authentication.PNG" alt="mockup">
+
+2. Bounded Context Profile
+
+<img src="imagenes/bounded-profile.PNG" alt="mockup">
+
+3. Bounded Context Plan
+
+<img src="imagenes/bounded-plan.PNG" alt="mockup">
+
+4. Bounded Context Recipe
+
+<img src="imagenes/bounded-recipe.PNG" alt="mockup">
+
+5. Bounded Context Comunication
+
+<img src="imagenes/bounded-comunication.PNG" alt="mockup">
+
+6. Bounded Context Premium
+
+<img src="imagenes/bounded-premium.PNG" alt="mockup">
+
+7. Bounded Context Payment
+
+<img src="imagenes/bounded-payment.PNG" alt="mockup">
+
+
+### 4.6.2. Software Architecture Context Diagram. 
+
+<img src="imagenes/context.PNG" alt="context">
+
+### 4.6.3. Software Architecture Container Diagrams. 
+
+<img src="imagenes/container.PNG" alt="container">
+
+### 4.6.4. Software Architecture Components Diagrams. 
+
+<img src="imagenes/component-autenticacion.PNG" alt="component">
+
+<img src="imagenes/component-comunicacion.PNG" alt="component">
+
+<img src="imagenes/component-pagos.PNG" alt="component">
+
+<img src="imagenes/component-perfiles.PNG" alt="component">
+
+<img src="imagenes/component-planes.PNG" alt="component">
+
+<img src="imagenes/component-premium.PNG" alt="component">
+
+<img src="imagenes/component-recetas.PNG" alt="component">
+
+
+## 4.7. Software Object-Oriented Design. 
+### 4.7.1. Class Diagrams. 
+## 4.8. Database Design. 
+### 4.8.1. Database Diagrams.
 
 
 ---
