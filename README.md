@@ -1180,7 +1180,35 @@ A continuación, se presentan capturas que evidencian el trabajo colaborativo de
 
 <img width="754" height="463" alt="Captura de pantalla 2026-04-23 a la(s) 6 39 52 p  m" src="https://github.com/user-attachments/assets/7e9b5c54-1365-4ca3-b0c5-6545bd8aba89" />
 
+---
+
 ## Conclusiones
+
+1. A partir del análisis realizado, se concluye que existe una problemática significativa en la personalización de planes alimenticios, ya que muchas soluciones actuales no consideran adecuadamente factores como condiciones médicas, preferencias culturales y contexto económico. Esto afecta directamente la adherencia de los usuarios a hábitos saludables, tal como se planteó en los *Problem Statements*.
+
+2. En relación con los *assumptions*, se identificó que tanto los usuarios finales como los profesionales de la salud requieren herramientas digitales más eficientes, intuitivas y adaptadas a sus necesidades. La propuesta de BiteWise responde a esta necesidad mediante la generación de planes personalizados y el seguimiento continuo del usuario.
+
+3. Respecto a las hipótesis planteadas, se concluye que la personalización, la posibilidad de editar planes, el uso de recordatorios y una experiencia de usuario sencilla tienen un alto potencial para mejorar el compromiso, la frecuencia de uso y la retención de los usuarios dentro de la plataforma.
+
+4. Asimismo, el modelo freemium se presenta como una estrategia viable para atraer usuarios iniciales y evaluar su conversión a servicios premium, aunque este aspecto deberá validarse con datos reales en futuras etapas del proyecto.
+
+5. Finalmente, se concluye que el equipo ha logrado establecer una base sólida del producto, definiendo correctamente los requerimientos, funcionalidades principales y un enfoque centrado en el usuario, alineado con la metodología Lean UX. No obstante, las hipótesis aún requieren validación mediante pruebas reales.
+
+**Recomendaciones**
+
+1. Se recomienda realizar validaciones con usuarios reales a través de prototipos o un MVP funcional, con el fin de comprobar las hipótesis planteadas y obtener retroalimentación directa.
+
+2. Es importante implementar métricas de seguimiento, como la tasa de retención, frecuencia de uso y nivel de personalización, para medir el desempeño de la plataforma y tomar decisiones basadas en datos.
+
+3. Se sugiere priorizar el desarrollo de las funcionalidades clave, como la generación de planes alimenticios personalizados, la edición de planes y la gestión de preferencias del usuario.
+
+4. Se recomienda incorporar mecanismos de feedback continuo que permitan mejorar la experiencia del usuario de manera iterativa.
+
+5. Asimismo, es importante evaluar la adopción de la plataforma por parte de profesionales de la salud, validando su utilidad en contextos reales.
+
+6. Finalmente, se recomienda mantener un enfoque iterativo y centrado en el usuario, mejorando constantemente la interfaz y funcionalidades para asegurar que el producto genere valor real y sostenible en el mercado.
+
+---
 
 ## Bibliografía
 
