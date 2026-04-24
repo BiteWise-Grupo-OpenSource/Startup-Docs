@@ -1321,6 +1321,7 @@ https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise?node-id=19-2&t=rFre
 
 Enlace del landing page: 
 https://bitewise-grupo-opensource.github.io/landing-page/
+
 ---
 
 #### 5.2.1. Sprint 1
