@@ -1,60 +1,14 @@
-4.1.2. Web Style Guidelines
-
-Las directrices de estilo web de nuestro proyecto priorizan la claridad, la accesibilidad y la coherencia visual. Buscamos que cada usuario disfrute de una experiencia intuitiva y agradable, alineada con los valores de la plataforma.
-
-1) Layout
-
-Grid adaptable: El contenido se organiza en una cuadrícula flexible que se ajusta a diferentes tamaños de pantalla, manteniendo siempre el orden y la legibilidad.
-
-Encabezado y pie de página: El header permanece visible para facilitar la navegación, mientras que el footer incluye enlaces útiles y datos de contacto.
-
-Tarjetas: Utilizamos tarjetas con esquinas suaves y sombras ligeras para destacar información clave y mejorar la jerarquía visual.
-
-2) Responsive Design
-
-Desktop: La navegación principal y las acciones importantes están siempre accesibles. El contenido se distribuye en varias columnas para aprovechar el espacio.
-
-Tablet: El menú se simplifica y los elementos se reorganizan en dos columnas. Los botones y campos se agrandan para facilitar la interacción táctil.
-
-Mobile: Todo el contenido se adapta a una sola columna, con menús desplegables y botones grandes para una experiencia óptima en dispositivos móviles.
-
-3) Interaction Design
-
-Botones: Los botones son visibles y responden con animaciones suaves al interactuar, facilitando la comprensión de su función.
-
-Formularios: Los formularios son breves y claros, con campos bien separados para evitar errores y mejorar la usabilidad.
-
-4) Images and Icons
-
-Imágenes: Se emplean imágenes optimizadas que transmiten confianza y cercanía, reforzando el mensaje de la plataforma.
-
-Íconos: Los íconos son simples y consistentes, ayudando a identificar rápidamente funciones y secciones.
-
-5) Organización de Recursos
-
-Estructura: Los archivos de estilos se encuentran en assets/styles, los scripts en assets/js y los recursos gráficos en assets/img. Esta organización facilita el mantenimiento y la colaboración.
-
-Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que todos los miembros trabajen sobre la última versión del proyecto.
-
-
-
-
-Solución digital que permita a las personas generar planes de alimentación personalizados según sus preferencias, objetivos de salud y necesidades nutricionales específicas.
-
-La herramienta busca facilitar decisiones alimenticias informadas mediante una experiencia simple, accesible y eficiente, adaptándose a distintos perfiles, incluyendo restricciones dietarias y metas individuales.
-
-El objetivo es mejorar el bienestar de los usuarios a través de una planificación nutricional precisa y fácil de implementar en su día a día.
-
-
 # Capítulo IV: Product Design 
 
 ## 4.1. Style Guidelines. 
 
 ### 4.1.1. General Style Guidelines. 
 
-**Logo**
-
 **Branding**
+
+El logo de nuestra plataforma, el cual representa comida saludable y una buena dieta a traves del color verde. Se busca que el usuario capte que queremos ayudarlo brindandole apoyo con planes alimenticios semanales
+
+<img src="img/logo.png" alt="logo" width = 200>
 
 **Typography**
 
@@ -66,6 +20,8 @@ Roboto (Bold / Semibold)
 
 Poppins (Regular / Medium / Semibold / Bold)
  Empleado en subtítulos, párrafos, botones, etiquetas, campos de entrada y notificaciones del sistema. Su diseño geométrico y amigable refuerza el carácter acogedor de la marca.
+
+<img src="img/typography.PNG" alt="typhography">
 
 **Colors**
 
@@ -83,6 +39,8 @@ Paleta de Soporte: Colores auxiliares que aportan equilibrio y variedad.
 
 Morado intenso: Para resaltar algun boton.
 Azul Claro: Para enlaces y elementos de navegación.
+
+<img src="img/typography.PNG" alt="typhography">
 
 **Spacing**
 
@@ -153,9 +111,9 @@ Control de versiones: Se utiliza Git para gestionar los cambios y asegurar que t
 
 ## 4.2. Information Architecture. 
 
-### 4.2.1. Organization Systems. 
+La arquitectura de BiteWise fue diseñada para facilitar la búsqueda de informacion que necesiten nuestros usuarios de forma intuitiva y sin ser invasiva.
 
-La arquitectura de nuestro proyecto fue construida para facilitar la busqueda de informacion que necesiten nuestros usuarios.
+### 4.2.1. Organization Systems. 
 
 **Jerarquia**
 
@@ -208,8 +166,6 @@ La interfaz de usuario es vital para que nuestros usuarios pueden navegar librem
 
 <img src="img/wireframe-landing.png" alt="landing wireframe">
 
-
-
 ### 4.3.2. Landing Page Mock-up. 
 
 <img src="img/mockup-landing.png" alt="mockup">
@@ -217,33 +173,86 @@ La interfaz de usuario es vital para que nuestros usuarios pueden navegar librem
 ## 4.4. Web Applications UX/UI Design. 
 ### 4.4.1. Web Applications Wireframes.
 
+Estos wireframes muestra la sección del registro donde primero se pide que los usuarios escogan a que grupo pertenecen para posteriormente registrar sus datos y poder validar su cuenta por correo
+
 <img src="img/wireframe-userRegister.png" alt="landing wireframe">
+
+<img src="img/wireframe-normalUserRegister.png" alt="landing wireframe">
+
+<img src="img/wireframe-nutricionistaRegister.png" alt="landing wireframe">
 
 <img src="img/wireframe-login.png" alt="landing wireframe">
 
+Aqui se muestra la pantalla principal de los usuarios
+
 <img src="img/wireframe-principalUser.png" alt="landing wireframe">
+
+En las siguientes secciones se puede agregar un plan o revisar el que ya generaste
+
+<img src="img/wireframe-nuevoPlan.png" alt="landing wireframe">
 
 <img src="img/wireframe-elaborarPlan.png" alt="landing wireframe">
 
 <img src="img/wireframe-revisarPlan.png" alt="landing wireframe">
 
+En esta sección se puede ajustar tu perfil y agregar a un nutricionista
+
+<img src="img/wireframe-miCuentaUsuario.png" alt="landing wireframe">
+
 ### 4.4.2. Web Applications Wireflow Diagrams. 
+
+Los WireFlows son importantes ya que permiten visualizar el camino que podrian tomar nuestros usuarios para conseguir lo que necesitan
 
 <img src="img/wireflow.png" alt="landing wireframe">
 
-### 4.4.2. Web Applications Mock-ups. 
+Link de los wireframes: https://www.figma.com/design/rLbsWVnKmH4n2t5SeEmAi1/BiteWise?node-id=1-301&t=zegqYE4dnSC9NWNK-1
+
+### 4.4.2. Web Applications Mock-ups.
+
+En esta sección se muestran los mock-ups de BiteWise
+
+Primero esta el apartado del registro de los usuarios
 
 <img src="img/mockup-userRegister.png" alt="mockup">
 
+<img src="img/mockup-normalUserRegister.png" alt="mockup">
+
+<img src="img/mockup-nutricionistaRegister.png" alt="mockup">
+
+<img src="img/mockup-login.png" alt="mockup">
+
+
+En esta sección esta la pantalla principal donde se puede acceder a distintas secciones
+
 <img src="img/mockup-principalUser.png" alt="mockup">
+
+Aqui se puede elaborar los planes alimenticios
 
 <img src="img/mockup-elaborarPlan.png" alt="mockup">
 
 <img src="img/mockup-revisarPlan.png" alt="mockup">
 
+En esta seccion se puede revisar los datos de la cuenta y registrar un nutricionista
+
+<img src="img/mockup-miCuentaUsuario.png" alt="mockup">
+
+Link de los mock-ups: https://www.figma.com/design/rLbsWVnKmH4n2t5SeEmAi1/BiteWise?node-id=1-301&t=zegqYE4dnSC9NWNK-1
+
 ### 4.4.3. Web Applications User Flow Diagrams. 
+
+La aplicación web pedirá que nos registremos en caso de no tener una cuenta. En caso de que tengamos podemos pasar al login.
+
+<img src="img/wireflow-registro.PNG" alt="wireflow">
+
+En la pantalla principal podemos dirigirnos a distintas secciones como crear un plan, buscar recetas, configurar las preferencias entre otros.
+
+<img src="img/wireflow-principal.PNG" alt="wireflow">
+
 ## 4.5. Web Applications Prototyping. 
 
+<img src="img/prototype.PNG" alt="prototype">
+
+Video del prototype: https://youtu.be/25lDz-SpG9I
 
 ## 4.6. Domain-Driven Software Architecture. 
 
