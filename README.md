@@ -1318,6 +1318,9 @@ La estructura de la landing page incluye secciones clave como la presentación d
 
 Enlace de figma: 
 https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise?node-id=19-2&t=rFreWqpYCcgbEzMi-1 
+
+Enlace del landing page: 
+https://bitewise-grupo-opensource.github.io/landing-page/
 ---
 
 #### 5.2.1. Sprint 1
