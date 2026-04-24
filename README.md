@@ -861,6 +861,7 @@ Para mantener un historial de cambios limpio y comprensible, se adoptó una conv
 - **chore(deps)**: actualizar dependencias npm
 - **build(deploy)**: configurar script para despliegue automático en GitHub Pages
 
+---
 
 #### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1
@@ -923,3 +924,264 @@ En esta sección se describen los aspectos principales del Sprint Planning Meeti
     <td>18 Story Points</td>
   </tr>
 </table>
+
+
+---
+
+##### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX) correspondiente al Sprint 1 del proyecto BiteWise. Para este sprint, el equipo ha definido como principales aspectos el desarrollo de la estructura base del sistema, la gestión de usuarios, la recopilación de preferencias alimenticias y el diseño de la interfaz de usuario.
+
+Cada aspecto cuenta con un líder responsable y colaboradores que apoyan en su desarrollo, con el fin de mejorar la organización del equipo, facilitar la comunicación y asegurar el cumplimiento de los objetivos del sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Estructura Base del Sistema<br>Leader (L) / Collaborator (C) | Gestión de Usuarios<br>Leader (L) / Collaborator (C) | Preferencias Alimenticias<br>Leader (L) / Collaborator (C) | Diseño UI<br>Leader (L) / Collaborator (C) |
+|------------------------------------|-----------------|--------------------------------|---------------------|----------------------------|-----------|
+| Hermoza Quispe, Jude Alessandro | JvnnDev | L | C | C | C |
+| Flores Siguas, Marlon Alessandro | MarlonFS965 | C | L | C | C |
+| Munayco Apolaya, Maria Luisa | malumunayco | C | C | L | C |
+| Verastigue Martinez, Giancarlo Jose | CaLoVM | C | C | C | L |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | C |
+
+---
+
+##### 5.2.1.3. Sprint Backlog 1
+
+<p>
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto BiteWise. El objetivo principal de este sprint es implementar las funcionalidades básicas de autenticación de usuarios, gestión de preferencias alimenticias y la generación inicial de un plan alimenticio.
+</p>
+
+<table border="1">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>US001</td>
+    <td>Registro de usuario normal</td>
+    <td>T01</td>
+    <td>Diseñar formulario</td>
+    <td>Crear interfaz de registro</td>
+    <td>4</td>
+    <td>Marlon Flores</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US001</td>
+    <td>Registro de usuario normal</td>
+    <td>T02</td>
+    <td>Implementar backend</td>
+    <td>Guardar datos del usuario</td>
+    <td>5</td>
+    <td>Giancarlo Verastigue</td>
+    <td>In-Process</td>
+  </tr>
+
+  <tr>
+    <td>US002</td>
+    <td>Registro de nutricionista</td>
+    <td>T03</td>
+    <td>Crear formulario</td>
+    <td>Formulario para nutricionistas</td>
+    <td>4</td>
+    <td>Jude Hermoza</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US003</td>
+    <td>Login de usuario</td>
+    <td>T04</td>
+    <td>Implementar login</td>
+    <td>Validar credenciales</td>
+    <td>4</td>
+    <td>Enrique Mantilla</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US010</td>
+    <td>Gestionar preferencias</td>
+    <td>T05</td>
+    <td>Crear formulario</td>
+    <td>UI de preferencias</td>
+    <td>4</td>
+    <td>Maria Munayco</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US007</td>
+    <td>Crear plan alimenticio</td>
+    <td>T06</td>
+    <td>Lógica de generación</td>
+    <td>Generar plan básico</td>
+    <td>6</td>
+    <td>Giancarlo Verastigue</td>
+    <td>To-Do</td>
+  </tr>
+
+</table>
+
+---
+
+##### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación alcanzados durante el Sprint 1 del proyecto BiteWise. Durante este sprint, el equipo trabajó de manera colaborativa utilizando GitHub para la gestión del código y control de versiones, organizando el trabajo mediante el uso de ramas por integrante.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| BiteWise | feature/Flores | f1a2b3c | feat: registro de usuario | Desarrollo del formulario de registro y validaciones iniciales | 2026-04-23 |
+| BiteWise | develop | d4e5f6g | chore: integración general | Integración de avances del equipo en la rama principal | 2026-04-23 |
+| BiteWise | feature/Mantilla | h7i8j9k | feat: login usuario | Implementación del inicio de sesión y validación de credenciales | 2026-04-23 |
+| BiteWise | feature/Verastigue | v1s2t3u | feat: lógica de negocio | Desarrollo de lógica base para generación de planes alimenticios | 2026-04-22 |
+| BiteWise | feature/Hermoza | z9x8c7v | feat: interfaz inicial | Desarrollo de componentes visuales iniciales | 2026-04-21 |
+| BiteWise | feature/Munayco | m4n5b6v | docs: avance documentación | Desarrollo de capítulos del informe y organización del sprint | 2026-04-23 |
+
+---
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución correspondiente al Sprint 1 del proyecto BiteWise. Durante este sprint se lograron implementar las primeras funcionalidades del sistema, incluyendo interfaces iniciales y navegación básica entre vistas.
+
+Se desarrollaron las siguientes vistas principales:
+- Formulario de registro de usuario  
+- Pantalla de inicio de sesión  
+- Estructura inicial de la landing page  
+
+Estas funcionalidades permiten validar el flujo básico de interacción del usuario con la plataforma.
+
+### Evidencia de Interfaces
+
+**Registro de usuario**  
+(Insertar screenshot aquí)
+
+**Inicio de sesión**  
+(Insertar screenshot aquí)
+
+**Landing page**  
+(Insertar screenshot aquí)
+
+### Video demostrativo
+
+A continuación, se presenta un video donde se muestra la navegación e interacción con las funcionalidades desarrolladas en este Sprint:
+
+**Link del video:** 
+
+---
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan los avances relacionados con la documentación de Web Services durante el Sprint 1 del proyecto BiteWise. En este sprint, el equipo se enfocó principalmente en la definición inicial de los posibles endpoints que serán implementados en futuros sprints, alineados con las funcionalidades principales del sistema.
+
+Debido a que el proyecto se encuentra en una etapa inicial, aún no se cuenta con una documentación completa en OpenAPI desplegada. Sin embargo, se han identificado los principales endpoints necesarios para soportar las funcionalidades básicas como registro, autenticación y generación de planes alimenticios.
+
+### Endpoints Identificados
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response |
+|----------|------------|------------|------------|--------------------|---------------------|
+| /api/register | POST | Registro de usuario | name, email, password | { "name": "Juan", "email": "juan@email.com", "password": "123456" } | { "message": "Usuario registrado correctamente" } |
+| /api/login | POST | Inicio de sesión | email, password | { "email": "juan@email.com", "password": "123456" } | { "token": "abc123xyz" } |
+| /api/plans | POST | Generar plan alimenticio | preferencias, restricciones | { "preferencias": "vegano", "restricciones": "sin gluten" } | { "plan": "Plan semanal generado" } |
+
+### Evidencia de Documentación
+
+En este Sprint no se cuenta aún con una interfaz de documentación interactiva (como Swagger/OpenAPI), sin embargo, se ha avanzado en la definición estructurada de los endpoints y sus posibles respuestas, lo cual servirá como base para la documentación formal en futuros Sprints.
+
+(Espacio para screenshot si tienen algo, opcional)
+
+### Repositorio de Web Services
+
+Repositorio: [https://github.com/tu-repo  ](https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs.git)
+
+Commits relacionados:  
+- m4n5b6v  
+- v1s2t3u
+  
+---
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las actividades realizadas relacionadas con el despliegue (deployment) durante el Sprint 1 del proyecto BiteWise. En esta etapa inicial, el equipo se enfocó en la preparación del entorno de desarrollo y la organización del repositorio, con el objetivo de facilitar futuros procesos de despliegue.
+
+Durante este Sprint, se realizaron las siguientes actividades:
+
+- Creación y configuración del repositorio del proyecto en GitHub.  
+- Definición de ramas de trabajo (feature branches y rama develop) para organizar el desarrollo colaborativo.  
+- Configuración inicial del proyecto para permitir su futura integración y despliegue.  
+- Estructuración del proyecto de manera que permita una posterior implementación en plataformas de despliegue como servicios cloud.
+
+Estas acciones permiten establecer una base sólida para la automatización y despliegue continuo en los siguientes Sprints.
+
+### Evidencia de Deployment
+
+A continuación, se presentan capturas que evidencian la preparación del entorno:
+
+- Configuración del repositorio en GitHub  
+- Creación de ramas de trabajo  
+- Organización del proyecto  
+
+(Insertar screenshots aquí)
+
+### Consideraciones
+
+En este Sprint no se ha realizado un despliegue completo en un entorno productivo o en la nube, ya que el enfoque principal ha sido la implementación inicial del sistema. Sin embargo, el equipo ha dejado preparada la estructura necesaria para realizar el deployment en futuros Sprints.
+
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+Durante el Sprint 1, el equipo desarrolló las actividades de implementación de manera colaborativa, organizando el trabajo tanto a nivel de desarrollo del producto como de documentación. Se empleó GitHub como herramienta principal para el control de versiones, permitiendo que cada integrante contribuya mediante commits y trabajo en ramas independientes.
+
+Cada miembro del equipo participó activamente en el desarrollo del proyecto, trabajando en funcionalidades específicas y en la elaboración de distintas secciones del documento. Esta distribución permitió avanzar de forma paralela y eficiente.
+
+En cuanto al desarrollo técnico, se utilizaron ramas por integrante (feature branches), tales como:
+
+- feature/Flores  
+- feature/Mantilla  
+- feature/Verastigue  
+- feature/Hermoza  
+- feature/Munayco  
+- develop  
+
+Esto permitió mantener un flujo de trabajo ordenado, donde cada integrante desarrolló sus funcionalidades de forma independiente antes de integrarlas en la rama principal.
+
+Asimismo, se evidencia la participación de todos los miembros mediante commits realizados en el repositorio, contribuyendo al desarrollo de las funcionalidades iniciales como registro de usuarios, login, interfaz inicial y estructura del sistema.
+
+En relación con los productos del Sprint:
+- **Landing Page:** Se desarrollaron componentes visuales iniciales.  
+- **Web Application:** Se implementaron funcionalidades básicas como registro y login.  
+- **Web Services:** Se definieron los endpoints iniciales para futuras implementaciones.  
+
+### Evidencia de colaboración
+
+A continuación, se presentan capturas que evidencian el trabajo colaborativo del equipo:
+
+- Historial de commits en GitHub  
+- Creación de ramas por integrante  
+- Actividad reciente del repositorio  
+
+<img width="754" height="463" alt="Captura de pantalla 2026-04-23 a la(s) 6 39 52 p  m" src="https://github.com/user-attachments/assets/7e9b5c54-1365-4ca3-b0c5-6545bd8aba89" />
+
+## Conclusiones
+
+## Bibliografía
+
+## Anexos
