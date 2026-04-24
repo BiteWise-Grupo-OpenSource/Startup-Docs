@@ -228,6 +228,9 @@ La interfaz de usuario es vital para que nuestros usuarios pueden navegar librem
 <img src="img/wireframe-revisarPlan.png" alt="landing wireframe">
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
+
+<img src="img/wireflow.png" alt="landing wireframe">
+
 ### 4.4.2. Web Applications Mock-ups. 
 
 <img src="img/mockup-userRegister.png" alt="mockup">
@@ -240,9 +243,42 @@ La interfaz de usuario es vital para que nuestros usuarios pueden navegar librem
 
 ### 4.4.3. Web Applications User Flow Diagrams. 
 ## 4.5. Web Applications Prototyping. 
+
+
 ## 4.6. Domain-Driven Software Architecture. 
+
+La arquitectura de software de BiteWise iniciara desde a un análisis realizado mediante Big Picture Event Storming, la cual nos permitirá identificar los procesos más importantes del dominio, así como las interacciones entre los distintos actores involucrados, principalmente usuarios y nutricionistas.
+
+Sobre esta base, se procedió a estructurar el dominio aplicando los principios de Domain-Driven Design (DDD), con el objetivo de establecer una organización clara y una adecuada separación de contextos dentro del sistema.
+
 ### 4.6.1. Design-Level Event Storming. 
+
+En este apartado se identificarán los dominios de nuestro negocio haciendo uso de la técnica Event Storming
+
+1. Bounded Context Authentication
+
+<img src="img/bounded-authentication.PNG" alt="mockup">
+
+2. Bounded Context Profile
+
+<img src="img/bounded-profile.PNG" alt="mockup">
+
+3. Bounded Context Plan
+
+<img src="img/bounded-plan.PNG" alt="mockup">
+
+4. Bounded Context Recipe
+
+<img src="img/bounded-recipe.PNG" alt="mockup">
+
+5. Bounded Context Comunication
+
+<img src="img/bounded-comunication.PNG" alt="mockup">
+
 ### 4.6.2. Software Architecture Context Diagram. 
+
+
+
 ### 4.6.3. Software Architecture Container Diagrams. 
 ### 4.6.4. Software Architecture Components Diagrams. 
 ## 4.7. Software Object-Oriented Design. 
