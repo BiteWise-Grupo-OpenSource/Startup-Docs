@@ -275,12 +275,40 @@ En este apartado se identificarán los dominios de nuestro negocio haciendo uso 
 
 <img src="img/bounded-comunication.PNG" alt="mockup">
 
+6. Bounded Context Premium
+
+<img src="img/bounded-premium.PNG" alt="mockup">
+
+7. Bounded Context Payment
+
+<img src="img/bounded-payment.PNG" alt="mockup">
+
+
 ### 4.6.2. Software Architecture Context Diagram. 
 
-
+<img src="img/context.PNG" alt="context">
 
 ### 4.6.3. Software Architecture Container Diagrams. 
+
+<img src="img/container.PNG" alt="container">
+
 ### 4.6.4. Software Architecture Components Diagrams. 
+
+<img src="img/component-autenticacion.PNG" alt="component">
+
+<img src="img/component-comunicacion.PNG" alt="component">
+
+<img src="img/component-pagos.PNG" alt="component">
+
+<img src="img/component-perfiles.PNG" alt="component">
+
+<img src="img/component-planes.PNG" alt="component">
+
+<img src="img/component-premium.PNG" alt="component">
+
+<img src="img/component-recetas.PNG" alt="component">
+
+
 ## 4.7. Software Object-Oriented Design. 
 ### 4.7.1. Class Diagrams. 
 ## 4.8. Database Design. 
