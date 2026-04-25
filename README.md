@@ -1406,7 +1406,7 @@ Finalmente, se garantizaron aspectos de seguridad y accesibilidad mediante el us
 
 3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
 
-4. Landinpage
+4. Landingpage
 
 <img src="imagenes/landing-page.png" alt="LandingPage">
 
