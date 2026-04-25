@@ -1147,7 +1147,7 @@ En este apartado se identificarán los dominios de nuestro negocio haciendo uso 
 ## 4.7. Software Object-Oriented Design. 
 ### 4.7.1. Class Diagrams. 
 <p align="center">
-  <img src="./imagenes/class-diagram.jpeg" alt="Visual Paradigm Logo" width="250">
+  <img src="./imagenes/class-diagram.jpeg" alt="class diagram">
 </p>
 
 ## 4.8. Database Design. 
@@ -1156,7 +1156,7 @@ En este apartado se identificarán los dominios de nuestro negocio haciendo uso 
 ### 4.8.1. Database Diagrams.
 
 <p align="center">
-  <img src="./imagenes/DiagramDB.png" alt="Visual Paradigm Logo" width="250">
+  <img src="./imagenes/DiagramDB.png" alt="db diagram">
 </p>
 
 ---
