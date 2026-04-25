@@ -1153,6 +1153,7 @@ En este apartado se identificarán los dominios de nuestro negocio haciendo uso 
 
 <img src="imagenes/component-recetas.PNG" alt="component">
 
+struturizer link: https://structurizr.com/share/92284/108fbc2f-9fc2-4503-9bbe-3c6da86a5770
 
 ## 4.7. Software Object-Oriented Design. 
 ### 4.7.1. Class Diagrams. 
