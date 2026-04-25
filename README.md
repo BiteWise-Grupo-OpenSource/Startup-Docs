@@ -972,9 +972,19 @@ El head usará las etiquetas title y meta, los cuales facilitará entender que h
 
 ### 4.2.4. Searching Systems.
 
-- Barra de Búsqueda: En algunas secciones es importante la barra de busqueda, como ejemplo sería buscar recetas o noticias
+Para evitar que los usuarios se pierdan entre el volumen de contenido, *BiteWise* ofrece múltiples sistemas de búsqueda adaptados a cada contexto:
 
-- Filtros: Existen filtros para mostrar lo que le interesa al usuario ya sea información actual, favoritos o populares
+| **Nombre del Filtro**       | **Descripción** |
+|-----------------------------|-----------------|
+| Buscar alimentos            | Herramienta para encontrar alimentos individuales por nombre o categoría (frutas, carnes, lácteos, etc.) y agregarlos al registro de comidas. |
+| Buscar recetas guardadas    | Permite al usuario buscar entre sus recetas personalizadas por nombre del platillo o ingredientes utilizados previamente. |
+| Buscar por ingredientes     | Posibilidad de escribir uno o varios ingredientes para encontrar recetas que los contengan. |
+| Buscar por tipo de comida   | Filtra recetas o alimentos según la categoría del día: desayuno, almuerzo, cena, snack o postre. |
+| Buscar por historial        | Acceso rápido a alimentos y recetas registradas recientemente por el usuario, para reutilizarlas fácilmente. |
+| Sugerencias inteligentes    | Muestra recomendaciones de recetas o combinaciones de alimentos con base en los patrones previos del usuario y sus metas nutricionales. |
+| Filtros de porciones        | Permite visualizar únicamente aquellas recetas o registros que se ajustan a un rango calórico o cantidad de porciones específicas. |
+| Buscar en diario            | Herramienta para buscar registros pasados por fecha o tipo de comida dentro del diario alimenticio. |
+| Buscar por etiquetas        | Posibilidad de clasificar y encontrar recetas personalizadas con etiquetas como "bajo en calorías", "alto en proteína", "vegetariano", etc. |
 
 ### 4.2.5. Navigation Systems. 
 
@@ -1207,19 +1217,15 @@ Para el proceso de creación y programación del software, utilizamos las siguie
   <img src="./imagenes/lucidchart-logo.png" alt="ludidchart Logo" width="250">
 </p>
 
-- **Visual Paradigm** Programa para crear diagramas de contexto, de contenedores y la identificación de los Bounded Contexts del proyecto.
-
-<p align="center">
-  <img src="./imagenes/visual-paradigm.png" alt="Visual Paradigm Logo" width="250">
-</p>
 
 #### 5.1.2. Source Code Management
 El proyecto utiliza Git como sistema de control de versiones distribuido. Para asegurar una gestión eficiente del código fuente, se aplicó la estrategia de ramas conocida como Git Flow, que facilita la colaboración entre desarrolladores, la integración de nuevas funcionalidades y el mantenimiento del código en producción.
 
 | Producto              | Repositorio            | URL                                                                 |
 |-----------------------|------------------------|----------------------------------------------------------------------|
-| Landing Page          | landing-page    |[https:](https:) 
-| Repositorio de Github          | github    |[https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs](https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs)                                           
+| Repositorio de Informe          | github    |[https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs](https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs)   
+| Landing Page          | github    |[https://github.com/BiteWise-Grupo-OpenSource/landing-page.git](https://github.com/BiteWise-Grupo-OpenSource/landing-page.git) 
+                                        
 
 
 **Implementación de Git Flow**
@@ -1276,17 +1282,101 @@ Para mantener un historial de cambios limpio y comprensible, se adoptó una conv
   
 #### 5.1.3. Source Code Style Guide & Conventions
 
-En continuidad con el uso de herramientas como WebStorm, IntelliJ IDEA y la gestión del código mediante GitHub, se establecieron convenciones de codificación con el objetivo de garantizar un código limpio, consistente y mantenible durante el desarrollo del sistema BiteWise.
+Este apartado establece las guías y convenciones adoptadas para el desarrollo de la solución, con el objetivo de asegurar un código consistente, legible, mantenible y alineado con las buenas prácticas de la industria del software. Se aplicarán convenciones estándar ampliamente reconocidas para cada uno de los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript, TypeScript y Java.
 
-Dado que el proyecto fue desarrollado utilizando Angular y TypeScript para el frontend, y Java con Spring Boot para el backend, se definieron lineamientos específicos para cada entorno, manteniendo coherencia en toda la arquitectura del sistema.
+Todas las nomenclaturas, identificadores y estructuras utilizadas en el código estarán escritas en inglés.
 
-Se priorizó la legibilidad del código, evitando complejidad innecesaria y aplicando el principio de separación de responsabilidades. Asimismo, se mantuvo una estructura modular del sistema, facilitando su escalabilidad y mantenimiento.
+#### Referencias adoptadas
 
-En el frontend, se adoptaron convenciones como el uso de camelCase para variables y funciones, PascalCase para clases y componentes, y nombres de archivos en minúsculas separados por guiones. Se implementó una arquitectura basada en componentes reutilizables, con servicios encargados de la lógica de negocio y el consumo de APIs. Además, se utilizó tipado explícito e interfaces para definir estructuras de datos, aprovechando las capacidades de TypeScript y las herramientas de inspección de código de WebStorm.
+Las siguientes guías y convenciones servirán como referencia principal durante el desarrollo:
 
-En el backend, se aplicaron convenciones similares en la nomenclatura, utilizando PascalCase para clases y camelCase para métodos. Se trabajó con una arquitectura en capas (Controller, Service y Repository), incorporando el uso de DTOs para la transferencia de datos. También se aplicaron principios SOLID y un manejo centralizado de excepciones, apoyándose en las funcionalidades de IntelliJ IDEA para mantener un código organizado y robusto.
+- [Angular Style Guide (oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- [HTML Style Guide and Coding Conventions - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 
-Finalmente, en concordancia con la estrategia Git Flow definida previamente, el desarrollo se realizó en ramas feature/*, integrando progresivamente los cambios en la rama develop y asegurando que el código cumpla con los estándares establecidos antes de su integración.
+#### Organización del código
+
+El proyecto se estructurará en función de responsabilidades y funcionalidades, separando componentes, servicios, modelos, vistas, rutas y configuraciones. Esta organización facilita la escalabilidad del sistema y promueve la reutilización de código, manteniendo una separación clara de responsabilidades (*Separation of Concerns*).
+
+#### Convenciones de nomenclatura
+
+| Elemento                      | Convención Adoptada                        | Ejemplo                          |
+|------------------------------|--------------------------------------------|----------------------------------|
+| Componentes de Angular       | PascalCase + sufijo `Component`            | `UserProfileComponent`           |
+| Servicios de Angular         | PascalCase + sufijo `Service`              | `AuthService`                    |
+| Interfaces (TypeScript)      | PascalCase                                 | `User`, `CourseDetails`          |
+| Archivos TS/HTML/CSS         | kebab-case con sufijos correspondientes    | `user-profile.component.ts`      |
+| Variables / funciones (TS)   | camelCase                                  | `getUserData()`                  |
+| Constantes (TS)              | UPPER_SNAKE_CASE                           | `MAX_LOGIN_ATTEMPTS`             |
+| Clases (Java)                | PascalCase                                 | `UserController`                 |
+| Métodos y variables (Java)   | camelCase                                  | `getUserById()`                  |
+| Paquetes Java                | lowercase con puntos                       | `com.example.project.module`     |
+
+#### Convenciones por lenguaje
+
+###### TypeScript
+
+- Tipado estricto y explícito en todas las declaraciones.
+- Uso obligatorio de `let` y `const`; se evita `var`.
+- No se permite lógica compleja en componentes; esta debe delegarse a servicios.
+- Importaciones organizadas en el siguiente orden: Angular, librerías de terceros, módulos internos.
+- Se evita el uso del prefijo `I` para interfaces.
+
+###### JavaScript
+
+- Se sigue el estándar definido por ESLint y Prettier.
+- Uso de funciones puras y modularidad.
+- Variables y funciones nombradas en camelCase.
+- Promoción del uso de `const` y `let`.
+
+###### HTML
+
+- Todas las etiquetas y atributos deben escribirse en minúsculas.
+- Se emplea indentación de 2 espacios por nivel.
+- Los atributos deben estar entre comillas dobles.
+- Se favorece la semántica y accesibilidad del contenido, siguiendo las pautas del estándar HTML5.
+
+###### CSS / SCSS
+
+- Se utiliza la metodología BEM (Block Element Modifier) para la definición de clases.
+
+```css
+.button {}
+.button--primary {}
+.button__icon {}
+```
+
+- Estructura modular de estilos, agrupados por componente.
+
+- Uso de variables SCSS para colores, fuentes y tamaños.
+
+- Están prohibidos los estilos en línea y el uso indiscriminado de !important.
+
+###### JAVA
+- Organización por capas: controller, service, repository, model, etc.
+
+- Uso de anotaciones estándar como `@RestController`, `@Service`, `@Repository`.
+
+- Documentación con Javadoc en clases y métodos públicos.
+
+- Acceso a atributos mediante métodos getter y setter.
+
+- Se sigue el https://google.github.io/styleguide/javaguide.html
+
+##### Internacionalización
+
+Se utiliza el paquete `@ngx-translate/core` para la internacionalización de la interfaz.
+
+Toda cadena visible al usuario se encuentra externalizada en archivos JSON, organizados por idioma.
+
+Las claves de traducción están en mayúsculas y separadas por puntos para reflejar su estructura jerárquica.
+
+```css
+<h1>{{ 'LOGIN.TITLE' | translate }}</h1>
+```
 
 ---
 
@@ -1308,13 +1398,16 @@ Finalmente, se garantizaron aspectos de seguridad y accesibilidad mediante el us
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
-En esta sección se describe la implementación de la landing page y los componentes iniciales del sistema BiteWise, desarrollados durante el primer sprint del proyecto.
+*Creación de landingpage:*
+1. Se crea un repositorio remoto en GitHub
 
-La landing page fue concebida como el primer punto de contacto con el usuario, teniendo como objetivo comunicar de manera clara la propuesta de valor del sistema y captar el interés de potenciales usuarios. Para ello, se diseñó una interfaz limpia, moderna y centrada en el usuario, basada en los prototipos desarrollados en Figma.
+2. Agregar a participantes
 
-La implementación se realizó utilizando Angular y TypeScript, siguiendo una arquitectura basada en componentes que facilita la reutilización, escalabilidad y mantenimiento del sistema. Asimismo, se aplicaron principios de diseño responsive para asegurar su correcta visualización en distintos dispositivos.
+3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
 
-La estructura de la landing page incluye secciones clave como la presentación del producto, la exposición del problema, la solución propuesta por BiteWise, los beneficios del sistema y la explicación de su funcionamiento, permitiendo una comunicación clara y efectiva.
+4. Landinpage
+
+<img src="imagenes/landing-page.png" alt="LandingPage">
 
 Enlace de figma: 
 https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise?node-id=19-2&t=rFreWqpYCcgbEzMi-1 
