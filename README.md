@@ -751,39 +751,195 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 ## 3.1 User Stories
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-| --- | --- | --- | --- | --- |
-| EP001 / US001 | Registro de usuario normal | Como usuario, quiero registrarme como usuario normal proporcionando datos básicos y correo para acceder a la plataforma. | Escenario 1: Registro exitoso<br>Dado que el usuario ingresa datos válidos,<br>Cuando se registra,<br>Entonces se crea la cuenta y accede a la plataforma.<br><br>Escenario 2: Error de registro<br>Dado que los datos son inválidos,<br>Cuando se intenta registrar,<br>Entonces se muestra un mensaje de error. | EP001 |
-| EP001 / US002 | Registro de nutricionista | Como nutricionista, quiero registrarme como nutricionista para acceder a funcionalidades especializadas. | Escenario 1: Registro exitoso<br>Dado que el visitante selecciona "nutricionista" e ingresa datos válidos,<br>Cuando se registra,<br>Entonces accede a su panel de nutricionista. | EP001 |
-| EP001 / US003 | Login de usuario | Como usuario, quiero iniciar sesión con las credenciales que registré previamente. | Escenario 1: Login exitoso<br>Dado que el usuario selecciona su tipo e ingresa credenciales válidas,<br>Cuando inicia sesión,<br>Entonces accede a su panel principal.<br><br>Escenario 2: Error de login<br>Dado que los datos son incorrectos,<br>Cuando intenta acceder,<br>Entonces se muestra un mensaje de error. | EP001 |
-| EP001 / US004 | Cerrar sesión | Como usuario, quiero cerrar sesión de forma segura en cualquier momento. | Escenario 1: Logout exitoso<br>Dado que el usuario está autenticado,<br>Cuando selecciona cerrar sesión,<br>Entonces sale de la plataforma. | EP001 |
-| EP002 / US005 | Landing page testimonios | Como usuario, quiero ver una landing page que muestre los testimonios de sus usuarios para saber si es una plataforma util y confiable. | Escenario 1: Acceso a landing<br>Dado que se accede a la página principal,<br>Cuando se visualizan testimonios,<br>Entonces se muestran correctamente los contenidos. | EP002 |
-| EP002 / US006 | Landing page preguntas frequentes | Como usuario, quiero ver una landing page que pueda resolverme algunas preguntas que son frecuentes entre los usuarios. | Escenario 1: Acceso a landing<br>Dado que se accede a la página principal,<br>Cuando se visualiza el apartado de preguntas frecuentes,<br>Entonces se muestran correctamente los contenidos. | EP002 |
-| EP003 / US007 | Crear plan alimenticio semanal | Como usuario, quiero crear un plan alimenticio semanal respondiendo preguntas sobre preferencias y restricciones. | Escenario 1: Plan generado<br>Dado que el usuario responde las preguntas,<br>Cuando finaliza el proceso,<br>Entonces se genera y muestra el plan semanal. | EP003 |
-| EP003 / US008 | Revisar plan alimenticio | Como usuario, quiero poder revisar mi plan alimenticio semanal en cualquier momento. | Escenario 1: Consulta de plan<br>Dado que el usuario tiene un plan generado,<br>Cuando accede a la sección de plan,<br>Entonces puede visualizar los detalles del plan. | EP003 |
-| EP003 / US009 | Editar plan alimenticio | Como usuario, quiero editar mi plan alimenticio semanal si mis preferencias cambian. | Escenario 1: Edición exitosa<br>Dado que el usuario tiene un plan,<br>Cuando edita el plan a su gusto,<br>Entonces el plan se actualiza. | EP003 |
-| EP004 / US010 | Gestionar preferencias alimenticias | Como usuario, quiero agregar y editar mis preferencias y problemas con alimentos. | Escenario 1: Preferencias guardadas<br>Dado que el usuario agrega o edita preferencias,<br>Cuando guarda,<br>Entonces el sistema actualiza la información. | EP004 |
-| EP004 / US011 | Visualizar preferencias | Como usuario, quiero ver mis preferencias y restricciones alimenticias guardadas. | Escenario 1: Visualización exitosa<br>Dado que el usuario accede a la sección de preferencias,<br>Cuando revisa,<br>Entonces ve la información correctamente. | EP004 |
-| EP004 / US012 | Eliminar preferencias | Como usuario, quiero eliminar preferencias o restricciones que ya no aplican. | Escenario 1: Eliminación exitosa<br>Dado que el usuario tiene preferencias,<br>Cuando elimina alguna,<br>Entonces desaparece de su perfil. | EP004 |
-| EP005 / US013 | Explorar recetas | Como usuario, quiero explorar recetas para aprender nuevas comidas. | Escenario 1: Recetas listadas<br>Dado que el usuario accede a la sección de recetas,<br>Cuando navega,<br>Entonces puede ver distintas recetas. | EP005 |
-| EP005 / US014 | Ver detalles de receta | Como usuario, quiero ver los pasos e ingredientes de una receta seleccionada. | Escenario 1: Detalles mostrados<br>Dado que el usuario selecciona una receta,<br>Cuando accede a detalles,<br>Entonces ve los pasos e ingredientes. | EP005 |
-| EP005 / US015 | Marcar receta como favorita | Como usuario, quiero marcar recetas como favoritas para acceder fácilmente y recibir recomendaciones. | Escenario 1: Favorito guardado<br>Dado que el usuario marca una receta,<br>Cuando la guarda,<br>Entonces aparece en su lista de favoritos. | EP005 |
-| EP005 / US016 | Ver recetas favoritas | Como usuario, quiero ver y gestionar mis recetas favoritas. | Escenario 1: Visualización exitosa<br>Dado que el usuario tiene recetas favoritas,<br>Cuando accede a la sección,<br>Entonces puede verlas y quitarlas si desea. | EP005 |
-| EP006 / US017 | Modificar datos de cuenta | Como usuario, quiero modificar mis datos personales desde la sección de cuenta. | Escenario 1: Modificación exitosa<br>Dado que el usuario accede a su cuenta,<br>Cuando edita sus datos,<br>Entonces los cambios se guardan. | EP006 |
-| EP006 / US018 | Vincularme con nutricionista (QR) | Como usuario, quiero vincular mi cuenta con un nutricionista escaneando un QR. | Escenario 1: Vinculación exitosa<br>Dado que el usuario indica que ya tiene nutricionista,<br>Cuando el nutricionista escanea el QR,<br>Entonces se vinculan las cuentas. | EP006 |
-| EP006 / US019 | Buscar nutricionista | Como usuario, quiero buscar nutricionistas en un directorio y ver sus datos de contacto. | Escenario 1: Directorio visible<br>Dado que el usuario no tiene nutricionista,<br>Cuando accede al directorio,<br>Entonces puede ver información de varios nutricionistas. | EP006 |
-| EP006 / US020 | Ver estado de vinculación | Como usuario, quiero ver si ya estoy vinculado a un nutricionista o no. | Escenario 1: Estado visible<br>Dado que el usuario accede a la sección de cuenta,<br>Cuando revisa,<br>Entonces ve si está vinculado o no. | EP006 |
-| EP006 / US021 | Desvincular nutricionista | Como usuario, quiero desvincularme de un nutricionista si ya no deseo su asesoría. | Escenario 1: Desvinculación exitosa<br>Dado que el usuario está vinculado,<br>Cuando solicita desvincularse,<br>Entonces la relación se elimina. | EP006 |
-| EP007 / US022 | Chatear con nutricionista | Como usuario, quiero chatear con mi nutricionista. | Escenario 1: Chatear con nutricionista<br>Dado que el usuario accede a la sección nutricionista,<br>Cuando accede al chat,<br>Entonces podra hablar con su nutricionista. Escenario 2: No tiene nutricionista<br>Dado que el usuario no se ha vinculado con un nutricionista<br>Cuando clickea en nutricionista<br>Entonces se lo redigira a la sección de buscar nutricionista | EP007 |
-| EP008 / US023 | Registro de clientes | Como nutricionista, quiero poder acceder a un registro ordenado para poder chatear facilmente con ellos. | Escenario 1: Acceder a sección registro<br>Dado que el nutricionista esta en la pagina principal,<br>Cuando accede a Registro,<br>Entonces podra visualizar ordenadamente a sus clientes. | EP008 |
-| EP008 / US024 | Visualizar plan de cliente | Como nutricionista, quiero poder acceder al plan nutricional de mi cliente para corroborar que se este alimentando correctamente. | Escenario 1: Revisar plan<br>Dado que el nutricionista esta en el registro,<br>Cuando accede al chat con su cliente y presionar el boton Plan,<br>Entonces podra visualizar el plan de su cliente. | EP008 |
-| EP008 / US025 | Agendar citas | Como nutricionista, quiero poder agendar citas con mis clientes para que vengan de manera presencial y discutir correctamente sobre su nutrición. | Escenario 1: Registrar cita<br>Dado que quiere registrar una cita con su cliente,<br>Cuando selecciona agendar cita,<br>Entonces podra llenar un formulario para agendar la cita. | EP008 |
-| EP009 / US026 | Revisar noticias | Como nutricionista, quiero poder leer noticias actuales sobre investigaciones nutricionales para estar al día con la información. | Escenario 1: Acceder a noticias<br>Dado que quiere acceder a noticias<br>Cuando selecciona la sección noticias,<br>Entonces accederá a noticias actuales sobre nutrición. | EP009 |
-| EP009 / US027 | Revisar estudios | Como nutricionista, quiero poder revisar estudios pasados sobre alimentación para estar informado y darle recomendaciones a mis cliente. | Escenario 1: Acceder a estudios<br>Dado que quiere acceder a la sección estudios<br>Cuando selecciona la sección estudios,<br>Entonces accederá a la sección de estudios. | EP009 |
-| EP010 / US028 | Revisar Terminos y Condiciones | Como usuario, quiero poder revisar los terminos y condiciones para evitar problemas. | Escenario 1: Acceder a Terminos y Condiciones<br>Dado que quiero leer los terminos y condiciones<br>Cuando selecciona terminos y condiciones ubicado en el footer,<br>Entonces será redireccionado a los terminos y condiciones. | EP010 |
-| EP010 / US029 | Revisar Política de privacidad | Como usuario, quiero poder revisar la política de privacidad para evitar problemas. | Escenario 1: Acceder a Política de privacidad<br>Dado que quiero leer la política de privacidad<br>Cuando selecciona Política de privacidad ubicado en el footer,<br>Entonces será redireccionado a la Política de privacidad. | EP010 |
-| EP011 / TS001 | Endpoint para Generar Plan | Como desarrollador, quiero un endpoint RESTful para generar planes de alimentación. | Escenario 1: Solicitud exitosa<br>Dado que se envía una solicitud POST a /api/plans con preferencias,<br>Cuando se procesa la solicitud,<br>Entonces se devuelve un plan de comidas en formato JSON.<br><br>Escenario 2: Error en solicitud<br>Dado que se envía una solicitud POST inválida,<br>Cuando se procesa,<br>Entonces se devuelve un error 400. | EP011 |
-| EP011 / TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | Escenario 1: Autenticado<br>Dado que se envía una solicitud GET a /api/profile/{id},<br>Cuando se autentica,<br>Entonces se devuelven los datos de perfil de usuario. | EP011 |
-| EP011 / TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | Escenario 1: Actualización exitosa<br>Dado que se envía una solicitud PUT a /api/plans/{id} con cambios,<br>Cuando se autentica,<br>Entonces se actualiza el plan y se confirma. | EP011 |
+|:---------------|:-------|:------------|:------------------------|:-------------------------|
+| US-01 | Registro de Usuario | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones personalizadas. | Escenario 1: **Given** que soy un nuevo usuario, **When** completo mi información inicial, **Then** la app me mostrará sugerencias alimenticias adaptadas. <br><br> Escenario 2: **Given** que omito algunos datos en el registro inicial, **When** ingreso a la sección de perfil y completo la información faltante, **Then** la app actualizará y personalizará mis sugerencias alimenticias. | EP-01 |
+| US-02 | Personalización de Objetivos | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas a mis metas. | Escenario 1: **Given** que soy un usuario registrado, **When** configuro mis objetivos de salud, **Then** recibiré recomendaciones nutricionales personalizadas. <br><br> Escenario 2: **Given** que mis objetivos de salud cambian con el tiempo, **When** actualizo mis metas en el perfil, **Then** la app me sugerirá nuevos planes alineados automáticamente. | EP-01 |
+| US-03 | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | Escenario 1: **Given** que soy un usuario registrado, **When** selecciono mis preferencias alimenticias, **Then** las recomendaciones se adaptarán a mis gustos. <br><br> Escenario 2: **Given** que cambio mis preferencias alimenticias, **When** actualizo mis opciones en la app, **Then** las sugerencias se recalibrarán automáticamente. | EP-01 |
+| US-04 | Registro de Consumo Diario | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación. | Escenario 1: **Given** que soy un usuario activo, **When** registro una nueva comida, **Then** la app actualizará mi historial de alimentación. <br><br> Escenario 2: **Given** que me olvido de registrar una comida, **When** ingreso después de un tiempo, **Then** la app me permitirá registrar comidas retroactivas. | EP-01 |
+| US-06 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | Escenario 1: **Given** que accedo a la landing page, **When** hago scroll a la sección de beneficios, **Then** visualizo tarjetas con los puntos destacados. | EP-12 |
+| US-07 | Ajuste de Plan Nutricional | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades o preferencias. | Escenario 1: **Given** que detecto cambios en mis necesidades, **When** solicito un ajuste, **Then** la app recalculará mis recomendaciones. <br><br> Escenario 2: **Given** que mi historial muestra inconsistencias, **When** pido actualizar el plan, **Then** la app me guiará para ajustar objetivos y preferencias. | EP-02 |
+| US-08 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | Escenario 1: **Given** que llegó a la sección de testimonios, **When** visualizó las citas de usuarios, **Then** puedo ver nombre, foto y experiencia de cada uno. | EP-12 |
+| US-09 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | Escenario 1: **Given** que accedo desde un dispositivo móvil, **When** cargo la landing, **Then** el diseño se adapta correctamente. <br><br> Escenario 2: **Given** que accedo desde una computadora, **When** navego la landing, **Then** los elementos se ajustan al tamaño de pantalla. | EP-13 |
+| US-10 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | Escenario 1: **Given** que ingreso a la landing, **When** visualizo la parte superior, **Then** leo un título claro y un subtítulo explicativo. | EP-12 |
+| US-11 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | Escenario 1: **Given** que hago scroll en la página, **When** paso por cada bloque de beneficios, **Then** veo textos e imágenes que explican las funcionalidades. | EP-12 |
+| US-12 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente | Escenario 1: **Given** que hago clic en un enlace del menú superior, **When** este se refiere a una sección de la misma página, **Then** soy dirigido automáticamente a dicha sección. | EP-12 |
+| US-13 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | Escenario 1: **Given** que hago clic en el botón "Iniciar sesión", **When** este me redirige, **Then** llego a la página de login. <br><br> Escenario 2: **Given** que hago clic en "Registrarse", **When** este me redirige, **Then** llego al formulario de registro. | EP-14 |
+| US-14 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | Escenario 1: **Given** que hago clic en un enlace del footer, **When** este está correctamente configurado, **Then** soy redirigido a la sección o página correspondiente (por ejemplo, "Política de privacidad", "Contacto", etc.). | EP-12 |
+| US-15 | Envío de Sugerencias Semanales | Como usuario, quiero recibir sugerencias semanales de menús adaptados a mis objetivos. | Escenario 1: **Given** que estoy suscrito a las notificaciones, **When** inicia una nueva semana, **Then** recibiré un resumen con menús sugeridos. <br><br> Escenario 2: **Given** que mis objetivos cambian, **When** actualizo mi perfil, **Then** las próximas sugerencias reflejarán esos cambios. | EP-03 |
+| US-22 | Control de Sesiones Activas | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | Escenario 1: **Given** que tengo varias sesiones abiertas, **When** accedo a la sección de seguridad, **Then** podré cerrar remotamente las sesiones que desee. <br><br> Escenario 2: **Given** que cierro todas las sesiones, **When** intento reingresar, **Then** me pedirá autenticarme nuevamente. | EP-07 |
+| US-26 | Búsqueda de Recetas | Como usuario, quiero buscar recetas saludables dentro de la app. | Escenario 1: **Given** que estoy en la sección de recetas, **When** escribo un ingrediente o platillo, **Then** la app me mostrará resultados relevantes. <br><br> Escenario 2: **Given** que no hay resultados, **When** finaliza la búsqueda, **Then** la app sugerirá alternativas similares. | EP-02 |
+| US-27 | Filtrado de Recetas | Como usuario, quiero filtrar recetas por tipo de dieta o restricción alimentaria. | Escenario 1: **Given** que selecciono un filtro, **When** aplico la búsqueda, **Then** solo veré recetas que cumplan esos criterios. <br><br> Escenario 2: **Given** que elimino los filtros, **When** vuelvo a buscar, **Then** veré todas las recetas disponibles. | EP-05 |
+| US-28 | Favoritos de Recetas | Como usuario, quiero guardar recetas favoritas para consultarlas rápidamente después. | Escenario 1: **Given** que estoy viendo una receta, **When** la marco como favorita, **Then** se añadirá a mi lista personal. <br><br> Escenario 2: **Given** que elimino una receta de favoritos, **When** confirmo la acción, **Then** desaparecerá de la lista. | EP-08 |
+| US-29 | Visualización de Valor Nutricional | Como usuario, quiero ver el valor nutricional de las recetas sugeridas. | Escenario 1: **Given** que abro una receta, **When** despliego los detalles, **Then** podré ver información como calorías, proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que busco alternativas, **When** consulto valores nutricionales, **Then** podré comparar fácilmente opciones similares. | EP-06 |
+| US-33 | Feedback de Uso Diario | Como usuario, quiero recibir feedback rápido al final del día sobre mi desempeño nutricional. | Escenario 1: **Given** que termino el día, **When** accedo al resumen diario, **Then** recibiré comentarios personalizados. <br><br> Escenario 2: **Given** que tengo días inconsistentes, **When** recibo feedback, **Then** la app me dará sugerencias específicas de mejora. | EP-09 |
+| US-34 | Alertas de Objetivos No Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
+| US-34 | Recibir alertas por incumplimiento diario de objetivos | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
+| US-35 | Visualización de Macronutrientes | Como usuario, quiero ver la distribución de macronutrientes diarios que consumo. | Escenario 1: **Given** que registro comidas, **When** accedo a mi resumen diario, **Then** podré ver porcentajes de proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que selecciono un día anterior, **When** consulto macronutrientes, **Then** podré analizar los datos históricos. | EP-04 |
+| US-38 | Ranking de Usuarios Saludables | Como usuario, quiero ver un ranking de usuarios según hábitos saludables. | Escenario 1: **Given** que participo activamente, **When** consulto el ranking, **Then** podré ver mi posición basada en cumplimiento de objetivos. <br><br> Escenario 2: **Given** que no deseo aparecer en rankings, **When** lo configuro, **Then** mi perfil será invisible en el listado. | EP-02 |
+| US-41 | Reporte de Consumo de Agua | Como usuario, quiero ver un reporte mensual de mi hidratación. | Escenario 1: **Given** que registro mi hidratación diaria, **When** consulto mi reporte mensual, **Then** podré ver días cumplidos y consumo promedio. <br><br> Escenario 2: **Given** que no registro algunos días, **When** consulto el reporte, **Then** la app indicará los días faltantes en el análisis. | EP-08 |
+| US-49 | Envío de Notificaciones Push Inteligentes | Como usuario, quiero recibir notificaciones push basadas en mi comportamiento. | Escenario 1: **Given** que hay patrones relevantes, **When** la app detecta eventos, **Then** enviará notificaciones personalizadas. <br><br> Escenario 2: **Given** que configuro la app para notificaciones inteligentes, **When** se active una condición, **Then** recibiré avisos específicos sin saturarme. | EP-05 |
+| US-53 | Recomendaciones Basadas en Perfil Nutricional | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos. | Escenario 1: **Given** que tengo un objetivo de ganancia muscular, **When** recibo recomendaciones, **Then** estarán alineadas a ese objetivo. <br><br> Escenario 2: Given que cambio mis objetivos, When consulto nuevamente, Then las recomendaciones se actualizarán. | EP-05 |
+| US-56 | Intercambio de idiomas en Landing Page | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | **Given** que estoy en la landing page de la aplicación, **When** accedo al menú o ícono del selector de idioma, **Then** debería poder elegir entre varios idiomas disponibles y ver el contenido traducido automáticamente. | EP-12 |
+| TS-57 | Agregar Alergia mediante API RESTful | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización. | Escenario 1: **Given** que el endpoint "/api/v1/alergias_ingredientes" está disponible, **When** se envía una solicitud con nombre y descripción, **Then** se recibe un 201 y un recurso Alergia con id y datos. <br><br> Escenario 2: **Given** que se envía una alergia con nombre ya registrado, **When** se envía la solicitud, **Then** se recibe un 400 con mensaje de restricción de nombre duplicado. | EP-15 |
+| TS-58 | Agregar Recomendaciones mediante API RESTful | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida. | Escenario 1: **Given** que el endpoint "/api/v1/recomendaciones" está disponible, **When** se envía una recomendación de plan de comida o recetas, **Then** se recibe un 201 con el recurso Recomendación creado. <br><br> Escenario 2: **Given** que se envía una recomendación con nombre duplicado, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de duplicado. | EP-15 |
+| TS-59 | Crear Receta mediante API RESTful | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | Escenario 1: **Given** que el endpoint "/api/v1/recetas" está disponible, **When** se envían nombre, instrucciones e ingredientes, **Then** se recibe un 201 con el recurso Receta creado. <br><br> Escenario 2: **Given** que la receta incluye ingredientes no existentes, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-60 | Crear Plan de Comida mediante API RESTful | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.| Escenario 1: **Given** que el endpoint "/api/v1/planes-comida" está disponible, **When** se envía usuarioId, fechas y recetas, **Then** se recibe un 201 con el recurso Plan creado. <br><br> Escenario 2: **Given** que las fechas enviadas son inválidas, **When** se hace la solicitud, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-61 | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances. | Escenario 1: **Given** que el endpoint "/api/v1/seguimiento" está disponible, **When** se envía usuarioId, fecha, peso, medidas y observaciones, **Then** se recibe un 201 con el seguimiento. <br><br> Escenario 2: **Given** que el usuario no existe, **When** se hace la solicitud, **Then** se recibe un 404 con mensaje de usuario no encontrado. | EP-15 |
+| TS-62    | Configurar Entorno de Desarrollo        | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto.                               | **Given** el desarrollador tiene acceso al repositorio del proyecto, **When** sigue las instrucciones de configuración, **Then** debería poder ejecutar la aplicación localmente. | EP-15  |
+| TS-64    | Generación de Reportes de Progreso      | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances.       | **Given** que existe un historial de consumo y actividad, **When** se solicita el reporte mensual, **Then** el sistema genera un archivo con gráficos y métricas nutricionales. | EP-15  |
+| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.           | EP-15  |
+| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.| EP-15  |
+| TS-67   | Edición de Datos del Perfil                   | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias, para mantener mi información actualizada.          | Escenario 1: **Given** que ya tengo un perfil creado, **When** actualizo mi información (peso, altura o alergias), **Then** el sistema debe guardar los nuevos valores.| EP-01   |
+ | TS-68   | Eliminación de Perfil                         | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas.                                  | Escenario 1: **Given** que tengo un perfil de usuario, **When** solicito su eliminación desde la configuración, **Then** el perfil debe ser eliminado y ya no usarse en sugerencias o seguimiento.| EP-01   |
+ | TS-69   | Visualización General de Perfiles             | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionar mi información desde una interfaz de administración.             | Escenario 1: **Given** que tengo múltiples perfiles (o soy administrador), **When** accedo al listado, **Then** debo ver todos los perfiles registrados con sus datos clave.| EP-01   |
+ | TS-70   | Creación de Objetivos                         | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app para que los usuarios puedan seleccionarlos.          | Escenario 1: **Given** que soy administrador, **When** registro un nuevo objetivo de salud, **Then** debe quedar disponible para ser elegido por usuarios al configurar su perfil.| EP-01   |
+ | TS-71   | Creación de Niveles de Actividad              | Como administrador, quiero definir distintos niveles de actividad física para que los usuarios puedan seleccionar el que mejor se adapte a su estilo.     | Escenario 1: **Given** que soy administrador, **When** creo un nuevo nivel de actividad, **Then** los usuarios podrán seleccionarlo en su perfil personalizado.| EP-01   |
+ | TS-72   | Registro de Alergias                          | Como nutricionista o administrador, quiero registrar nuevas alergias y asociarlas a ingredientes para mejorar la personalización de sugerencias.          | Escenario 1: **Given** que tengo una alergia y sus ingredientes asociados, **When** la registro en el sistema, **Then** quedará disponible para selección en perfiles de usuario.| EP-15   |
+ | TS-73   | Consulta de Alergias Disponibles              | Como usuario, quiero consultar las alergias registradas en la plataforma para marcar las que me afectan.                                                   | Escenario 1: **Given** que estoy completando mi perfil, **When** accedo a la sección de alergias, **Then** debo ver una lista para seleccionar las que aplican a mí.| EP-15   |
+  | TS-74   | Consulta de Niveles de Actividad              | Como usuario, quiero poder consultar los distintos niveles de actividad disponibles para elegir el que se ajuste a mi rutina diaria.                       | Escenario 1: **Given** que estoy personalizando mi perfil, **When** veo la sección de niveles de actividad, **Then** podré elegir el que mejor se alinee a mi estilo de vida.| EP-01   |
+ | TS-75   | Consulta de Objetivos Disponibles             | Como usuario, quiero poder ver todos los objetivos de salud existentes para elegir uno que se alinee con mis metas personales.                            | Escenario 1: **Given** que estoy en el registro o edición de perfil, **When** accedo a los objetivos, **Then** podré seleccionar entre los registrados en la plataforma.| EP-01   |
+| TS-76 | Endpoint de Ajuste de Plan Nutricional | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | Escenario: **Given** un `mealPlanId` válido, **When** se invoca `PUT /api/v1/meal-plan/{mealPlanId}`, **Then** el plan se actualiza y responde `200 OK`. | EP-08 |
+| TS-77           | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | **Escenario:** Given parámetros de búsqueda (`q`, `ingredients`, `type`), when invoco `GET /api/v1/recipes?…`, then la API responde `200 OK` con la lista de recetas que coinciden. | EP-02                     |
+| TS-78           | Gestión de Recipe Types | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | **Escenario:** Given llamadas a `GET /api/v1/recipetypes`, `POST /api/v1/recipetypes` con payload válido y `GET /api/v1/recipetypes/{recipeTypeId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK` | EP-15                     |
+| TS-79           | Gestión de Ingredients  | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | **Escenario:** Given llamadas a `GET /api/v1/ingredients` y `POST /api/v1/ingredients` con payload válido, When invoco cada endpoint, Then responden con `200 OK`             | EP-15                     |
+| TS-80           | Gestión de Categories   | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | **Escenario:** Given llamadas a `GET /api/v1/categories`, `POST /api/v1/categories` con payload válido y `GET /api/v1/categories/{categoryId}` con ID existente, When invoco cada endpoint, Then responden con `200 OK`  | EP-15                     |
+| TS-81           | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | **Escenario:** Given un payload válido o un `recommendationId` y `userId`, when invoco `POST`, `PUT`, `GET /api/v1/recommendations/user/{userId}` o `DELETE /api/v1/recommendations/{recommendationId}`, then la API responde con el código correspondiente (`201 Created`, `200 OK`. | EP-11                     |
+| TS-82           | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | **Escenario:** Given llamadas a `GET /api/v1/recommendation-templates` y `POST /api/v1/recommendation-templates` con payload válido, when invoco cada endpoint, then la API responde con `200 OK` .                    | EP-11                     |
+| TS-83           | Gestión de Seguimiento Nutricional | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | **Escenario:** Given un `userId` o `trackingId`, when invoco los endpoints `POST /tracking`, `POST /tracking-goals`, `POST /meal-plan-entries/{trackingId}` o `PUT /meal-plan-entries/{mealPlanEntryId}`, then la API responde con `201 Created. | EP-03                     |
+| TS-84           | Consulta de Datos Nutricionales    | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | **Escenario:** Given un `trackingId`, `trackingGoalId` o `userId`, when invoco los endpoints , then la API responde con `200 OK` y los datos solicitados.      | EP-03                     |
+| US-85 | Ver video del equipo de desarrollo | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | **Escenario:** Given que soy un usuario registrado y he iniciado sesión en la app, when navego a la sección “Sobre nosotros” y pulso el botón “Ver video del equipo”, then se reproducirá un video que presenta al equipo de desarrollo, sus roles, experiencia y contribuciones al proyecto. | EP-07 |
+
+#### Épica 1: Gestión de Perfil y Personalización Inicial
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-01    | Crear perfil personal                                           |
+| US-02    | Ingresar objetivos de salud                                     |
+| US-03    | Registrar alergias alimentarias                                 |
+| US-04    | Seleccionar comidas favoritas                                   |
+| TS-67   | Edición de Datos del Perfil                                     |
+| TS-68   | Eliminación de Perfil                                           |
+| TS-69   | Visualización General de Perfiles                               |
+| TS-70   | Creación de Objetivos                                           |
+| TS-71   | Creación de Niveles de Actividad                                |
+| TS-74   | Consulta de Niveles de Actividad                                |
+| TS-75   | Consulta de Objetivos Disponibles                               |
+
+#### Épica 2: Planificación y Visualización de Dietas
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-07    | Recibir plan de comidas semanal automático                     |
+| US-08    | Ver recetas paso a paso                                         |
+| US-26    | Descargar plan de comidas en PDF                                |
+| US-38    | Ver vista previa de menús semanales                             |
+| TS-77   | Endpoint de Búsqueda de Recetas                                 |
+
+#### Épica 3: Tracking y Seguimiento Diario
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-10    | Marcar comidas como hechas                                      |
+| US-12    | Ajustar plan si cambian objetivos                               |
+| US-13    | Ver resumen semanal de avances                                  |
+| US-14    | Registrar cambios físicos o emocionales                         |
+| US-15    | Registrar peso regularmente                                     |
+| US-34    | Registrar comidas fuera del plan                                |
+| TS-83   | Gestión de Seguimiento Nutricional                              |
+| TS-84   | Consulta de Datos Nutricionales                                 |
+
+#### Épica 4: Motivación y Gamificación
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-35    | Recibir felicitaciones/logros                                   |
+
+#### Épica 5: Notificaciones y Recordatorios Inteligentes
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-06    | Recordatorio de comida                                         |
+| US-27    | Recibir alertas cuando no se cumple el plan                    |
+| US-49    | Recibir alertas de dieta desbalanceada                         |
+| US-53    | Recomendaciones Basadas en Perfil Nutricional                  |
+
+#### Épica 6: Interacción con el Soporte Humano
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-29    | Acceder a foro de comunidad                                    |
+
+#### Épica 7: Contenido Educativo y Recursos Adicionales
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-22    | Acceder a contenido educativo de nutrición                     |
+| US-85    | Ver video del equipo de desarrollo                             |
+
+#### Épica 8: Adaptabilidad y Flexibilidad del Plan
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-28    | Personalizar horarios de comida                                |
+| US-41    | Bloquear ingredientes no deseados                              |
+| TS-76   | Endpoint de Ajuste de Plan Nutricional                         |
+
+#### Épica 9: Funciones Avanzadas de Registro y Conectividad
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-33    | Calcular consumo de agua ideal                                 |
+
+    |
+
+#### Épica 11: Optimización Basada en Análisis
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-19    | Recibir recomendaciones basadas en progreso                    |
+| TS-81   | Gestión de Recommendations                                    |
+| TS-82   | Gestión de Recommendation Templates                            |
+
+#### Épica 12: Comunicación de Propuesta de Valor
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-10    | Conocer la propuesta de valor                                  |
+| US-12    | Navegar entre secciones desde la barra                         |
+| US-06    | Ver resumen de beneficios                                      |
+| US-11    | Navegar por los beneficios principales                        |
+| US-08    | Visualizar testimonios                                         |
+| US-14    | Navegar desde el footer                                        |
+
+#### Épica 13: Diseño Responsivo y Experiencia Multidispositivo
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-09    | Acceder desde distintos dispositivos                           |
+
+#### Épica 14: Accesos a Plataforma (Login / Registro)
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| US-13    | Acceder al registro o inicio de sesión                         |
+
+#### Épica 15: Gestión Integral de Información Nutricional
+
+| Story ID | Título                                                         |
+|----------|-----------------------------------------------------------------|
+| TS-56    | Registrar alergia e ingrediente desde API                      |
+| TS-57    | Registrar recomendaciones desde API                            |
+| TS-58    | Crear receta desde API                                         |
+| TS-59    | Crear plan de comida desde API                                 |
+| TS-60    | Añadir registro de seguimiento nutricional vía API             |
+| TS-61    | Configurar Entorno de Desarrollo                               |
+| TS-62    | Implementar Endpoint para Registro de Usuario                  |
+| TS-64    | Módulo de Recomendaciones Dinámicas                            |
+| TS-72   | Registro de Alergias                                           |
+| TS-73   | Consulta de Alergias Disponibles                               |
+| TS-78   | Gestión de Recipe Types                                        |
+| TS-79   | Gestión de Ingredients                                        |
+| TS-80   | Gestión de Categories                                         |
 
 
 
@@ -793,40 +949,67 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 
 ## 3.3 Product Backlog
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-| --- | --- | --- | --- | --- |
-| 1 | US001 | Registro de usuario normal | Como usuario, quiero registrarme como usuario normal proporcionando datos básicos y correo para acceder a la plataforma. | 3 |
-| 2 | US003 | Login de usuario | Como usuario, quiero iniciar sesión con las credenciales que registré previamente. | 3 |
-| 3 | US004 | Cerrar sesión | Como usuario, quiero cerrar sesión de forma segura en cualquier momento. | 2 |
-| 4 | US002 | Registro de nutricionista | Como nutricionista, quiero registrarme como nutricionista para acceder a funcionalidades especializadas. | 5 |
-| 5 | US005 | Landing page testimonios | Como usuario, quiero ver una landing page que muestre los testimonios de sus usuarios para saber si es una plataforma util y confiable. | 2 |
-| 6 | US006 | Landing page preguntas frequentes | Como usuario, quiero ver una landing page que pueda resolverme algunas preguntas que son frecuentes entre los usuarios. | 2 |
-| 7 | US007 | Crear plan alimenticio semanal | Como usuario, quiero crear un plan alimenticio semanal respondiendo preguntas sobre preferencias y restricciones. | 8 |
-| 8 | US008 | Revisar plan alimenticio | Como usuario, quiero poder revisar mi plan alimenticio semanal en cualquier momento. | 3 |
-| 9 | US009 | Editar plan alimenticio | Como usuario, quiero editar mi plan alimenticio semanal si mis preferencias cambian. | 5 |
-| 10 | US010 | Gestionar preferencias alimenticias | Como usuario, quiero agregar y editar mis preferencias y problemas con alimentos. | 5 |
-| 11 | US011 | Visualizar preferencias | Como usuario, quiero ver mis preferencias y restricciones alimenticias guardadas. | 2 |
-| 12 | US012 | Eliminar preferencias | Como usuario, quiero eliminar preferencias o restricciones que ya no aplican. | 2 |
-| 13 | US013 | Explorar recetas | Como usuario, quiero explorar recetas para aprender nuevas comidas. | 3 |
-| 14 | US014 | Ver detalles de receta | Como usuario, quiero ver los pasos e ingredientes de una receta seleccionada. | 2 |
-| 15 | US015 | Marcar receta como favorita | Como usuario, quiero marcar recetas como favoritas para acceder fácilmente y recibir recomendaciones. | 3 |
-| 16 | US016 | Ver recetas favoritas | Como usuario, quiero ver y gestionar mis recetas favoritas. | 3 |
-| 17 | US017 | Modificar datos de cuenta | Como usuario, quiero modificar mis datos personales desde la sección de cuenta. | 3 |
-| 18 | US018 | Vincularme con nutricionista (QR) | Como usuario, quiero vincular mi cuenta con un nutricionista escaneando un QR. | 5 |
-| 19 | US019 | Buscar nutricionista | Como usuario, quiero buscar nutricionistas en un directorio y ver sus datos de contacto. | 3 |
-| 20 | US020 | Ver estado de vinculación | Como usuario, quiero ver si ya estoy vinculado a un nutricionista o no. | 2 |
-| 21 | US021 | Desvincular nutricionista | Como usuario, quiero desvincularme de un nutricionista si ya no deseo su asesoría. | 2 |
-| 22 | US022 | Chatear con nutricionista | Como usuario, quiero chatear con mi nutricionista. | 5 |
-| 23 | US023 | Registro de clientes | Como nutricionista, quiero poder acceder a un registro ordenado para poder chatear facilmente con ellos. | 5 |
-| 24 | US024 | Visualizar plan de cliente | Como nutricionista, quiero poder acceder al plan nutricional de mi cliente para corroborar que se este alimentando correctamente. | 3 |
-| 25 | US025 | Agendar citas | Como nutricionista, quiero poder agendar citas con mis clientes para que vengan de manera presencial y discutir correctamente sobre su nutrición. | 5 |
-| 26 | US026 | Revisar noticias | Como nutricionista, quiero poder leer noticias actuales sobre investigaciones nutricionales para estar al día con la información. | 2 |
-| 27 | US027 | Revisar estudios | Como nutricionista, quiero poder revisar estudios pasados sobre alimentación para estar informado y darle recomendaciones a mis cliente. | 2 |
-| 28 | US028 | Revisar Terminos y Condiciones | Como usuario, quiero poder revisar los terminos y condiciones para evitar problemas. | 1 |
-| 29 | US029 | Revisar Política de privacidad | Como usuario, quiero poder revisar la política de privacidad para evitar problemas. | 1 |
-| 30 | TS001 | Endpoint para Generar Plan | Como desarrollador, quiero un endpoint RESTful para generar planes de alimentación. | 8 |
-| 31 | TS002 | Endpoint para Obtener Perfil | Como desarrollador, quiero un endpoint para obtener datos de perfil de usuario. | 3 |
-| 32 | TS003 | Endpoint para Actualizar Plan | Como desarrollador, quiero un endpoint para actualizar un plan existente. | 5 |
+| #Orden  | ID     | Título                               | Descripción                                                                                       | Story Points |
+|----|--------|--------------------------------------|---------------------------------------------------------------------------------------------------|--------------|
+| 1  | US-06  | Ver resumen de beneficios            | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.  | 3            |
+| 2  | US-08  | Visualizar testimonios               | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                      | 2            |
+| 3  | US-09  | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para explorarla. | 5            |
+| 4  | US-10  | Conocer la propuesta de valor        | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                | 3            |
+| 5  | US-11  | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | 3       |
+| 6  | US-12  | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones.               | 2            |
+| 7  | US-13  | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior.             | 3            |
+| 8  | US-14  | Navegar desde el footer              | Como visitante, quiero que los enlaces del pie de página funcionen correctamente.                | 2            |
+| 9 |  US-56  | Intercambiar idiomas | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | 5 |
+| 10  | US-01  | Registro de Usuario                  | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones.       | 5            |
+| 11 | US-04  | Registro de Consumo Diario           | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación.    | 5            |
+| 12 | US-25  | Acceso como Invitado                 | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas.                | 3            |
+| 13 | US-22  | Control de Sesiones Activas          | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad.                     | 5            |
+| 17 | US-02  | Personalización de Objetivos         | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas.       | 5            |
+| 18 | US-03  | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | 5        |
+| 20 | US-07  | Ajuste de Plan Nutricional           | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades.                     | 5            |
+| 21 | US-15  | Envío de Sugerencias Semanales       | Como usuario, quiero recibir sugerencias semanales de menús adaptados.                           | 5            |
+| 25 | US-19  | Creación de Grupos de Apoyo          | Como usuario, quiero unirme a grupos con objetivos similares para motivación.                    | 8            |
+| 27 | US-26  | Búsqueda de Recetas                  | Como usuario, quiero buscar recetas saludables dentro de la app.                                 | 5            |
+| 28 | US-27  | Filtrado de Recetas                  | Como usuario, quiero filtrar recetas por tipo de dieta o restricción.                            | 5            |
+| 29 | US-28  | Favoritos de Recetas                 | Como usuario, quiero guardar recetas favoritas.                                                  | 3            |
+| 30 | US-29  | Visualización de Valor Nutricional   | Como usuario, quiero ver el valor nutricional de las recetas.                                    | 5            |
+| 35 | US-53  | Recomendaciones Basadas en Perfil Nutricional        | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos.             | 3            |
+| 38 | TS-56  | 	Agregar Alergia mediante API RESTful                | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización.                                               | 5            |
+| 39 | TS-57  | Agregar Recomendaciones mediante API RESTful       | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida.                                         | 8            |
+| 40 | TS-58  | Crear Receta mediante API RESTful     | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas.                                 | 5            |
+| 41 | TS-59  | Crear Plan de Comida mediante API RESTful           | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.                                                         | 5            |
+| 42 | TS-60  | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances.                                             | 5            |
+| 43 | TS-61  | Configurar Entorno de Desarrollo | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto. | 5 |
+| 44 | TS-62  | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | 5 |
+| 46 | TS-64  | Módulo de Recomendaciones Dinámicas | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | 8 |
+| 50 | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
+| 51 | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
+| 52 | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
+| 55 | US-38  | Visualización de Macronutrientes     | Como usuario, quiero visualizar proteínas, carbohidratos y grasas en mi dieta para balancearla mejor. | 5       |
+| 58 | US-41  | Visualización de Ingredientes        | Como usuario, quiero ver los ingredientes de cada receta para saber si se ajustan a mis preferencias. | 3       |
+| 66 | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
+| 67    | TS-67   | Edición de Datos del Perfil            | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias.                    | 3            |
+| 68    | TS-68   | Eliminación de Perfil                  | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas. | 2            |
+| 69    | TS-69   | Visualización General de Perfiles      | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionarlos.                             | 2            |
+| 70    | TS-70   | Creación de Objetivos                  | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app.                      | 3            |
+| 71    | TS-71   | Creación de Niveles de Actividad       | Como administrador, quiero definir distintos niveles de actividad física.                                                  | 3            |
+| 72    | TS-72   | Registro de Alergias                   | Como nutricionista o administrador, quiero registrar nuevas alergias.                                                      | 3            |
+| 73    | TS-73   | Consulta de Alergias Disponibles       | Como usuario, quiero consultar las alergias registradas en la plataforma.                                                  | 2            |
+| 74    | TS-74  | Consulta de Niveles de Actividad       | Como usuario, quiero consultar los niveles de actividad disponibles.                                                       | 2            |
+| 75    | TS-75   | Consulta de Objetivos Disponibles      | Como usuario, quiero consultar los objetivos de salud existentes.                                                          | 2            |
+| 76    | TS-76  | Endpoint de Ajuste de Plan Nutricional  | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | 5            |
+| 77     | TS-77 | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | 5            |
+| 78     | TS-78  | Gestión de Recipe Types       | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | 5            |
+| 79     | TS-79  | Gestión de Ingredients        | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | 5            |
+| 80     | TS-80  | Gestión de Categories         | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | 5            |
+| 81     | TS-81  | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | 8            |
+| 82     | TS-82  | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | 5            |
+| 83     | TS-83  | Gestión de Seguimiento Nutricional   | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | 8            |
+| 84     | TS-84  | Consulta de Datos Nutricionales      | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | 5            |
+| 85     | US-85  | Ver video del equipo de desarrollo | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | 3 |
+
+
+<hr>
 
 # Capítulo IV: Product Design 
 
