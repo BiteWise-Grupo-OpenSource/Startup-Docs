@@ -1574,33 +1574,147 @@ Finalmente, se garantizaron aspectos de seguridad y accesibilidad mediante el us
 
 ---
 
-### 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
-*Creación de landingpage:*
-1. Se crea un repositorio remoto en GitHub
+**Creación de landing page:**
 
-2. Agregar a participantes
-
-3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
-
-4. Landingpage
+1. Se crea un repositorio remoto en GitHub  
+2. Se agregan los participantes del equipo  
+3. Se habilita GitHub Pages en la branch "main"  
+4. Se desarrolla el landing page utilizando Angular y TypeScript  
 
 <img src="imagenes/landing-page.png" alt="LandingPage">
 
-Enlace de figma: 
-https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise?node-id=19-2&t=rFreWqpYCcgbEzMi-1 
+**Enlace de Figma:**  
+https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise  
 
-Enlace del landing page: 
+**Enlace del Landing Page:**  
 https://bitewise-grupo-opensource.github.io/landing-page/
 
 ---
 
-#### 5.2.1. Sprint 1
+## 5.2.1. Sprint 1
 
-El Sprint 1 se enfocó en la implementación inicial de la landing page y en la configuración del entorno de desarrollo frontend. Durante este sprint se estableció la base estructural del proyecto, permitiendo visualizar la propuesta de valor de BiteWise y sentar las bases para futuras funcionalidades.
+El Sprint 1 se centró en el desarrollo del landing page de BiteWise, aplicando la metodología Scrum.
 
-Se desarrollaron los componentes principales de la interfaz, incluyendo la navegación, la sección de presentación, las secciones informativas (problema, solución, beneficios y funcionamiento) y el footer, asegurando una experiencia de usuario clara y coherente con el diseño previamente definido.
+Se organizaron reuniones para planificar tareas, distribuir responsabilidades y avanzar en la implementación de una interfaz funcional, intuitiva y alineada a la propuesta de valor del proyecto.
 
-Asimismo, se configuró el proyecto en Angular y se aplicaron estilos iniciales que responden a un enfoque visual neutral, moderno y profesional, alineado con el objetivo del sistema como una herramienta de apoyo en la salud y nutrición.
+---
 
-Como resultado, se obtuvo una landing page funcional y una estructura base del sistema lista para la incorporación de nuevas funcionalidades como la autenticación de usuarios y la generación de planes personalizados.
+## 5.2.1.1. Sprint Planning 1
+
+**Sprint:** Implementación del Landing Page  
+
+- **Fecha:** 10/04/2025  
+- **Hora:** 20:00  
+- **Lugar:** Discord  
+
+**Objetivo del Sprint:**
+
+Desarrollar y desplegar el landing page de BiteWise.
+
+**Sprint Velocity:** 35  
+**Story Points:** 30  
+
+---
+
+## 5.2.1.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 1, el equipo se organizó asignando responsabilidades según habilidades:
+
+- **Frontend (Angular):** desarrollo de componentes  
+- **Diseño UI/UX:** implementación basada en Figma  
+- **Integración:** ensamblaje de componentes  
+- **Control de versiones:** gestión del repositorio GitHub  
+
+Todos los integrantes participaron de forma colaborativa en el desarrollo.
+
+---
+
+## 5.2.1.3. Sprint Backlog 1
+
+| Id   | Componente         | Description                              | Estimación (Horas) | Status |
+|------|------------------|------------------------------------------|--------------------|--------|
+| BW01 | Navbar           | Barra de navegación                      | 3                  | Done   |
+| BW02 | Hero             | Sección principal                        | 3                  | Done   |
+| BW03 | Stats            | Métricas visuales                        | 2                  | Done   |
+| BW04 | Problem          | Problema del usuario                     | 2                  | Done   |
+| BW05 | Features         | Funcionalidades                          | 3                  | Done   |
+| BW06 | How              | Funcionamiento del sistema               | 2                  | Done   |
+| BW07 | Pricing          | Planes                                  | 2                  | Done   |
+| BW08 | Dashboard Preview| Vista previa                            | 3                  | Done   |
+| BW09 | CTA Footer       | Llamado a la acción                      | 2                  | Done   |
+
+---
+
+## 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository        | Branch             | Commit Message                | Date       |
+|------------------|-------------------|------------------------------|------------|
+| BiteWise-Landing | feature/start     | feat: initial setup          | 27/04/2025 |
+| BiteWise-Landing | feature/components| feat: add components         | 27/04/2025 |
+| BiteWise-Landing | feature/styles    | feat: responsive design      | 27/04/2025 |
+| BiteWise-Landing | feature/ui        | feat: UI improvements        | 27/04/2025 |
+
+---
+
+## 5.2.1.5. Execution Evidence for Sprint Review
+
+**Enlace del sistema desplegado:**  
+https://bitewise-grupo-opensource.github.io/landing-page/
+
+---
+
+## 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este sprint, el equipo logró completar todas las tareas propuestas, desarrollando un landing page funcional basado en componentes Angular.
+
+Se realizaron múltiples correcciones de errores y mejoras en la interfaz, optimizando la experiencia del usuario.
+
+Se implementaron secciones clave:
+
+- Hero  
+- Problem  
+- Features  
+- How  
+- Pricing  
+- CTA  
+
+**Estructura del sistema:**
+src/app/components/
+├── navbar/
+├── hero/
+├── stats/
+├── problem/
+├── features/
+├── how/
+├── pricing/
+├── dashboard-preview/
+└── cta-footer/
+
+Esto permitió una arquitectura modular, reutilizable y escalable.
+
+---
+
+## 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+- **Git:** control de versiones  
+- **GitHub:** repositorio del proyecto  
+- **GitHub Pages:** despliegue del sistema  
+
+El sistema se encuentra disponible públicamente para pruebas.
+
+---
+
+## 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó de forma colaborativa utilizando GitHub.
+
+- Uso de ramas para desarrollo paralelo  
+- Integración mediante commits  
+- Reuniones por Discord  
+- Gestión de tareas con Trello  
+
+Esto permitió un flujo de trabajo organizado y eficiente.
+
+---
