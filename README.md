@@ -701,7 +701,7 @@ El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes
   <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
 </p>
 
-#### 2.Big Picture Event Storming. 
+#### 2.4. Big Picture Event Storming. 
 
 
 
