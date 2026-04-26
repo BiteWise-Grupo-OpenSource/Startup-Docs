@@ -1665,56 +1665,319 @@ https://bitewise-grupo-opensource.github.io/landing-page/
 
 ---
 
-## 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1. Sprint 1
+##### 5.2.1.1. Sprint Planning 1
 
-En este sprint, el equipo logró completar todas las tareas propuestas, desarrollando un landing page funcional basado en componentes Angular.
+En esta sección se describen los aspectos principales del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto BiteWise. Durante esta reunión, el equipo definió los objetivos del sprint, revisó el contexto inicial del proyecto y estableció las historias de usuario que serán abordadas. Asimismo, se acordaron lineamientos de trabajo colaborativo y la distribución inicial de responsabilidades para asegurar el cumplimiento de los objetivos planteados.
 
-Se realizaron múltiples correcciones de errores y mejoras en la interfaz, optimizando la experiencia del usuario.
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 1</td>
+  </tr>
 
-Se implementaron secciones clave:
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2026-04-14</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>07:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual vía Google Meet</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Munayco Apolaya, Maria Luisa</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Hermoza Quispe, Jude Alessandro / Flores Siguas, Marlon Alessandro / Munayco Apolaya, Maria Luisa / Verastigue Martinez, Giancarlo Jose / Mantilla, Enrique</td>
+  </tr>
 
-- Hero  
-- Problem  
-- Features  
-- How  
-- Pricing  
-- CTA  
+  <tr>
+    <td><b>Sprint n – 1 Review Summary</b></td>
+    <td>Al ser el primer sprint del proyecto, no se cuenta con un sprint previo. Sin embargo, el equipo definió la propuesta de valor de BiteWise, enfocada en la generación de planes de alimentación personalizados según preferencias, objetivos de salud y restricciones nutricionales.</td>
+  </tr>
 
-**Estructura del sistema:**
-src/app/components/
-├── navbar/
-├── hero/
-├── stats/
-├── problem/
-├── features/
-├── how/
-├── pricing/
-├── dashboard-preview/
-└── cta-footer/
+  <tr>
+    <td><b>Sprint n – 1 Retrospective Summary</b></td>
+    <td>No aplica para el primer sprint. El equipo acordó establecer una comunicación constante, definir roles claros y organizar el trabajo de manera colaborativa para asegurar el cumplimiento de los objetivos del proyecto.</td>
+  </tr>
 
-Esto permitió una arquitectura modular, reutilizable y escalable.
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>Nuestro enfoque es desarrollar la estructura inicial de la plataforma BiteWise e implementar las funcionalidades básicas de registro de usuario y recopilación de preferencias alimenticias. Creemos que esto proporciona un punto de partida personalizado para que los usuarios puedan recibir planes de alimentación adaptados a sus necesidades. Esto se confirmará cuando los usuarios puedan registrarse, ingresar sus preferencias y visualizar un plan de comidas personalizado inicial.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>20 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>18 Story Points</td>
+  </tr>
+</table>
+
 
 ---
 
-## 5.2.1.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.2. Aspect Leaders and Collaborators
 
-- **Git:** control de versiones  
-- **GitHub:** repositorio del proyecto  
-- **GitHub Pages:** despliegue del sistema  
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX) correspondiente al Sprint 1 del proyecto BiteWise. Para este sprint, el equipo ha definido como principales aspectos el desarrollo de la estructura base del sistema, la gestión de usuarios, la recopilación de preferencias alimenticias y el diseño de la interfaz de usuario.
 
-El sistema se encuentra disponible públicamente para pruebas.
+Cada aspecto cuenta con un líder responsable y colaboradores que apoyan en su desarrollo, con el fin de mejorar la organización del equipo, facilitar la comunicación y asegurar el cumplimiento de los objetivos del sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Estructura Base del Sistema<br>Leader (L) / Collaborator (C) | Gestión de Usuarios<br>Leader (L) / Collaborator (C) | Preferencias Alimenticias<br>Leader (L) / Collaborator (C) | Diseño UI<br>Leader (L) / Collaborator (C) |
+|------------------------------------|-----------------|--------------------------------|---------------------|----------------------------|-----------|
+| Hermoza Quispe, Jude Alessandro | JvnnDev | L | C | C | C |
+| Flores Siguas, Marlon Alessandro | MarlonFS965 | C | L | C | C |
+| Munayco Apolaya, Maria Luisa | malumunayco | C | C | L | C |
+| Verastigue Martinez, Giancarlo Jose | CaLoVM | C | C | C | L |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | C |
+
+---
+
+##### 5.2.1.3. Sprint Backlog 1
+
+<p>
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto BiteWise. El objetivo principal de este sprint es implementar las funcionalidades básicas de autenticación de usuarios, gestión de preferencias alimenticias y la generación inicial de un plan alimenticio.
+</p>
+
+<table border="1">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>US001</td>
+    <td>Registro de usuario normal</td>
+    <td>T01</td>
+    <td>Diseñar formulario</td>
+    <td>Crear interfaz de registro</td>
+    <td>4</td>
+    <td>Marlon Flores</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US001</td>
+    <td>Registro de usuario normal</td>
+    <td>T02</td>
+    <td>Implementar backend</td>
+    <td>Guardar datos del usuario</td>
+    <td>5</td>
+    <td>Giancarlo Verastigue</td>
+    <td>In-Process</td>
+  </tr>
+
+  <tr>
+    <td>US002</td>
+    <td>Registro de nutricionista</td>
+    <td>T03</td>
+    <td>Crear formulario</td>
+    <td>Formulario para nutricionistas</td>
+    <td>4</td>
+    <td>Jude Hermoza</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US003</td>
+    <td>Login de usuario</td>
+    <td>T04</td>
+    <td>Implementar login</td>
+    <td>Validar credenciales</td>
+    <td>4</td>
+    <td>Enrique Mantilla</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US010</td>
+    <td>Gestionar preferencias</td>
+    <td>T05</td>
+    <td>Crear formulario</td>
+    <td>UI de preferencias</td>
+    <td>4</td>
+    <td>Maria Munayco</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US007</td>
+    <td>Crear plan alimenticio</td>
+    <td>T06</td>
+    <td>Lógica de generación</td>
+    <td>Generar plan básico</td>
+    <td>6</td>
+    <td>Giancarlo Verastigue</td>
+    <td>To-Do</td>
+  </tr>
+
+</table>
 
 ---
 
-## 5.2.1.8. Team Collaboration Insights during Sprint
+##### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1, el equipo trabajó de forma colaborativa utilizando GitHub.
+En esta sección se presentan los avances de implementación alcanzados durante el Sprint 1 del proyecto BiteWise. Durante este sprint, el equipo trabajó de manera colaborativa utilizando GitHub para la gestión del código y control de versiones, organizando el trabajo mediante el uso de ramas por integrante.
 
-- Uso de ramas para desarrollo paralelo  
-- Integración mediante commits  
-- Reuniones por Discord  
-- Gestión de tareas con Trello  
-
-Esto permitió un flujo de trabajo organizado y eficiente.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| BiteWise | feature/Flores | f1a2b3c | feat: registro de usuario | Desarrollo del formulario de registro y validaciones iniciales | 2026-04-23 |
+| BiteWise | develop | d4e5f6g | chore: integración general | Integración de avances del equipo en la rama principal | 2026-04-23 |
+| BiteWise | feature/Mantilla | h7i8j9k | feat: login usuario | Implementación del inicio de sesión y validación de credenciales | 2026-04-23 |
+| BiteWise | feature/Verastigue | v1s2t3u | feat: lógica de negocio | Desarrollo de lógica base para generación de planes alimenticios | 2026-04-22 |
+| BiteWise | feature/Hermoza | z9x8c7v | feat: interfaz inicial | Desarrollo de componentes visuales iniciales | 2026-04-21 |
+| BiteWise | feature/Munayco | m4n5b6v | docs: avance documentación | Desarrollo de capítulos del informe y organización del sprint | 2026-04-23 |
 
 ---
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+Como resultado de este sprint, se logró completar la estructura visual y funcional de la landing page de BiteWise. A continuación, se presentan capturas de pantalla de cada una de las secciones implementadas, las cuales fueron desarrolladas con un enfoque responsivo y coherente con la identidad visual del proyecto:
+
+<img src="imagenes/landing1.png" alt="LandingPage">
+<img src="imagenes/landing2.png" alt="LandingPage">
+<img src="imagenes/landing3.png" alt="LandingPage">
+<img src="imagenes/landing4.png" alt="LandingPage">
+
+### Video demostrativo
+
+A continuación, se presenta un video donde se muestra la lading page elaborada en este sprint.
+**Link del video:** 
+
+---
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+
+Debido a que el proyecto se encuentra en una etapa inicial, aún no se cuenta con una documentación completa en OpenAPI desplegada. Sin embargo, se han identificado los principales endpoints necesarios para soportar las funcionalidades básicas como registro, autenticación y generación de planes alimenticios.
+
+### Endpoints Identificados
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response |
+|----------|------------|------------|------------|--------------------|---------------------|
+| /api/register | POST | Registro de usuario | name, email, password | { "name": "Juan", "email": "juan@email.com", "password": "123456" } | { "message": "Usuario registrado correctamente" } |
+| /api/login | POST | Inicio de sesión | email, password | { "email": "juan@email.com", "password": "123456" } | { "token": "abc123xyz" } |
+| /api/plans | POST | Generar plan alimenticio | preferencias, restricciones | { "preferencias": "vegano", "restricciones": "sin gluten" } | { "plan": "Plan semanal generado" } |
+
+
+  
+---
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las actividades realizadas relacionadas con el despliegue (deployment) durante el Sprint 1 del proyecto BiteWise. En esta etapa inicial, el equipo se enfocó en la preparación del entorno de desarrollo y la organización del repositorio, con el objetivo de facilitar futuros procesos de despliegue.
+
+Durante este Sprint, se realizaron las siguientes actividades:
+
+- Creación y configuración del repositorio del proyecto en GitHub.  
+- Definición de ramas de trabajo (feature branches y rama develop) para organizar el desarrollo colaborativo.  
+- Configuración inicial del proyecto para permitir su futura integración y despliegue.  
+- Estructuración del proyecto de manera que permita una posterior implementación en plataformas de despliegue como servicios cloud.
+
+Estas acciones permiten establecer una base sólida para la automatización y despliegue continuo en los siguientes Sprints.
+
+### Evidencia de Deployment
+
+<img src="imagenes/gitLanding.png" alt="LandingPage">
+
+
+
+
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+Durante el Sprint 1, el equipo desarrolló las actividades de implementación de manera colaborativa, organizando el trabajo tanto a nivel de desarrollo del producto como de documentación. Se empleó GitHub como herramienta principal para el control de versiones, permitiendo que cada integrante contribuya mediante commits y trabajo en ramas independientes.
+
+Cada miembro del equipo participó activamente en el desarrollo del proyecto, trabajando en funcionalidades específicas y en la elaboración de distintas secciones del documento. Esta distribución permitió avanzar de forma paralela y eficiente.
+
+En cuanto al desarrollo técnico, se utilizaron ramas por integrante (feature branches), tales como:
+
+- feature/Flores  
+- feature/Mantilla  
+- feature/Verastigue  
+- feature/Hermoza  
+- feature/Munayco  
+- develop  
+
+Esto permitió mantener un flujo de trabajo ordenado, donde cada integrante desarrolló sus funcionalidades de forma independiente antes de integrarlas en la rama principal.
+
+Asimismo, se evidencia la participación de todos los miembros mediante commits realizados en el repositorio, contribuyendo al desarrollo de las funcionalidades iniciales como registro de usuarios, login, interfaz inicial y estructura del sistema.
+
+En relación con los productos del Sprint:
+- **Landing Page:** Se desarrollaron componentes visuales iniciales.  
+- **Web Application:** Se implementaron funcionalidades básicas como registro y login.  
+- **Web Services:** Se definieron los endpoints iniciales para futuras implementaciones.  
+
+### Evidencia de colaboración
+
+A continuación, se presentan capturas que evidencian el trabajo colaborativo del equipo:
+
+- Historial de commits en GitHub  
+- Creación de ramas por integrante  
+- Actividad reciente del repositorio  
+
+<img width="754" height="463" alt="Captura de pantalla 2026-04-23 a la(s) 6 39 52 p  m" src="https://github.com/user-attachments/assets/7e9b5c54-1365-4ca3-b0c5-6545bd8aba89" />
+
+<img src="imagenes/evidencia1.png" alt="LandingPage">
+<img src="imagenes/evidencia2.png" alt="LandingPage">
+---
+
+## Conclusiones
+
+1. A partir del análisis realizado, se concluye que existe una problemática significativa en la personalización de planes alimenticios, ya que muchas soluciones actuales no consideran adecuadamente factores como condiciones médicas, preferencias culturales y contexto económico. Esto afecta directamente la adherencia de los usuarios a hábitos saludables, tal como se planteó en los *Problem Statements*.
+
+2. En relación con los *assumptions*, se identificó que tanto los usuarios finales como los profesionales de la salud requieren herramientas digitales más eficientes, intuitivas y adaptadas a sus necesidades. La propuesta de BiteWise responde a esta necesidad mediante la generación de planes personalizados y el seguimiento continuo del usuario.
+
+3. Respecto a las hipótesis planteadas, se concluye que la personalización, la posibilidad de editar planes, el uso de recordatorios y una experiencia de usuario sencilla tienen un alto potencial para mejorar el compromiso, la frecuencia de uso y la retención de los usuarios dentro de la plataforma.
+
+4. Asimismo, el modelo freemium se presenta como una estrategia viable para atraer usuarios iniciales y evaluar su conversión a servicios premium, aunque este aspecto deberá validarse con datos reales en futuras etapas del proyecto.
+
+5. Finalmente, se concluye que el equipo ha logrado establecer una base sólida del producto, definiendo correctamente los requerimientos, funcionalidades principales y un enfoque centrado en el usuario, alineado con la metodología Lean UX. No obstante, las hipótesis aún requieren validación mediante pruebas reales.
+
+**Recomendaciones**
+
+1. Se recomienda realizar validaciones con usuarios reales a través de prototipos o un MVP funcional, con el fin de comprobar las hipótesis planteadas y obtener retroalimentación directa.
+
+2. Es importante implementar métricas de seguimiento, como la tasa de retención, frecuencia de uso y nivel de personalización, para medir el desempeño de la plataforma y tomar decisiones basadas en datos.
+
+3. Se sugiere priorizar el desarrollo de las funcionalidades clave, como la generación de planes alimenticios personalizados, la edición de planes y la gestión de preferencias del usuario.
+
+4. Se recomienda incorporar mecanismos de feedback continuo que permitan mejorar la experiencia del usuario de manera iterativa.
+
+5. Asimismo, es importante evaluar la adopción de la plataforma por parte de profesionales de la salud, validando su utilidad en contextos reales.
+
+6. Finalmente, se recomienda mantener un enfoque iterativo y centrado en el usuario, mejorando constantemente la interfaz y funcionalidades para asegurar que el producto genere valor real y sostenible en el mercado.
+
+---
+
