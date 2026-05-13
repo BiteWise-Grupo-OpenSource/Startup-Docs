@@ -1939,6 +1939,209 @@ En relación con los productos del Sprint:
 - **Web Application:** Se implementaron funcionalidades básicas como registro y login.  
 - **Web Services:** Se definieron los endpoints iniciales para futuras implementaciones.  
 
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2.
+
+En esta sección se describen los aspectos principales del Sprint Planning Meeting correspondiente al Sprint 2 del proyecto BiteWise. Durante esta reunión, el equipo definió los objetivos del sprint, los cuales serán la elaboración del frontend y los bounded context
+
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td>Sprint 2</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2026-05-09</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>04:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual vía Google Meet</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Mantilla Maldonado, Enrique Manuel</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Hermoza Quispe, Jude Alessandro / Munayco Apolaya, Maria Luisa / Verastigue Martinez, Giancarlo Jose / Mantilla Maldonado, Enrique Manuel</td>
+  </tr>
+
+  <tr>
+    <td><b>Sprint n – 2 Review Summary</b></td>
+    <td>Se arreglaron algunos problemas y detalles señalados por el profesor. Además se desarrollo la primera version de la landing page</td>
+  </tr>
+
+  <tr>
+    <td><b>Sprint n – 1 Retrospective Summary</b></td>
+    <td>El progreso del proyecto está avanzando como se esperaba, aunque tambien tiene sus detalles por revisar. Hasta ahora se ha desarrollado la landing page pero falta agregarle algunos retoques.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Goal</td>
+    <td>Nuestro objetivos en este sprint seria mejorar la landing page tomando en cuenta la retroalimentación del profesor. Además, avanzaremos con la primera versión del Front End de nuestro proyecto mediante el uso de CRUDS. Esto nos permitirá presentar las funcionalidades de nuestra propuesta.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Velocity</td>
+    <td>Se calcula que se podrá desarrollar 30 Story Points</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>Se completaron los 30 Story Points</td>
+  </tr>
+</table>
+
+
+##### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En este sprint, el equipo busca desarrollar y desplegar el frontend de la aplicación web. Además, se desarrollará una fakeAPI para simular temporalmente el backend. Los puntos que se buscan desarrollar seria el desarrollo de los componentes del front end, el despliegue del front end e integracion de la fakeAPI
+
+Cada aspecto cuenta con un líder responsable y colaboradores que apoyan en su desarrollo, con el fin de mejorar la organización del equipo, facilitar la comunicación y asegurar el cumplimiento de los objetivos del sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Desarrollo de componentes <br>Leader (L) / Collaborator (C) | Despliegue del Front End<br>Leader (L) / Collaborator (C) | Desarrollo e Implementación de la fakeAPI<br>Leader (L) / Collaborator (C) |  |
+|------------------------------------|-----------------|--------------------------------|---------------------|----------------------------|-----------|
+| Hermoza Quispe, Jude Alessandro | JvnnDev | L | C | C |
+| Munayco Apolaya, Maria Luisa | malumunayco | C | C | C |
+| Verastigue Martinez, Giancarlo Jose | CaLoVM | C | L | C |
+| Mantilla Maldonado, Enrique Manuel | enrique-mantilla | C | C | L |
+
+##### 5.2.2.3. Sprint Backlog 2.
+
+El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas tareas para el Sprint 2, el cual está orientado al desarrollo del Front End y su despliegue. Además, tambien se busca mejorar la landing page e integrar el backend con el frontend.
+
+<table border="1">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>US-12</td>
+    <td>Navegar entre secciones desde la barra</td>
+    <td>T01</td>
+    <td>Diseñar la barra lateral</td>
+    <td>Se debe diseñar una barra lateral que permita viajar entre secciones</td>
+    <td>1</td>
+    <td>Enrique Mantilla</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-12</td>
+    <td>Navegar entre secciones desde la barra</td>
+    <td>T02</td>
+    <td>Funcionalidad de redirigir</td>
+    <td>Al clickear los nombres de las secciones de la barra lateral entonces el usuario será redirigido a dicha sección</td>
+    <td>2</td>
+    <td>Giancarlo Verastigue</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-14</td>
+    <td>Navegar desde el footer</td>
+    <td>T01</td>
+    <td>Diseñar el footer de navegación</td>
+    <td>Se debe diseñar un pie de página con enlaces visibles hacia las principales secciones de la aplicación</td>
+    <td>1</td>
+    <td>Jude Hermoza</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-14</td>
+    <td>Navegar desde el footer</td>
+    <td>T02</td>
+    <td>Implementar redirección de enlaces del footer</td>
+    <td>Al hacer click en los enlaces del footer el usuario debe ser redirigido correctamente a la sección correspondiente</td>
+    <td>2</td>
+    <td>Enrique Mantilla</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-04</td>
+    <td>Registro de Consumo Diario</td>
+    <td>T01</td>
+    <td>Diseñar formulario de registro diario</td>
+    <td>Se debe crear un formulario para que el usuario registre sus comidas diarias</td>
+    <td>2</td>
+    <td>Maria Munayco</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-04</td>
+    <td>Registro de Consumo Diario</td>
+    <td>T02</td>
+    <td>Implementar almacenamiento de comidas</td>
+    <td>El sistema debe guardar los registros diarios de alimentación del usuario en la base de datos</td>
+    <td>4</td>
+    <td>Jude Hermoza</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-04</td>
+    <td>Registro de Consumo Diario</td>
+    <td>T03</td>
+    <td>Mostrar historial de consumo diario</td>
+    <td>El usuario podrá visualizar el historial de comidas registradas por fecha</td>
+    <td>2</td>
+    <td>Maria Munayco</td>
+    <td>Done</td>
+  </tr>
+
+
+</table>
+
+
+
+##### 5.2.2.4. Development Evidence for Sprint Review.
+
+| Repository        | Branch             | Commit Message                | Date       |
+|------------------|-------------------|------------------------------|------------|
+| bitewise-front | feature/start     | feat: initial setup          | 10/04/2025 |
+| bitewise-front | feature/components| feat: add components         | 10/04/2025 |
+| bitewise-front | feature/styles    | feat: responsive design      | 11/04/2025 |
+| bitewise-front | feature/ui        | feat: UI improvements        | 12/04/2025 |
+
+
+##### 5.2.2.5. Execution Evidence for Sprint Review.
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+
 ### Evidencia de colaboración
 
 A continuación, se presentan capturas que evidencian el trabajo colaborativo del equipo:
