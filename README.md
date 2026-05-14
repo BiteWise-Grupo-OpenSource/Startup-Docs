@@ -41,6 +41,27 @@
 
 <hr>
 
+## Registro de Versiones del Informe
+
+| Versión | Fecha | Autor(es) | Descripción de modificación |
+|---------|-------|-----------|-----------------------------|
+| 0.1 | 19/04/2026 | Enrique Mantilla Maldonado | Initial commit. |
+| 0.2 | 21/04/2026 | Jude Hermoza Quispe | Actualización de miembros del equipo, student outcomes y perfiles personales. |
+| 0.3 | 22/04/2026 | Maria Munayco Apolaya, Giancarlo Verastigue Martinez | Revisión de introducción personal; subida de archivos; actualización del README; adición de capítulos 5.1.1 y 5.1.2. |
+| 0.4 | 23/04/2026 | Maria Munayco Apolaya | Actualización del README con style guide y detalles de despliegue. |
+| 0.5 | 24/04/2026 | Maria Munayco Apolaya, Giancarlo Verastigue Martinez, Enrique Mantilla Maldonado | Adición de enlaces de Figma y landing page en el README; adición de capítulos 3 y 4. |
+| 0.6 | 25/04/2026 | Enrique Mantilla Maldonado, Giancarlo Verastigue Martinez, Maria Munayco Apolaya | Múltiples updates: merges; actualización de capítulos 2.4, 3.3 y 5 (incluyendo detalles de Sprint 1, Sprint 2 y subsección 5.2); conclusiones de student outcome; reemplazo de imágenes en landing page y enlaces a Structurizr; arreglo general de diagramas. |
+
+## Project Report Collaboration Insights  
+
+Todas las actividades asignadas para la entrega de la TB1 han sido completadas y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/BiteWise-Grupo-OpenSource. En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs
+Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
+
+**Insights Readme**
+<p align="center">
+    <img src="imagenes/insights-readme.png" alt="insights-readme" width="600px"/>
+</p>
+
 ## Tabla de Contenidos
 
 Capítulo I: Introducción    
@@ -943,64 +964,64 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 
 ## 3.3 Product Backlog
 
-| #Orden  | ID     | Título                               | Descripción                                                                                       | Story Points |
-|----|--------|--------------------------------------|---------------------------------------------------------------------------------------------------|--------------|
-| 1  | US-06  | Ver resumen de beneficios            | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.  | 3            |
-| 2  | US-08  | Visualizar testimonios               | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                      | 2            |
-| 3  | US-09  | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para explorarla. | 5            |
-| 4  | US-10  | Conocer la propuesta de valor        | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                | 3            |
-| 5  | US-11  | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | 3       |
-| 6  | US-12  | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones.               | 2            |
-| 7  | US-13  | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior.             | 3            |
-| 8  | US-14  | Navegar desde el footer              | Como visitante, quiero que los enlaces del pie de página funcionen correctamente.                | 2            |
-| 9 |  US-56  | Intercambiar idiomas | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | 5 |
-| 10  | US-01  | Registro de Usuario                  | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones.       | 5            |
-| 11 | US-04  | Registro de Consumo Diario           | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación.    | 5            |
-| 12 | US-25  | Acceso como Invitado                 | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas.                | 3            |
-| 13 | US-22  | Control de Sesiones Activas          | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad.                     | 5            |
-| 17 | US-02  | Personalización de Objetivos         | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas.       | 5            |
-| 18 | US-03  | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | 5        |
-| 20 | US-07  | Ajuste de Plan Nutricional           | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades.                     | 5            |
-| 21 | US-15  | Envío de Sugerencias Semanales       | Como usuario, quiero recibir sugerencias semanales de menús adaptados.                           | 5            |
-| 25 | US-19  | Creación de Grupos de Apoyo          | Como usuario, quiero unirme a grupos con objetivos similares para motivación.                    | 8            |
-| 27 | US-26  | Búsqueda de Recetas                  | Como usuario, quiero buscar recetas saludables dentro de la app.                                 | 5            |
-| 28 | US-27  | Filtrado de Recetas                  | Como usuario, quiero filtrar recetas por tipo de dieta o restricción.                            | 5            |
-| 29 | US-28  | Favoritos de Recetas                 | Como usuario, quiero guardar recetas favoritas.                                                  | 3            |
-| 30 | US-29  | Visualización de Valor Nutricional   | Como usuario, quiero ver el valor nutricional de las recetas.                                    | 5            |
-| 35 | US-53  | Recomendaciones Basadas en Perfil Nutricional        | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos.             | 3            |
-| 38 | TS-56  | 	Agregar Alergia mediante API RESTful                | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización.                                               | 5            |
-| 39 | TS-57  | Agregar Recomendaciones mediante API RESTful       | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida.                                         | 8            |
-| 40 | TS-58  | Crear Receta mediante API RESTful     | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas.                                 | 5            |
-| 41 | TS-59  | Crear Plan de Comida mediante API RESTful           | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.                                                         | 5            |
-| 42 | TS-60  | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances.                                             | 5            |
-| 43 | TS-61  | Configurar Entorno de Desarrollo | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto. | 5 |
-| 44 | TS-62  | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | 5 |
-| 46 | TS-64  | Módulo de Recomendaciones Dinámicas | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | 8 |
-| 50 | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
-| 51 | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
-| 52 | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
-| 55 | US-38  | Visualización de Macronutrientes     | Como usuario, quiero visualizar proteínas, carbohidratos y grasas en mi dieta para balancearla mejor. | 5       |
-| 58 | US-41  | Visualización de Ingredientes        | Como usuario, quiero ver los ingredientes de cada receta para saber si se ajustan a mis preferencias. | 3       |
-| 66 | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
-| 67    | TS-67   | Edición de Datos del Perfil            | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias.                    | 3            |
-| 68    | TS-68   | Eliminación de Perfil                  | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas. | 2            |
-| 69    | TS-69   | Visualización General de Perfiles      | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionarlos.                             | 2            |
-| 70    | TS-70   | Creación de Objetivos                  | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app.                      | 3            |
-| 71    | TS-71   | Creación de Niveles de Actividad       | Como administrador, quiero definir distintos niveles de actividad física.                                                  | 3            |
-| 72    | TS-72   | Registro de Alergias                   | Como nutricionista o administrador, quiero registrar nuevas alergias.                                                      | 3            |
-| 73    | TS-73   | Consulta de Alergias Disponibles       | Como usuario, quiero consultar las alergias registradas en la plataforma.                                                  | 2            |
-| 74    | TS-74  | Consulta de Niveles de Actividad       | Como usuario, quiero consultar los niveles de actividad disponibles.                                                       | 2            |
-| 75    | TS-75   | Consulta de Objetivos Disponibles      | Como usuario, quiero consultar los objetivos de salud existentes.                                                          | 2            |
-| 76    | TS-76  | Endpoint de Ajuste de Plan Nutricional  | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | 5            |
-| 77     | TS-77 | Endpoint de Búsqueda de Recetas       | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | 5            |
-| 78     | TS-78  | Gestión de Recipe Types       | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | 5            |
-| 79     | TS-79  | Gestión de Ingredients        | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | 5            |
-| 80     | TS-80  | Gestión de Categories         | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | 5            |
-| 81     | TS-81  | Gestión de Recommendations          | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | 8            |
-| 82     | TS-82  | Gestión de Recommendation Templates | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | 5            |
-| 83     | TS-83  | Gestión de Seguimiento Nutricional   | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | 8            |
-| 84     | TS-84  | Consulta de Datos Nutricionales      | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | 5            |
-| 85     | US-85  | Ver video del equipo de desarrollo | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | 3 |
+| #Orden | ID     | Título                               | Descripción                                                                                       | Story Points |
+|--------|--------|--------------------------------------|---------------------------------------------------------------------------------------------------|--------------|
+| 1      | US-06  | Ver resumen de beneficios            | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.  | 3            |
+| 2      | US-08  | Visualizar testimonios               | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                      | 2            |
+| 3      | US-09  | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para explorarla. | 5            |
+| 4      | US-10  | Conocer la propuesta de valor        | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                | 3            |
+| 5      | US-11  | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | 3       |
+| 6      | US-12  | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones.               | 2            |
+| 7      | US-13  | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior.             | 3            |
+| 8      | US-14  | Navegar desde el footer              | Como visitante, quiero que los enlaces del pie de página funcionen correctamente.                | 2            |
+| 9      | US-56  | Intercambiar idiomas                 | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | 5 |
+| 10     | TS-70  | Creación de Objetivos                | Como administrador, quiero crear y gestionar los objetivos generales de salud disponibles en la app.                      | 3            |
+| 11     | TS-71  | Creación de Niveles de Actividad     | Como administrador, quiero definir distintos niveles de actividad física.                                                  | 3            |
+| 12     | TS-72  | Registro de Alergias                 | Como nutricionista o administrador, quiero registrar nuevas alergias.                                                      | 3            |
+| 13     | TS-56  | Agregar Alergia mediante API RESTful | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización.                                               | 5            |
+| 14     | TS-57  | Agregar Recomendaciones mediante API RESTful | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida.                                         | 8            |
+| 15     | TS-58  | Crear Receta mediante API RESTful    | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas.                                 | 5            |
+| 16     | TS-59  | Crear Plan de Comida mediante API RESTful | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.                                                         | 5            |
+| 17     | TS-60  | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances.                                             | 5            |
+| 18     | TS-61  | Configurar Entorno de Desarrollo     | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto. | 5 |
+| 19     | TS-62  | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | 5 |
+| 20     | TS-64  | Módulo de Recomendaciones Dinámicas  | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | 8 |
+| 21     | TS-76  | Endpoint de Ajuste de Plan Nutricional | Como desarrollador, quiero un endpoint RESTful que permita actualizar un plan de comida existente para que el usuario pueda ajustar su plan nutricional según sus necesidades. | 5            |
+| 22     | TS-77  | Endpoint de Búsqueda de Recetas      | Como desarrollador, quiero un endpoint RESTful que permita buscar recetas por nombre, ingredientes o tipo, para que los usuarios puedan encontrar fácilmente recetas saludables según sus criterios de búsqueda. | 5            |
+| 23     | TS-78  | Gestión de Recipe Types              | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener tipos de receta, para gestionar el catálogo de tipos de receta.                         | 5            |
+| 24     | TS-79  | Gestión de Ingredients               | Como desarrollador, quiero endpoints RESTful para listar y crear ingredientes, para gestionar el catálogo de ingredientes.                                         | 5            |
+| 25     | TS-80  | Gestión de Categories                | Como desarrollador, quiero endpoints RESTful para listar, crear y obtener categorías, para gestionar el catálogo de categorías de recetas.                         | 5            |
+| 26     | TS-81  | Gestión de Recommendations           | Como desarrollador, quiero endpoints RESTful para crear, actualizar, listar y eliminar recomendaciones, para ofrecer sugerencias personalizadas a los usuarios.    | 8            |
+| 27     | TS-82  | Gestión de Recommendation Templates  | Como desarrollador, quiero endpoints RESTful para listar y crear plantillas de recomendación, para definir formatos reutilizables de sugerencias nutricionales.     | 5            |
+| 28     | TS-83  | Gestión de Seguimiento Nutricional   | Como desarrollador, quiero endpoints RESTful para gestionar el tracking, metas nutricionales, macronutrientes consumidos y entradas de plan de comida, para registrar y analizar la alimentación del usuario. | 8            |
+| 29     | TS-84  | Consulta de Datos Nutricionales      | Como desarrollador, quiero endpoints RESTful para obtener datos detallados del progreso nutricional del usuario, incluyendo objetivos, historial de consumo y desglose de macronutrientes. | 5            |
+| 30     | US-01  | Registro de Usuario                  | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones.       | 5            |
+| 31     | US-04  | Registro de Consumo Diario           | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación.    | 5            |
+| 32     | US-25  | Acceso como Invitado                 | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas.                | 3            |
+| 33     | US-22  | Control de Sesiones Activas          | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad.                     | 5            |
+| 34     | US-02  | Personalización de Objetivos         | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas.       | 5            |
+| 35     | US-03  | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | 5        |
+| 36     | US-07  | Ajuste de Plan Nutricional           | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades.                     | 5            |
+| 37     | US-15  | Envío de Sugerencias Semanales       | Como usuario, quiero recibir sugerencias semanales de menús adaptados.                           | 5            |
+| 38     | US-19  | Creación de Grupos de Apoyo          | Como usuario, quiero unirme a grupos con objetivos similares para motivación.                    | 8            |
+| 39     | US-26  | Búsqueda de Recetas                  | Como usuario, quiero buscar recetas saludables dentro de la app.                                 | 5            |
+| 40     | US-27  | Filtrado de Recetas                  | Como usuario, quiero filtrar recetas por tipo de dieta o restricción.                            | 5            |
+| 41     | US-28  | Favoritos de Recetas                 | Como usuario, quiero guardar recetas favoritas.                                                  | 3            |
+| 42     | US-29  | Visualización de Valor Nutricional   | Como usuario, quiero ver el valor nutricional de las recetas.                                    | 5            |
+| 43     | US-53  | Recomendaciones Basadas en Perfil Nutricional | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos.             | 3            |
+| 44     | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
+| 45     | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
+| 46     | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
+| 47     | US-38  | Visualización de Macronutrientes     | Como usuario, quiero visualizar proteínas, carbohidratos y grasas en mi dieta para balancearla mejor. | 5       |
+| 48     | US-41  | Visualización de Ingredientes        | Como usuario, quiero ver los ingredientes de cada receta para saber si se ajustan a mis preferencias. | 3       |
+| 49     | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
+| 50     | TS-67  | Edición de Datos del Perfil          | Como usuario, quiero poder editar los datos de mi perfil de salud, incluyendo peso, altura y alergias.                    | 3            |
+| 51     | TS-68  | Eliminación de Perfil                | Como usuario, quiero eliminar mi perfil de salud en caso de que ya no desee seguir usando funcionalidades personalizadas. | 2            |
+| 52     | TS-69  | Visualización General de Perfiles    | Como usuario, quiero consultar la lista completa de perfiles creados para poder gestionarlos.                             | 2            |
+| 53     | TS-73  | Consulta de Alergias Disponibles     | Como usuario, quiero consultar las alergias registradas en la plataforma.                                                  | 2            |
+| 54     | TS-74  | Consulta de Niveles de Actividad     | Como usuario, quiero consultar los niveles de actividad disponibles.                                                       | 2            |
+| 55     | TS-75  | Consulta de Objetivos Disponibles    | Como usuario, quiero consultar los objetivos de salud existentes.                                                          | 2            |
+| 56     | US-85  | Ver video del equipo de desarrollo   | Como usuario, quiero poder ver un video acerca del equipo de desarrollo y su experiencia y desempeño al realizar este proyecto, para entender mejor quiénes están detrás de la aplicación y su trayectoria. | 3 |
 
 
 <hr>
@@ -1749,7 +1770,7 @@ Cada aspecto cuenta con un líder responsable y colaboradores que apoyan en su d
 ##### 5.2.1.3. Sprint Backlog 1
 
 <p>
-En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto BiteWise. El objetivo principal de este sprint es implementar las funcionalidades básicas de autenticación de usuarios, gestión de preferencias alimenticias y la generación inicial de un plan alimenticio.
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto BiteWise. El objetivo principal de este sprint es el desarrollo inicial de la Landing Page, enfocándonos en la propuesta de valor y la presentación de los beneficios principales para los visitantes.
 </p>
 
 <table border="1">
@@ -1775,69 +1796,58 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
   </tr>
 
   <tr>
-    <td>US001</td>
-    <td>Registro de usuario normal</td>
+    <td>US-10</td>
+    <td>Conocer la propuesta de valor</td>
     <td>T01</td>
-    <td>Diseñar formulario</td>
-    <td>Crear interfaz de registro</td>
-    <td>4</td>
-    <td>Marlon Flores</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US001</td>
-    <td>Registro de usuario normal</td>
-    <td>T02</td>
-    <td>Implementar backend</td>
-    <td>Guardar datos del usuario</td>
-    <td>5</td>
-    <td>Giancarlo Verastigue</td>
-    <td>In-Process</td>
-  </tr>
-
-  <tr>
-    <td>US002</td>
-    <td>Registro de nutricionista</td>
-    <td>T03</td>
-    <td>Crear formulario</td>
-    <td>Formulario para nutricionistas</td>
-    <td>4</td>
-    <td>Jude Hermoza</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US003</td>
-    <td>Login de usuario</td>
-    <td>T04</td>
-    <td>Implementar login</td>
-    <td>Validar credenciales</td>
-    <td>4</td>
-    <td>Enrique Mantilla</td>
-    <td>To-Do</td>
-  </tr>
-
-  <tr>
-    <td>US010</td>
-    <td>Gestionar preferencias</td>
-    <td>T05</td>
-    <td>Crear formulario</td>
-    <td>UI de preferencias</td>
+    <td>Diseñar Hero Section</td>
+    <td>Crear el diseño visual de la sección principal (Hero)</td>
     <td>4</td>
     <td>Maria Munayco</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US007</td>
-    <td>Crear plan alimenticio</td>
-    <td>T06</td>
-    <td>Lógica de generación</td>
-    <td>Generar plan básico</td>
+    <td>US-10</td>
+    <td>Conocer la propuesta de valor</td>
+    <td>T02</td>
+    <td>Maquetar Hero Section</td>
+    <td>Desarrollar la sección Hero en el Frontend con HTML/CSS</td>
+    <td>5</td>
+    <td>Giancarlo Verastigue</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-06</td>
+    <td>Ver resumen de beneficios</td>
+    <td>T03</td>
+    <td>Diseñar sección de beneficios</td>
+    <td>Crear diseño visual de las tarjetas de beneficios de la app</td>
+    <td>4</td>
+    <td>Jude Hermoza</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-11</td>
+    <td>Navegar por los beneficios principales</td>
+    <td>T04</td>
+    <td>Maquetar beneficios</td>
+    <td>Implementar la sección de beneficios en el Frontend</td>
+    <td>4</td>
+    <td>Enrique Mantilla</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-09</td>
+    <td>Acceder desde distintos dispositivos</td>
+    <td>T05</td>
+    <td>Ajustes Responsive</td>
+    <td>Asegurar que la Landing Page sea responsive en móvil y tablet</td>
     <td>6</td>
     <td>Giancarlo Verastigue</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
 </table>
@@ -1850,12 +1860,12 @@ En esta sección se presentan los avances de implementación alcanzados durante 
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|---------------------|--------------------|
-| BiteWise | feature/Flores | f1a2b3c | feat: registro de usuario | Desarrollo del formulario de registro y validaciones iniciales | 2026-04-23 |
-| BiteWise | develop | d4e5f6g | chore: integración general | Integración de avances del equipo en la rama principal | 2026-04-23 |
-| BiteWise | feature/Mantilla | h7i8j9k | feat: login usuario | Implementación del inicio de sesión y validación de credenciales | 2026-04-23 |
-| BiteWise | feature/Verastigue | v1s2t3u | feat: lógica de negocio | Desarrollo de lógica base para generación de planes alimenticios | 2026-04-22 |
-| BiteWise | feature/Hermoza | z9x8c7v | feat: interfaz inicial | Desarrollo de componentes visuales iniciales | 2026-04-21 |
-| BiteWise | feature/Munayco | m4n5b6v | docs: avance documentación | Desarrollo de capítulos del informe y organización del sprint | 2026-04-23 |
+| BiteWise | feature/Munayco | f1a2b3c | feat: diseño hero section | Diseño de la sección principal para propuesta de valor | 2026-04-20 |
+| BiteWise | feature/Verastigue | d4e5f6g | feat: maquetado hero | Desarrollo Frontend HTML/CSS de la hero section | 2026-04-21 |
+| BiteWise | feature/Hermoza | h7i8j9k | feat: diseño beneficios | Diseño visual de tarjetas de beneficios | 2026-04-22 |
+| BiteWise | feature/Mantilla | v1s2t3u | feat: maquetado beneficios | Implementación frontend sección beneficios | 2026-04-22 |
+| BiteWise | develop | z9x8c7v | feat: ajustes responsive | Adaptación a móviles de la landing page | 2026-04-23 |
+| BiteWise | develop | m4n5b6v | docs: avance documentación | Desarrollo de capítulos del informe y organización del sprint | 2026-04-23 |
 
 ---
 
@@ -1877,17 +1887,9 @@ A continuación, se presenta un video donde se muestra la lading page elaborada 
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Debido a que el proyecto se encuentra en una etapa inicial enfocada exclusivamente en el desarrollo de la **Landing Page** para validación del modelo de negocio, aún no se cuenta con una documentación de servicios, APIs o endpoints. 
 
-
-Debido a que el proyecto se encuentra en una etapa inicial, aún no se cuenta con una documentación completa en OpenAPI desplegada. Sin embargo, se han identificado los principales endpoints necesarios para soportar las funcionalidades básicas como registro, autenticación y generación de planes alimenticios.
-
-### Endpoints Identificados
-
-| Endpoint | Método HTTP | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response |
-|----------|------------|------------|------------|--------------------|---------------------|
-| /api/register | POST | Registro de usuario | name, email, password | { "name": "Juan", "email": "juan@email.com", "password": "123456" } | { "message": "Usuario registrado correctamente" } |
-| /api/login | POST | Inicio de sesión | email, password | { "email": "juan@email.com", "password": "123456" } | { "token": "abc123xyz" } |
-| /api/plans | POST | Generar plan alimenticio | preferencias, restricciones | { "preferencias": "vegano", "restricciones": "sin gluten" } | { "plan": "Plan semanal generado" } |
+El desarrollo de la lógica de negocio (Backend), autenticación y gestión de usuarios se abordará en Sprints posteriores, momento en el cual se incluirá la documentación correspondiente utilizando OpenAPI o similares.
 
 
   
@@ -2017,12 +2019,12 @@ Cada aspecto cuenta con un líder responsable y colaboradores que apoyan en su d
 
 ##### 5.2.2.3. Sprint Backlog 2.
 
-El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas tareas para el Sprint 2, el cual está orientado al desarrollo del Front End y su despliegue. Además, tambien se busca mejorar la landing page e integrar el backend con el frontend.
+El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas tareas para el Sprint 2, el cual está orientado a completar y mejorar la Landing Page según el feedback recibido, integrando un sistema de navegación optimizado, testimonios e internacionalización.
 
 <table border="1">
   <tr>
     <td><b>Sprint #</b></td>
-    <td colspan="7">Sprint 1</td>
+    <td colspan="7">Sprint 2</td>
   </tr>
 
   <tr>
@@ -2045,8 +2047,8 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
     <td>US-12</td>
     <td>Navegar entre secciones desde la barra</td>
     <td>T01</td>
-    <td>Diseñar la barra lateral</td>
-    <td>Se debe diseñar una barra lateral que permita viajar entre secciones</td>
+    <td>Diseñar la barra de navegación</td>
+    <td>Diseñar una barra superior (navbar) para viajar entre secciones</td>
     <td>1</td>
     <td>Enrique Mantilla</td>
     <td>Done</td>
@@ -2056,8 +2058,8 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
     <td>US-12</td>
     <td>Navegar entre secciones desde la barra</td>
     <td>T02</td>
-    <td>Funcionalidad de redirigir</td>
-    <td>Al clickear los nombres de las secciones de la barra lateral entonces el usuario será redirigido a dicha sección</td>
+    <td>Implementar scroll a secciones</td>
+    <td>Al clickear los nombres de la navbar redirigir a la sección</td>
     <td>2</td>
     <td>Giancarlo Verastigue</td>
     <td>Done</td>
@@ -2068,7 +2070,7 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
     <td>Navegar desde el footer</td>
     <td>T01</td>
     <td>Diseñar el footer de navegación</td>
-    <td>Se debe diseñar un pie de página con enlaces visibles hacia las principales secciones de la aplicación</td>
+    <td>Diseñar un pie de página con enlaces visibles hacia secciones</td>
     <td>1</td>
     <td>Jude Hermoza</td>
     <td>Done</td>
@@ -2078,46 +2080,45 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
     <td>US-14</td>
     <td>Navegar desde el footer</td>
     <td>T02</td>
-    <td>Implementar redirección de enlaces del footer</td>
-    <td>Al hacer click en los enlaces del footer el usuario debe ser redirigido correctamente a la sección correspondiente</td>
+    <td>Implementar enlaces del footer</td>
+    <td>Maquetar el footer y agregar redirecciones correspondientes</td>
     <td>2</td>
     <td>Enrique Mantilla</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-04</td>
-    <td>Registro de Consumo Diario</td>
+    <td>US-08</td>
+    <td>Visualizar testimonios</td>
     <td>T01</td>
-    <td>Diseñar formulario de registro diario</td>
-    <td>Se debe crear un formulario para que el usuario registre sus comidas diarias</td>
+    <td>Diseñar sección testimonios</td>
+    <td>Crear diseño UI para comentarios de los usuarios</td>
     <td>2</td>
     <td>Maria Munayco</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-04</td>
-    <td>Registro de Consumo Diario</td>
+    <td>US-08</td>
+    <td>Visualizar testimonios</td>
     <td>T02</td>
-    <td>Implementar almacenamiento de comidas</td>
-    <td>El sistema debe guardar los registros diarios de alimentación del usuario en la base de datos</td>
+    <td>Implementar testimonios</td>
+    <td>Maquetar la sección de testimonios en el Frontend</td>
     <td>4</td>
     <td>Jude Hermoza</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-04</td>
-    <td>Registro de Consumo Diario</td>
-    <td>T03</td>
-    <td>Mostrar historial de consumo diario</td>
-    <td>El usuario podrá visualizar el historial de comidas registradas por fecha</td>
-    <td>2</td>
+    <td>US-56</td>
+    <td>Intercambiar idiomas</td>
+    <td>T01</td>
+    <td>Integrar i18n</td>
+    <td>Configurar internacionalización para español e inglés en Landing</td>
+    <td>3</td>
     <td>Maria Munayco</td>
     <td>Done</td>
   </tr>
-
 
 </table>
 
@@ -2127,10 +2128,10 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
 
 | Repository        | Branch             | Commit Message                | Date       |
 |------------------|-------------------|------------------------------|------------|
-| bitewise-front | feature/start     | feat: initial setup          | 10/04/2025 |
-| bitewise-front | feature/components| feat: add components         | 10/04/2025 |
-| bitewise-front | feature/styles    | feat: responsive design      | 11/04/2025 |
-| bitewise-front | feature/ui        | feat: UI improvements        | 12/04/2025 |
+| bitewise-front | feature/navbar    | feat: component navbar       | 10/05/2026 |
+| bitewise-front | feature/footer    | feat: component footer       | 10/05/2026 |
+| bitewise-front | feature/reviews   | feat: add testimonios slider | 11/05/2026 |
+| bitewise-front | feature/i18n      | feat: translate landing page | 12/05/2026 |
 
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -2154,6 +2155,7 @@ A continuación, se presentan capturas que evidencian el trabajo colaborativo de
 
 <img src="imagenes/evidencia1.png" alt="LandingPage">
 <img src="imagenes/evidencia2.png" alt="LandingPage">
+<img src="imagenes/evidencia3.png" alt="LandingPage">
 ---
 
 ## Conclusiones
