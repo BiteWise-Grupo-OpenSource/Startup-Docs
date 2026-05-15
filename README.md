@@ -2136,6 +2136,9 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review.
 
+Link del despliegue de Enrique: https://bitewise-especialistas.web.app
+
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
