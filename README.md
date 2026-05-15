@@ -2137,6 +2137,7 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
 ##### 5.2.2.5. Execution Evidence for Sprint Review.
 
 Link del despliegue de Enrique: https://bitewise-especialistas.web.app
+Link del despliegue de Jude: https://bitewise-front.vercel.app/
 
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
