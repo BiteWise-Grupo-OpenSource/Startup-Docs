@@ -1589,7 +1589,7 @@ Finalmente, se garantizaron aspectos de seguridad y accesibilidad mediante el us
 https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise  
 
 **Enlace del Landing Page:**  
-https://bitewise-grupo-opensource.github.io/landing-page/
+https://bitewise-grupo-opensource.github.io/bitewise-landing/
 
 ---
 
