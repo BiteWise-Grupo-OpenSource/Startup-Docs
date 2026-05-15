@@ -1629,6 +1629,23 @@ https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise
 **Enlace del Landing Page:**  
 https://bitewise-grupo-opensource.github.io/bitewise-landing/
 
+**Mejoras del Landing Page** 
+1. Se rediseño la visibilidad de los enlaces y el logo del footer en el modo oscuro ya que anteriormente a cambiar de modo no se veian 
+
+<img src="imagenes/modoOscuroFooter.png" alt="FooterModoOscuro">
+
+2. La visibilidad del navbar ya que igualmente que el footer se dejaba de ver al cambiar el modo, igualmente tambien se arreglo el scroll del toogle de los modos de vista
+
+   <img src="imagenes/modoOscuroNavBar.png" alt="NavBarModoOscuro">
+
+4. Se diseño el modal de registro e inicio de sesión
+
+   <img src="imagenes/modalInicioSesion.png" alt="InicioSesionModal">
+   
+5. Se habilitaron los enlaces del footer con las secciones de Privacidad, Terminos, Contacto y Blog
+
+   <img src="imagenes/EnlacesFooter.png" alt="FooterEnlaces">
+
 ---
 
 ## 5.2.1. Sprint 1
