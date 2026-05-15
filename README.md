@@ -1359,6 +1359,14 @@ struturizer link: https://structurizr.com/share/92284/108fbc2f-9fc2-4503-9bbe-3c
   <img src="./imagenes/class-diagram.jpeg" alt="class diagram">
 </p>
 
+#### Bounded Context: Plan
+
+El bounded context Plan centraliza la gestión del ciclo de vida de los planes alimenticios. La clase `MealPlan` actúa como aggregate root y agrupa tres entidades dependientes: `MealPlanEntry` (comidas asignadas por día y tipo), `NutritionalGoal` (objetivos diarios de macronutrientes en relación 1:1 con el plan) y `NutritionalTracking` (registro del consumo diario real del usuario). El value object `MacroRecord` encapsula proteínas, carbohidratos, grasas y fibra, y es reutilizado tanto en `MealPlanEntry` como en `NutritionalTracking`. Las enumeraciones `PlanStatus` y `MealType` acotan los estados válidos del plan y los tipos de comida respectivamente.
+
+<p align="center">
+  <img src="./imagenes/class-diagram-plan.png" alt="class diagram bounded context plan">
+</p>
+
 ## 4.8. Database Design. 
 
 
@@ -1366,6 +1374,14 @@ struturizer link: https://structurizr.com/share/92284/108fbc2f-9fc2-4503-9bbe-3c
 
 <p align="center">
   <img src="./imagenes/DiagramDB.png" alt="db diagram">
+</p>
+
+#### Bounded Context: Plan
+
+El esquema relacional del bounded context Plan está compuesto por cuatro tablas. La tabla `meal_plans` es la entidad central con los datos generales del plan y su estado (`DRAFT`, `ACTIVE`, `COMPLETED`, `CANCELLED`). La tabla `meal_plan_entries` registra cada comida asignada en el plan mediante una clave foránea a `meal_plans` y referencia externamente a una receta del bounded context Recipe a través de `recipe_id`. La tabla `nutritional_goals` mantiene una relación 1:1 con `meal_plans` mediante una restricción `UNIQUE` sobre `meal_plan_id` y almacena los objetivos diarios de calorías y macronutrientes. La tabla `nutritional_trackings` registra el consumo diario real del usuario con una restricción `UNIQUE(meal_plan_id, tracking_date)` para evitar duplicados por día.
+
+<p align="center">
+  <img src="./imagenes/db-diagram-plan.png" alt="database diagram bounded context plan">
 </p>
 
 ---
@@ -1422,6 +1438,7 @@ El proyecto utiliza Git como sistema de control de versiones distribuido. Para a
 
 | Producto              | Repositorio            | URL                                                                 |
 |-----------------------|------------------------|----------------------------------------------------------------------|
+| Web Services (Backend) | github | [https://github.com/BiteWise-Grupo-OpenSource/bitewise-backend](https://github.com/BiteWise-Grupo-OpenSource/bitewise-backend) |
 | Repositorio de Informe          | github    |[https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs](https://github.com/BiteWise-Grupo-OpenSource/Startup-Docs)   
 | Landing Page          | github    |[https://github.com/BiteWise-Grupo-OpenSource/landing-page.git](https://github.com/BiteWise-Grupo-OpenSource/landing-page.git) 
                                         
@@ -1611,6 +1628,23 @@ https://www.figma.com/design/D0LIGgnXqpX8ty6fc4NyWC/BiteWise
 
 **Enlace del Landing Page:**  
 https://bitewise-grupo-opensource.github.io/bitewise-landing/
+
+**Mejoras del Landing Page** 
+1. Se rediseño la visibilidad de los enlaces y el logo del footer en el modo oscuro ya que anteriormente a cambiar de modo no se veian 
+
+<img src="imagenes/modoOscuroFooter.png" alt="FooterModoOscuro">
+
+2. La visibilidad del navbar ya que igualmente que el footer se dejaba de ver al cambiar el modo, igualmente tambien se arreglo el scroll del toogle de los modos de vista
+
+   <img src="imagenes/modoOscuroNavBar.png" alt="NavBarModoOscuro">
+
+4. Se diseño el modal de registro e inicio de sesión
+
+   <img src="imagenes/modalInicioSesion.png" alt="InicioSesionModal">
+   
+5. Se habilitaron los enlaces del footer con las secciones de Privacidad, Terminos, Contacto y Blog
+
+   <img src="imagenes/EnlacesFooter.png" alt="FooterEnlaces">
 
 ---
 
@@ -2154,6 +2188,176 @@ Link del despliegue de Verastigue: https://bitewise-recetas.joaquinaso5612.worke
 ![BC-recipes](./imagenes/bc-recipes.png)
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+En este Sprint se avanzó con la documentación de los endpoints del bounded context Plan, expuestos mediante OpenAPI/Swagger. A continuación se describen las acciones implementadas y los escenarios de interacción.
+
+
+| Endpoint | Verbo HTTP | Descripción |
+|----------|-----------|-------------|
+| `/api/v1/meal-plans` | POST | Crear un nuevo plan alimenticio |
+| `/api/v1/meal-plans/{id}` | GET | Obtener plan por ID |
+| `/api/v1/meal-plans/{id}` | PUT | Actualizar plan existente |
+| `/api/v1/meal-plans/{id}` | DELETE | Eliminar plan |
+| `/api/v1/meal-plans/{id}/entries` | GET | Listar entradas del plan |
+| `/api/v1/meal-plans/{id}/entries` | POST | Agregar entrada al plan |
+| `/api/v1/meal-plans/{id}/entries/{entryId}` | PUT | Actualizar una entrada |
+| `/api/v1/meal-plans/{id}/goal` | GET | Obtener objetivo nutricional del plan |
+| `/api/v1/meal-plans/{id}/goal` | PUT | Actualizar objetivo nutricional |
+| `/api/v1/meal-plans/{id}/tracking` | GET | Listar registros de seguimiento |
+| `/api/v1/meal-plans/{id}/tracking` | POST | Crear registro de seguimiento diario |
+
+---
+
+#### POST `/api/v1/meal-plans`
+
+Crea un nuevo plan alimenticio para el usuario autenticado.
+
+**Request body:**
+```json
+{
+  "userId": "a1b2c3d4-...",
+  "title": "Plan saludable mayo",
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-31"
+}
+```
+
+**Response 201 Created:**
+```json
+{
+  "id": "f7e8d9c0-...",
+  "userId": "a1b2c3d4-...",
+  "title": "Plan saludable mayo",
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-31",
+  "status": "DRAFT",
+  "createdAt": "2026-05-15T10:00:00Z"
+}
+```
+
+**Response 400 Bad Request:** Datos incompletos o fechas inválidas.
+
+---
+
+#### GET `/api/v1/meal-plans/{id}`
+
+Obtiene un plan alimenticio por su identificador.
+
+**Parámetro de ruta:** `id` (UUID del plan)
+
+**Response 200 OK:**
+```json
+{
+  "id": "f7e8d9c0-...",
+  "title": "Plan saludable mayo",
+  "status": "ACTIVE",
+  "startDate": "2026-05-15",
+  "endDate": "2026-05-31"
+}
+```
+
+**Response 404 Not Found:** Plan no encontrado.
+
+---
+
+#### PUT `/api/v1/meal-plans/{id}`
+
+Actualiza los datos de un plan existente (TS-76 — Endpoint de ajuste de plan nutricional).
+
+**Request body:**
+```json
+{
+  "title": "Plan saludable mayo actualizado",
+  "endDate": "2026-06-07",
+  "status": "ACTIVE"
+}
+```
+
+**Response 200 OK:** Retorna el plan actualizado con los nuevos valores.
+
+**Response 404 Not Found:** Plan no encontrado.
+
+---
+
+#### POST `/api/v1/meal-plans/{id}/entries`
+
+Agrega una entrada (comida) al plan para un día y tipo de comida específico.
+
+**Request body:**
+```json
+{
+  "recipeId": "c3d4e5f6-...",
+  "dayOfWeek": "MONDAY",
+  "mealType": "LUNCH",
+  "servings": 2
+}
+```
+
+**Response 201 Created:**
+```json
+{
+  "id": "bb11cc22-...",
+  "mealPlanId": "f7e8d9c0-...",
+  "recipeId": "c3d4e5f6-...",
+  "dayOfWeek": "MONDAY",
+  "mealType": "LUNCH",
+  "servings": 2,
+  "calories": 520.0
+}
+```
+
+**Response 400 Bad Request:** `mealType` o `dayOfWeek` con valor inválido.
+
+---
+
+#### PUT `/api/v1/meal-plans/{id}/goal`
+
+Actualiza el objetivo nutricional diario del plan.
+
+**Request body:**
+```json
+{
+  "dailyCalories": 2000,
+  "proteinGrams": 120.0,
+  "carbsGrams": 220.0,
+  "fatGrams": 60.0,
+  "fiberGrams": 30.0
+}
+```
+
+**Response 200 OK:** Retorna el objetivo nutricional actualizado.
+
+**Response 404 Not Found:** Plan o goal no encontrado.
+
+---
+
+#### POST `/api/v1/meal-plans/{id}/tracking`
+
+Registra el consumo diario real del usuario para una fecha específica (TS-60 — Registrar seguimiento nutricional).
+
+**Request body:**
+```json
+{
+  "trackingDate": "2026-05-15",
+  "totalCalories": 1850.5,
+  "proteinConsumed": 110.0,
+  "carbsConsumed": 200.0,
+  "fatConsumed": 55.0,
+  "fiberConsumed": 27.0
+}
+```
+
+**Response 201 Created:**
+```json
+{
+  "id": "dd33ee44-...",
+  "mealPlanId": "f7e8d9c0-...",
+  "trackingDate": "2026-05-15",
+  "totalCalories": 1850.5,
+  "adherenceRate": 92.5
+}
+```
+
+**Response 409 Conflict:** Ya existe un registro para esa fecha en ese plan.
 
 En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de BiteWise. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
 
