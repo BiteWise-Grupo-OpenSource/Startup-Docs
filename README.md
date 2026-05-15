@@ -2136,13 +2136,47 @@ El siguiente Sprint Backlog detalla las historias de usuario y sus respectivas t
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review.
 
+En el Sprint 2 se logró implementar la primera versión funcional de la Web Application de BiteWise, permitiendo gestionar funcionalidades relacionadas con la infraestructura dentro de una plataforma centralizada.
+Durante este Sprint se desarrollaron los principales módulos de la aplicación.
+A continuación, se presentan evidencias visuales de las principales vistas implementadas en este Sprint.
+
 Link del despliegue de Enrique: https://bitewise-especialistas.web.app
+
+![BC-especialistas](./imagenes/bc-especialistas.png)
+
+
 Link del despliegue de Jude: https://bitewise-front.vercel.app/
 
+![BC-users](./imagenes/bc-user.png)
+
+Link del despliegue de Verastigue: https://bitewise-recetas.joaquinaso5612.workers.dev/catalog/categories
+
+![BC-recipes](./imagenes/bc-recipes.png)
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de BiteWise. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
+
+Durante este Sprint se implementaron endpoints relacionados con la gestión de pedidos, productores, monitoreo logístico, infraestructura IoT, control de calidad, dashboard y procesamiento de pagos. Asimismo, los servicios fueron integrados utilizando APIs simuladas mediante MockAPI, facilitando las pruebas funcionales de la aplicación frontend.
+
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+<img src="imagenes/web-1.png" alt="web1">
+<img src="imagenes/web-2.png" alt="web2">
+
+Link del despliegue de Enrique: https://bitewise-especialistas.web.app
+
+![BC-especialistas](./imagenes/bc-especialistas.png)
+
+
+Link del despliegue de Jude: https://bitewise-front.vercel.app/
+
+![BC-especialistas](./imagenes/bc-user.png)
+
+Link del despliegue de Verastigue: https://bitewise-recetas.joaquinaso5612.workers.dev/catalog/categories
+
+![BC-recipes](./imagenes/bc-recipes.png)
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint.
 
