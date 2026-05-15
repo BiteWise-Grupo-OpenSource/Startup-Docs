@@ -2174,7 +2174,7 @@ Link del despliegue de Jude: https://bitewise-front.vercel.app/
 
 ![BC-especialistas](./imagenes/bc-user.png)
 
-Link del despliegue de Verastigue: https://bitewise-recetas.joaquinaso5612.workers.dev/catalog/categories
+Link del despliegue de Verastigue: https://bitewise-recetas.joaquinaso5612.workers.dev
 
 ![BC-recipes](./imagenes/bc-recipes.png)
 
